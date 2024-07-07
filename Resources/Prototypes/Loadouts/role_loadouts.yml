@@ -66,20 +66,6 @@
   - GroupSpeciesBreathTool
 
 - type: roleLoadout
-  id: JobChef
-  groups:
-  - GroupTankHarness
-  - ChefHead
-  - ChefMask
-  - ChefJumpsuit
-  - CommonBackpack
-  - ChefOuterClothing
-  - Glasses
-  - Survival
-  - Trinkets
-  - GroupSpeciesBreathTool
-
-- type: roleLoadout
   id: JobLibrarian
   groups:
   - GroupTankHarness
@@ -277,6 +263,36 @@
   - Trinkets
   - GroupSpeciesBreathTool
 
+# Inmate
+- type: roleLoadout
+  id: JobPrisoner
+  groups:
+  - GroupTankHarness
+  - PassengerJumpsuit
+  - CommonBackpack
+  - PassengerFace
+  - PassengerGloves
+  - PassengerOuterClothing
+  - PassengerShoes
+  - Glasses
+  - Survival
+  - Trinkets
+  - GroupSpeciesBreathTool
+
+- type: roleLoadout
+  id: JobChef
+  groups:
+  - GroupTankHarness
+  - ChefHead
+  - ChefMask
+  - ChefJumpsuit
+  - CommonBackpack
+  - ChefOuterClothing
+  - Glasses
+  - Survival
+  - Trinkets
+  - GroupSpeciesBreathTool
+
 # Science
 - type: roleLoadout
   id: JobResearchDirector
@@ -324,7 +340,7 @@
 
 # Security
 - type: roleLoadout
-  id: JobHeadOfSecurity
+  id: JobWarden
   groups:
   - HeadofSecurityHead
   - HeadofSecurityNeck
@@ -338,7 +354,7 @@
   - GroupSpeciesBreathToolSecurity
 
 - type: roleLoadout
-  id: JobWarden
+  id: JobHeadofSecurity
   groups:
   - WardenHead
   - WardenJumpsuit

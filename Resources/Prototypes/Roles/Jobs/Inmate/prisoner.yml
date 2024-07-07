@@ -1,0 +1,19 @@
+- type: job
+  id: Prisoner
+  name: job-name-prisoner
+  description: job-description-prisoner
+  playTimeTracker: JobPrisoner
+  startingGear: PrisonerGear
+  icon: "JobIconPassenger"
+  supervisors: job-supervisors-everyone
+  access:
+  - Maintenance
+
+- type: startingGear
+  id: PrisonerGear
+  equipment:
+    id: PassengerPDA
+    ears: ClothingHeadsetGrey
+  #storage:
+    #back:
+    #- Stuff

@@ -5,7 +5,6 @@
   roles:
   - CargoTechnician
   - Quartermaster
-  - SalvageSpecialist
 
 - type: department
   id: Civilian
@@ -13,50 +12,47 @@
   color: "#9FED58"
   weight: -10
   roles:
-  - Bartender
-  - Borg
-  - Botanist
-  - Boxer
   - Chaplain
-  - Chef
   - Clown
   - HeadOfPersonnel
-  - Janitor
   - Lawyer
-  - Librarian
-  - Mime
-  - Musician
-  - Passenger
   - Reporter
   - Visitor
-  - Zookeeper
-  - ServiceWorker
 
 - type: department
   id: Command
   description: department-Command-description
   color: "#334E6D"
   roles:
-  - Captain
+  - Warden
   - CentralCommandOfficial
   - ChiefEngineer
   - ChiefMedicalOfficer
   - HeadOfPersonnel
-  - HeadOfSecurity
-  - ResearchDirector
   - Quartermaster
   primary: false
   weight: 100
 
 - type: department
-  id: Engineering
-  description: department-Engineering-description
-  color: "#EFB341"
+  id: Maintenance
+  description: department-Maintenance-description
+  color: "#9FED58"
   roles:
   - AtmosphericTechnician
   - ChiefEngineer
   - StationEngineer
-  - TechnicalAssistant
+  - Borg
+  - Janitor
+
+- type: department
+  id: Inmate
+  description: department-Inmate-description
+  color: "#EFB341"
+  roles:
+  - Prisoner
+  - Chef
+  - Botanist
+  - Librarian
 
 - type: department
   id: Medical
@@ -66,9 +62,7 @@
   - Chemist
   - ChiefMedicalOfficer
   - MedicalDoctor
-  - MedicalIntern
   - Psychologist
-  - Paramedic
 
 - type: department
   id: Security
@@ -80,25 +74,3 @@
   - SecurityCadet
   - SecurityOfficer
   - Detective
-  - Warden
-
-- type: department
-  id: Science
-  description: department-Science-description
-  color: "#D381C9"
-  roles:
-  - ResearchDirector
-  - Scientist
-  - ResearchAssistant
-
-- type: department
-  id: Specific
-  description: department-Specific-description
-  color: "#9FED58"
-  weight: 10
-  roles:
-  - Boxer
-  - Reporter
-  - Zookeeper
-  - Psychologist
-  primary: false

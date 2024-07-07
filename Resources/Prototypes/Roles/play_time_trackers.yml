@@ -98,6 +98,9 @@
   id: JobParamedic
 
 - type: playTimeTracker
+  id: JobPrisoner
+
+- type: playTimeTracker
   id: JobPsychologist
 
 - type: playTimeTracker
