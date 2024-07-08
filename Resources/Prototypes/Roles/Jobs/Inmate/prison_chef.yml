@@ -1,14 +1,14 @@
 - type: job
-  id: Chef
-  name: job-name-chef
-  description: job-description-chef
-  playTimeTracker: JobChef
+  id: PrisonChef
+  name: job-name-prisonchef
+  description: job-description-prisonchef
+  playTimeTracker: JobPrisonChef
   requirements:
     - !type:DepartmentTimeRequirement
       department: Civilian
       time: 1800
   startingGear: ChefGear
-  icon: "JobIconChef"
+  icon: "JobIconPrisonChef"
   supervisors: job-supervisors-hop
   access:
   - Service

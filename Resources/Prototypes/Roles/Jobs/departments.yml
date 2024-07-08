@@ -24,26 +24,28 @@
   description: department-Command-description
   color: "#334E6D"
   roles:
-  - Warden
+  - SPWarden
   - CentralCommandOfficial
-  - ChiefEngineer
-  - ChiefMedicalOfficer
+  - HeadOfMaintenance
+  - ChiefCustodialOfficer
+  - MedicalDirector
   - HeadOfPersonnel
   - Quartermaster
   primary: false
   weight: 100
 
+# PS14
 - type: department
   id: Maintenance
   weight: 10
   description: department-Maintenance-description
   color: "#9FED58"
   roles:
-  - AtmosphericTechnician
-  - ChiefEngineer
-  - StationEngineer
+  - AtmosphericSpecialist
+  - HeadOfMaintenance
+  - MaintenanceEngineer
   - Borg
-  - Janitor
+  - MaintenanceWorker
 
 - type: department
   id: Inmate
@@ -52,8 +54,8 @@
   weight: 20
   roles:
   - Prisoner
-  - Chef
-  - Botanist
+  - PrisonChef
+  - Gardener
   - Librarian
 
 - type: department
@@ -62,10 +64,10 @@
   description: department-Medical-description
   color: "#52B4E9"
   roles:
-  - Chemist
-  - ChiefMedicalOfficer
-  - MedicalDoctor
-  - Psychologist
+  - SPChemist
+  - MedicalDirector
+  - InfirmaryDoctor
+  - SPPsychologist
 
 - type: department
   id: Security
@@ -73,7 +75,7 @@
   color: "#DE3A3A"
   weight: 40
   roles:
-  - HeadOfSecurity
-  - SecurityCadet
-  - SecurityOfficer
-  - Detective
+  - ChiefCustodialOfficer
+  - ProbationaryOfficer
+  - PrisonOfficer
+  - Inspector

@@ -1,0 +1,29 @@
+- type: job
+  id: MaintenanceEngineer
+  name: job-name-maintengineer
+  description: job-description-maintengineer
+  playTimeTracker: JobMaintenanceEngineer
+  weight: 5
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: Maintenance
+      time: 14400 #4 hrs
+  startingGear: StationEngineerGear
+  icon: "JobIconMaintenanceEngineer"
+  supervisors: job-supervisors-ce
+  access:
+  - Maintenance
+  - Engineering
+  - External
+  extendedAccess:
+  - Atmospherics
+
+- type: startingGear
+  id: StationEngineerGear
+  equipment:
+    eyes: ClothingEyesGlassesMeson
+    belt: ClothingBeltUtilityEngineering
+    ears: ClothingHeadsetEngineering
+  #storage:
+    #back:
+    #- Stuff

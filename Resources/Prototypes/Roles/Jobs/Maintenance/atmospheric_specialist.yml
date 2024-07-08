@@ -1,0 +1,29 @@
+- type: job
+  id: AtmosphericSpecialist
+  name: job-name-atmospec
+  description: job-description-atmostech
+  playTimeTracker: JobAtmosphericSpecialist
+  weight: 10
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: Maintenance
+      time: 54000 # 15 hrs
+  startingGear: AtmosphericTechnicianGear
+  icon: "JobIconAtmosphericSpecialist"
+  supervisors: job-supervisors-ce
+  access:
+  - Maintenance
+  - Engineering
+  - External
+  - Atmospherics
+
+- type: startingGear
+  id: AtmosphericTechnicianGear
+  equipment:
+    eyes: ClothingEyesGlassesMeson
+    id: AtmosPDA
+    belt: ClothingBeltUtilityEngineering
+    ears: ClothingHeadsetEngineering
+  #storage:
+    #back:
+    #- Stuff

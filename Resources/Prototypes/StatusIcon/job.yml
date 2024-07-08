@@ -382,3 +382,46 @@
   icon:
     sprite: /Textures/Interface/Misc/job_icons.rsi
     state: Admin
+
+#SP14
+- type: statusIcon
+  parent: JobIcon
+  id: JobIconAtmosphericSpecialist
+  icon:
+    sprite: /Textures/Interface/Misc/sp14/job_icons.rsi
+    state: AtmosphericSpecialist
+
+- type: statusIcon
+  parent: JobIcon
+  id: JobIconGardener
+  icon:
+    sprite: /Textures/Interface/Misc/sp14/job_icons.rsi
+    state: Gardener
+
+- type: statusIcon
+  parent: JobIcon
+  id: JobIconMaintenanceEngineer
+  icon:
+    sprite: /Textures/Interface/Misc/sp14/job_icons.rsi
+    state: MaintenanceEngineer
+    
+- type: statusIcon
+  parent: JobIcon
+  id: JobIconPrisonChef
+  icon:
+    sprite: /Textures/Interface/Misc/sp14/job_icons.rsi
+    state: PrisonChef
+
+- type: statusIcon
+  parent: JobIcon
+  id: JobIconSPPrisoner
+  icon:
+    sprite: /Textures/Interface/Misc/sp14/job_icons.rsi
+    state: SPPrisoner
+
+- type: statusIcon
+  parent: JobIcon
+  id: JobIconSPWarden
+  icon:
+    sprite: /Textures/Interface/Misc/sp14/job_icons.rsi
+    state: SPWarden

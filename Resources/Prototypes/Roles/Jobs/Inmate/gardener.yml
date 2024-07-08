@@ -1,0 +1,26 @@
+- type: job
+  id: Gardener
+  name: job-name-gardener
+  description: job-description-gardener
+  playTimeTracker: JobGardener
+  startingGear: BotanistGear
+  icon: "JobIconGardener"
+  supervisors: job-supervisors-hop
+  access:
+  - Service
+  - Maintenance
+  - Hydroponics
+  extendedAccess:
+  - Kitchen
+  - Bar
+
+- type: startingGear
+  id: BotanistGear
+  equipment:
+    shoes: ClothingShoesColorBrown
+    id: BotanistPDA
+    ears: ClothingHeadsetService
+    belt: ClothingBeltPlantFilled
+  #storage:
+    #back:
+    #- Stuff

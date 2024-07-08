@@ -98,9 +98,6 @@
   id: JobParamedic
 
 - type: playTimeTracker
-  id: JobPrisoner
-
-- type: playTimeTracker
   id: JobPsychologist
 
 - type: playTimeTracker
@@ -147,3 +144,40 @@
 
 - type: playTimeTracker
   id: JobZookeeper
+
+#PS14
+- type: playTimeTracker
+  id: JobAtmosphericSpecialist
+
+- type: playTimeTracker
+  id: JobChiefCustodialOfficer
+
+- type: playTimeTracker
+  id: JobGardener
+
+- type: playTimeTracker
+  id: JobHeadOfMaintenance
+
+- type: playTimeTracker
+  id: JobInspector
+
+- type: playTimeTracker
+  id: JobMaintenanceEngineer
+
+- type: playTimeTracker
+  id: JobMaintenanceWorker
+
+- type: playTimeTracker
+  id: JobPrisonChef
+
+- type: playTimeTracker
+  id: JobPrisonOfficer
+
+- type: playTimeTracker
+  id: JobProbationaryOfficer
+
+- type: playTimeTracker
+  id: JobPrisoner
+
+- type: playTimeTracker
+  id: JobSPWarden

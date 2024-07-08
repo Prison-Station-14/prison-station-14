@@ -1,8 +1,8 @@
 - type: job
-  id: Warden
+  id: SPWarden
   name: job-name-warden
   description: job-description-warden
-  playTimeTracker: JobWarden
+  playTimeTracker: JobSPWarden
   requirements:
     - !type:DepartmentTimeRequirement
       department: Engineering
@@ -16,9 +16,9 @@
     - !type:DepartmentTimeRequirement
       department: Command
       time: 54000 # 15 hours
-  weight: 25
+  weight: 40
   startingGear: WardenGear
-  icon: "JobIconWarden"
+  icon: "JobIconSPWarden"
   requireAdminNotify: true
   joinNotifyCrew: true
   supervisors: job-supervisors-centcom

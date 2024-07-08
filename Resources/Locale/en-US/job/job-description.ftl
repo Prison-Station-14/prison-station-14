@@ -33,7 +33,6 @@ job-description-librarian = Manage the library, give out knowledge to any who se
 job-description-mime = Entertain the crew through non-vocal means, and engage with light rivalry with the clown.
 job-description-musician = Entertain the crew with your unique musical talent, and acquire new instruments to mess around with.
 job-description-passenger = Serve your sentence or attempt to stick it to the man!
-job-description-prisoner = Serve your sentence, work service jobs or plan an escape.
 job-description-psychologist = Provide emotional support to traumatized crew. Currently available on Box, Marathon and Origin Stations.
 job-description-qm = Manage the supplies of the station & the cargo department, keep the salvage specialists working, make sure all orders are fulfilled, and keep the money flowing.
 job-description-rd = Manage the science department, unlocking technologies, acquiring & researching artifacts, and performing experiments.
@@ -46,3 +45,10 @@ job-description-serviceworker = Learn the basics of bartending, cooking, and gro
 job-description-visitor = Enjoy your visit to the station.
 job-description-warden = Keep the prison running, delegate work to the other heads of staff, and exert your will.
 job-description-zookeeper = Put on a joyful display of cute animals and space carps for all the crew to see. Currently available on Gemini Station.
+
+#PS14
+job-description-atmospec = Optimize the station's atmospherics setup, and synthesize rare gases to use or sell.
+job-description-gardener = Grow food for the chef, drugs for 'medbay', and other plants to keep yourself entertained.
+job-description-maintengineer = Keep the station's main engine & solars active, optimize the power network, and make emergency repairs using your hardsuit in spaced areas.
+job-description-prisonchef = Keep other inmates fed with a variety of food items, butcher dead animals to ensure ammonia doesn't leak, and help keep the bar lively.
+job-description-prisoner = Serve your sentence, work service jobs or plan an escape.

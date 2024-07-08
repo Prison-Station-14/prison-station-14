@@ -5,7 +5,7 @@
   playTimeTracker: JobPrisoner
   weight: 25
   startingGear: PrisonerGear
-  icon: "JobIconPassenger"
+  icon: "JobIconSPPrisoner"
   supervisors: job-supervisors-everyone
   access:
   - Maintenance

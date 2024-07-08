@@ -1,0 +1,24 @@
+- type: job
+  id: SPPsychologist
+  name: job-name-sp-psychologist
+  description: job-description-sp-psychologist
+  playTimeTracker: JobSPPsychologist
+  startingGear: PsychologistGear
+  icon: "JobIconPsychologist"
+  supervisors: job-supervisors-md
+  access:
+  - Medical
+  - Maintenance
+  extendedAccess:
+  - Chemistry
+
+- type: startingGear
+  id: PsychologistGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitPsychologist
+    shoes: ClothingShoesLeather
+    id: PsychologistPDA
+    ears: ClothingHeadsetMedical
+  #storage:
+    #back:
+    #- Stuff

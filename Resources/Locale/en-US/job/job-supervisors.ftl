@@ -13,3 +13,6 @@ job-supervisors-security = security officers, the warden, and the head of securi
 job-supervisors-science = scientists, and the research director
 job-supervisors-hire = whoever hires you
 job-supervisors-everyone = absolutely everyone
+
+#SP14
+job-supervisors-warden = the warden

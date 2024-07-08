@@ -1,0 +1,26 @@
+- type: job
+  id: InfirmaryDoctor
+  name: job-name-infirmary-doctor
+  description: job-description-infirmary-doctor
+  playTimeTracker: JobInfirmaryDoctor
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: Medical
+      time: 14400 #4 hrs
+  startingGear: DoctorGear
+  icon: "JobIconMedicalDoctor"
+  supervisors: job-supervisors-cmo
+  access:
+  - Medical
+  - Maintenance
+  extendedAccess:
+  - Chemistry
+
+- type: startingGear
+  id: DoctorGear
+  equipment:
+    ears: ClothingHeadsetMedical
+    belt: ClothingBeltMedicalFilled
+  #storage:
+    #back:
+    #- Stuff
