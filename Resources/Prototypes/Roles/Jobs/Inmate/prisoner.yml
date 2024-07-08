@@ -3,6 +3,7 @@
   name: job-name-prisoner
   description: job-description-prisoner
   playTimeTracker: JobPrisoner
+  weight: 25
   startingGear: PrisonerGear
   icon: "JobIconPassenger"
   supervisors: job-supervisors-everyone

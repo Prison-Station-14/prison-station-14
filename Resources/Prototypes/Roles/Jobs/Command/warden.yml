@@ -16,7 +16,7 @@
     - !type:DepartmentTimeRequirement
       department: Command
       time: 54000 # 15 hours
-  weight: 20
+  weight: 25
   startingGear: WardenGear
   icon: "JobIconWarden"
   requireAdminNotify: true

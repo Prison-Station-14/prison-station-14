@@ -35,6 +35,7 @@
 
 - type: department
   id: Maintenance
+  weight: 10
   description: department-Maintenance-description
   color: "#9FED58"
   roles:
@@ -48,6 +49,7 @@
   id: Inmate
   description: department-Inmate-description
   color: "#EFB341"
+  weight: 20
   roles:
   - Prisoner
   - Chef
@@ -56,6 +58,7 @@
 
 - type: department
   id: Medical
+  weight: 5
   description: department-Medical-description
   color: "#52B4E9"
   roles:
@@ -68,7 +71,7 @@
   id: Security
   description: department-Security-description
   color: "#DE3A3A"
-  weight: 20
+  weight: 40
   roles:
   - HeadOfSecurity
   - SecurityCadet
