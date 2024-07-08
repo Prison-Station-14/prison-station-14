@@ -268,7 +268,7 @@
   id: JobPrisoner
   groups:
   - GroupTankHarness
-  - PassengerJumpsuit
+  - PrisonerJumpsuit
   - CommonBackpack
   - PassengerFace
   - PassengerGloves
