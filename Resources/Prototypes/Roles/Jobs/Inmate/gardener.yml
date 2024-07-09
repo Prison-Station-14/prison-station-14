@@ -5,7 +5,7 @@
   playTimeTracker: JobGardener
   startingGear: BotanistGear
   icon: "JobIconGardener"
-  supervisors: job-supervisors-hop
+  supervisors: job-supervisors-wo
   access:
   - Service
   - Maintenance

@@ -10,7 +10,7 @@
       time: 54000 # 15 hrs
   startingGear: AtmosphericTechnicianGear
   icon: "JobIconAtmosphericSpecialist"
-  supervisors: job-supervisors-ce
+  supervisors: job-supervisors-hom
   access:
   - Maintenance
   - Engineering

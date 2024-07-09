@@ -48,6 +48,12 @@ job-name-visitor = Visitor
 
 #PS14
 job-name-sp-warden = Warden
+job-name-wo = Welfare Officer
+job-name-sp-cargotech = Cargo Technician
+job-name-sp-chaplain = Chaplain
+job-name-sp-clown = Clown
+job-name-sp-qm = Quartermaster
+job-name-sp-reporter = Reporter
 job-name-atmospec = Atmospheric Specialist
 job-name-sp-chemist = Chemist
 job-name-sp-psychologist = Psychologist
@@ -61,7 +67,7 @@ job-name-maintengineer = Maintenance Engineer
 job-name-md = Medical Director
 job-name-prisonchef = Prison Chef
 job-name-prison-officer = Prison Officer
-job-name-probationary-officer = Probationary Officer
+job-name-rookie-officer = Rookie Officer
 job-name-prisoner = Prisoner
 
 # Role timers - Make these alphabetical or I cut you
@@ -116,6 +122,12 @@ JobZookeeper = Zookeeper
 
 #PS14
 JobSPWarden = Warden
+JobWelfareOfficer = Welfare Officer
+JobSPCargoTechnician = Cargo Technician
+JobSPChaplain = Chaplain
+JobSPClown = Clown
+JobSPQuartermaster = Quartermaster
+JobSPReporter = Reporter
 JobAtmosphericSpecialist = Atmospheric Specialist
 JobChiefCustodialOfficer = Chief Custodial Officer
 JobGardener = Gardener
@@ -123,7 +135,7 @@ JobHeadOfMaintenance = Head Of Maintenance
 JobInspector = Inspector
 JobPrisonChef = Prison Chef
 JobPrisonOfficer = Prison Officer
-JobProbationaryOfficer = Probationary Officer
+JobRookieOfficer = Rookie Officer
 JobPrisoner = Prisoner
 JobMaintenanceEngineer = Maintenance Engineer
 JobMaintenanceWorker = Maintenance Worker

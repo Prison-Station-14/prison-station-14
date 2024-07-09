@@ -1,3 +1,32 @@
+# SP14 Command
+- type: roleLoadout
+  id: JobSPWarden
+  groups:
+  - HeadofSecurityHead
+  - HeadofSecurityNeck
+  - HeadofSecurityJumpsuit
+  - SecurityBackpack
+  - SecurityBelt
+  - HeadofSecurityOuterClothing
+  - SecurityShoes
+  - SurvivalSecurity
+  - Trinkets
+  - GroupSpeciesBreathToolSecurity
+
+- type: roleLoadout
+  id: JobWelfareOfficer
+  groups:
+  - GroupTankHarness
+  - HoPHead
+  - HoPNeck
+  - HoPJumpsuit
+  - HoPBackpack
+  - HoPOuterClothing
+  - Glasses
+  - Survival
+  - Trinkets
+  - GroupSpeciesBreathTool
+
 # Command
 - type: roleLoadout
   id: JobCaptain
@@ -20,6 +49,46 @@
   - HoPJumpsuit
   - HoPBackpack
   - HoPOuterClothing
+  - Glasses
+  - Survival
+  - Trinkets
+  - GroupSpeciesBreathTool
+
+# SP14 Civilian
+- type: roleLoadout
+  id: JobSPChaplain
+  groups:
+  - GroupTankHarness
+  - ChaplainHead
+  - ChaplainMask
+  - ChaplainNeck
+  - ChaplainJumpsuit
+  - CommonBackpack
+  - ChaplainOuterClothing
+  - Glasses
+  - Survival
+  - Trinkets
+  - GroupSpeciesBreathTool
+
+- type: roleLoadout
+  id: JobSPClown
+  groups:
+  - GroupTankHarness
+  - ClownHead
+  - ClownJumpsuit
+  - ClownBackpack
+  - ClownOuterClothing
+  - ClownShoes
+  - Glasses
+  - SurvivalClown
+  - Trinkets
+
+- type: roleLoadout
+  id: JobSPReporter
+  groups:
+  - GroupTankHarness
+  - ReporterJumpsuit
+  - CommonBackpack
   - Glasses
   - Survival
   - Trinkets
@@ -179,6 +248,37 @@
   - Survival
   - Trinkets
   - Instruments
+  - GroupSpeciesBreathTool
+
+# SP Cargo
+
+- type: roleLoadout
+  id: JobSPQuartermaster
+  groups:
+  - GroupTankHarness
+  - QuartermasterHead
+  - QuartermasterNeck
+  - QuartermasterJumpsuit
+  - CargoTechnicianBackpack
+  - QuartermasterOuterClothing
+  - QuartermasterShoes
+  - Glasses
+  - Survival
+  - Trinkets
+  - GroupSpeciesBreathTool
+
+- type: roleLoadout
+  id: JobSPCargoTechnician
+  groups:
+  - GroupTankHarness
+  - CargoTechnicianHead
+  - CargoTechnicianJumpsuit
+  - CargoTechnicianBackpack
+  - CargoTechnicianOuterClothing
+  - CargoTechnicianShoes
+  - Glasses
+  - Survival
+  - Trinkets
   - GroupSpeciesBreathTool
 
 # Cargo
@@ -461,24 +561,10 @@
   - GroupSpeciesBreathToolSecurity
 
 - type: roleLoadout
-  id: JobProbationaryOfficer
+  id: JobRookieOfficer
   groups:
   - SecurityCadetJumpsuit
   - SecurityBackpack
-  - SurvivalSecurity
-  - Trinkets
-  - GroupSpeciesBreathToolSecurity
-
-- type: roleLoadout
-  id: JobSPWarden
-  groups:
-  - HeadofSecurityHead
-  - HeadofSecurityNeck
-  - HeadofSecurityJumpsuit
-  - SecurityBackpack
-  - SecurityBelt
-  - HeadofSecurityOuterClothing
-  - SecurityShoes
   - SurvivalSecurity
   - Trinkets
   - GroupSpeciesBreathToolSecurity

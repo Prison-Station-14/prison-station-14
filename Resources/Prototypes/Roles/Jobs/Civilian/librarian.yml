@@ -1,8 +1,8 @@
 - type: job
-  id: Librarian
-  name: job-name-librarian
-  description: job-description-librarian
-  playTimeTracker: JobLibrarian
+  id: PrisonLibrarian
+  name: job-name-prison-librarian
+  description: job-description-prison-librarian
+  playTimeTracker: JobPrisonLibrarian
   startingGear: LibrarianGear
   icon: "JobIconLibrarian"
   supervisors: job-supervisors-hop

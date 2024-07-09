@@ -15,11 +15,11 @@
       time: 108000 # 30 hrs
     - !type:OverallPlaytimeRequirement
       time: 144000 #40 hrs
-  weight: 30
+  weight: 35
   startingGear: HoSGear
   icon: "JobIconHeadOfSecurity"
   requireAdminNotify: true
-  supervisors: job-supervisors-captain
+  supervisors: job-supervisors-warden
   canBeAntag: false
   access:
   - HeadOfSecurity

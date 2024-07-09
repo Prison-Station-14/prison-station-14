@@ -1,0 +1,26 @@
+- type: job
+  id: SPChaplain
+  name: job-name-sp-chaplain
+  description: job-description-sp-chaplain
+  playTimeTracker: JobSPChaplain
+  startingGear: ChaplainGear
+  icon: "JobIconSPChaplain"
+  supervisors: job-supervisors-wo
+  access:
+  - Chapel
+  - Maintenance
+  special:
+  - !type:AddComponentSpecial
+    components:
+    - type: BibleUser #Lets them heal with bibles
+
+- type: startingGear
+  id: ChaplainGear
+  equipment:
+    shoes: ClothingShoesColorBlack
+    id: ChaplainPDA
+    ears: ClothingHeadsetService
+  storage:
+    back:
+    - Bible
+    - RubberStampChaplain

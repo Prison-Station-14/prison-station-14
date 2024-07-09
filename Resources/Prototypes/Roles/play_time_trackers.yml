@@ -150,6 +150,12 @@
   id: JobAtmosphericSpecialist
 
 - type: playTimeTracker
+  id: JobSPCargoTechnician
+
+- type: playTimeTracker
+  id: JobSPBorg
+
+- type: playTimeTracker
   id: JobChiefCustodialOfficer
 
 - type: playTimeTracker
@@ -174,10 +180,25 @@
   id: JobPrisonOfficer
 
 - type: playTimeTracker
-  id: JobProbationaryOfficer
+  id: JobSPQuartermaster
+
+- type: playTimeTracker
+  id: JobRookieOfficer
 
 - type: playTimeTracker
   id: JobPrisoner
 
 - type: playTimeTracker
+  id: JobSPChaplain
+
+- type: playTimeTracker
+  id: JobSPClown
+
+- type: playTimeTracker
+  id: JobSPReporter
+
+- type: playTimeTracker
   id: JobSPWarden
+
+- type: playTimeTracker
+  id: WelfareOfficer

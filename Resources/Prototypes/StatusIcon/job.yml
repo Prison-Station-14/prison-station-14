@@ -425,3 +425,17 @@
   icon:
     sprite: /Textures/Interface/Misc/sp14/job_icons.rsi
     state: SPWarden
+
+- type: statusIcon
+  parent: JobIcon
+  id: JobIconSPChaplain
+  icon:
+    sprite: /Textures/Interface/Misc/sp14/job_icons.rsi
+    state: SPChaplain
+
+- type: statusIcon
+  parent: JobIcon
+  id: JobIconSPClown
+  icon:
+    sprite: /Textures/Interface/Misc/sp14/job_icons.rsi
+    state: SPClown

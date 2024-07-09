@@ -1,22 +1,13 @@
 - type: department
-  id: Cargo
-  description: department-Cargo-description
-  color: "#A46106"
-  roles:
-  - CargoTechnician
-  - Quartermaster
-
-- type: department
   id: Civilian
   description: department-Civilian-description
   color: "#9FED58"
   weight: -10
   roles:
-  - Chaplain
-  - Clown
-  - HeadOfPersonnel
-  - Lawyer
-  - Reporter
+  - SPChaplain
+  - SPClown
+  - WelfareOfficer
+  - SPReporter
   - Visitor
 
 - type: department
@@ -29,12 +20,19 @@
   - HeadOfMaintenance
   - ChiefCustodialOfficer
   - MedicalDirector
-  - HeadOfPersonnel
+  - WelfareOfficer
   - Quartermaster
   primary: false
   weight: 100
 
-# PS14
+- type: department
+  id: Cargo
+  description: department-Cargo-description
+  color: "#A46106"
+  roles:
+  - SPCargoTechnician
+  - SPQuartermaster
+
 - type: department
   id: Maintenance
   weight: 10
@@ -44,7 +42,7 @@
   - AtmosphericSpecialist
   - HeadOfMaintenance
   - MaintenanceEngineer
-  - Borg
+  - SPBorg
   - MaintenanceWorker
 
 - type: department
@@ -56,7 +54,6 @@
   - Prisoner
   - PrisonChef
   - Gardener
-  - Librarian
 
 - type: department
   id: Medical
@@ -76,6 +73,6 @@
   weight: 40
   roles:
   - ChiefCustodialOfficer
-  - ProbationaryOfficer
+  - RookieOfficer
   - PrisonOfficer
   - Inspector
