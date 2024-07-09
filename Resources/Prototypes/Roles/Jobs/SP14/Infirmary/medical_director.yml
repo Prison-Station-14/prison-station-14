@@ -5,7 +5,7 @@
   playTimeTracker: JobMedicalDirector
   requirements:
     - !type:RoleTimeRequirement
-      role: JobPSChemist
+      role: JobSPChemist
       time: 10800 #3 hrs
     - !type:RoleTimeRequirement
       role: JobInfirmaryDoctor
