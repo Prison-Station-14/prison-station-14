@@ -31,6 +31,9 @@
         },
         {
             "name": "SPWarden"
+        },
+        {
+            "name": "WelfareWorker"
         }
     ]
 }
