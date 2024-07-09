@@ -1,8 +1,8 @@
 - type: job
-  id: PrisonLibrarian
-  name: job-name-prison-librarian
-  description: job-description-prison-librarian
-  playTimeTracker: JobPrisonLibrarian
+  id: Librarian
+  name: job-name-librarian
+  description: job-description-librarian
+  playTimeTracker: JobLibrarian
   startingGear: LibrarianGear
   icon: "JobIconLibrarian"
   supervisors: job-supervisors-hop
@@ -20,4 +20,5 @@
     pocket2: HandLabeler # for making named bestsellers
   storage:
     back:
+    - BoxSurvival
     - BookRandom
