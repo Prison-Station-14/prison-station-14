@@ -4,7 +4,7 @@
   description: job-description-maintenance-worker
   weight: 1
   playTimeTracker: JobMaintenanceWorker
-  startingGear: JanitorGear
+  startingGear: MaintenanceWorkerGear
   icon: "JobIconJanitor"
   supervisors: job-supervisors-hom
   access:
@@ -17,7 +17,7 @@
     prototype: WeaponRevolverInspector
 
 - type: startingGear
-  id: JanitorGear
+  id: MaintenanceWorkerGear
   equipment:
     shoes: ClothingShoesGaloshes
     id: JanitorPDA
@@ -26,13 +26,3 @@
   #storage:
     #back:
     #- Stuff
-
-- type: startingGear
-  id: JanitorMaidGear
-  equipment:
-    jumpsuit: ClothingUniformJumpskirtJanimaid
-    id: JanitorPDA
-    gloves: ClothingHandsGlovesJanitor
-    head: ClothingHeadHatCatEars
-    ears: ClothingHeadsetService
-    belt: ClothingBeltJanitorFilled

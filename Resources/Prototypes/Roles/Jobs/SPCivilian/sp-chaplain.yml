@@ -3,7 +3,7 @@
   name: job-name-sp-chaplain
   description: job-description-sp-chaplain
   playTimeTracker: JobSPChaplain
-  startingGear: ChaplainGear
+  startingGear: SPChaplainGear
   icon: "JobIconSPChaplain"
   supervisors: job-supervisors-wo
   access:
@@ -15,7 +15,7 @@
     - type: BibleUser #Lets them heal with bibles
 
 - type: startingGear
-  id: ChaplainGear
+  id: SPChaplainGear
   equipment:
     shoes: ClothingShoesColorBlack
     id: ChaplainPDA

@@ -8,7 +8,7 @@
     - !type:DepartmentTimeRequirement
       department: Maintenance
       time: 14400 #4 hrs
-  startingGear: StationEngineerGear
+  startingGear: MaintenanceEngineerGear
   icon: "JobIconMaintenanceEngineer"
   supervisors: job-supervisors-hom
   access:
@@ -19,7 +19,7 @@
   - Atmospherics
 
 - type: startingGear
-  id: StationEngineerGear
+  id: MaintenanceEngineerGear
   equipment:
     eyes: ClothingEyesGlassesMeson
     belt: ClothingBeltUtilityEngineering

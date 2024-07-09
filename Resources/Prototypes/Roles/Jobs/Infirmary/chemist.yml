@@ -7,7 +7,7 @@
     - !type:DepartmentTimeRequirement
       department: Medical
       time: 14400 #4 hrs
-  startingGear: ChemistGear
+  startingGear: SPChemistGear
   icon: "JobIconChemist"
   supervisors: job-supervisors-md
   access:
@@ -16,7 +16,7 @@
   - Maintenance
 
 - type: startingGear
-  id: ChemistGear
+  id: SPChemistGear
   equipment:
     id: ChemistryPDA
     ears: ClothingHeadsetMedical

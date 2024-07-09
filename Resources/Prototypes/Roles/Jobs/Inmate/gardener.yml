@@ -3,7 +3,7 @@
   name: job-name-gardener
   description: job-description-gardener
   playTimeTracker: JobGardener
-  startingGear: BotanistGear
+  startingGear: GardenerGear
   icon: "JobIconGardener"
   supervisors: job-supervisors-wo
   access:
@@ -15,12 +15,12 @@
   - Bar
 
 - type: startingGear
-  id: BotanistGear
+  id: GardenerGear
   equipment:
     shoes: ClothingShoesColorBrown
     id: BotanistPDA
     ears: ClothingHeadsetService
     belt: ClothingBeltPlantFilled
-  #storage:
+  #storage: 
     #back:
     #- Stuff

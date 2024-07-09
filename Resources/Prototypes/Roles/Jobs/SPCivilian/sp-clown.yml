@@ -3,7 +3,7 @@
   name: job-name-sp-clown
   description: job-description-sp-clown
   playTimeTracker: JobSPClown
-  startingGear: ClownGear
+  startingGear: SPClownGear
   icon: "JobIconSPClown"
   supervisors: job-supervisors-wo
   access:
@@ -26,7 +26,7 @@
     implants: [ SadTromboneImplant ]
 
 - type: startingGear
-  id: ClownGear
+  id: SPClownGear
   equipment:
     mask: ClothingMaskClown
     pocket1: BikeHorn

@@ -10,7 +10,7 @@
       department: Security
       time: 36000 #10 hrs
       inverted: true # stop playing intern if you're good at security!
-  startingGear: SecurityCadetGear
+  startingGear: RookieGear
   icon: "JobIconSecurityCadet"
   supervisors: job-supervisors-guards
   canBeAntag: false
@@ -26,7 +26,7 @@
     implants: [ MindShieldImplant ]
 
 - type: startingGear
-  id: SecurityCadetGear
+  id: RookieGear
   equipment:
     shoes: ClothingShoesBootsCombatFilled
     outerClothing: ClothingOuterArmorBasic

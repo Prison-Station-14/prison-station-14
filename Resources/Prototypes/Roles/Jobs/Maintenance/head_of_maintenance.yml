@@ -16,7 +16,7 @@
     - !type:OverallPlaytimeRequirement
       time: 144000 #40 hrs
   weight: 20
-  startingGear: ChiefEngineerGear
+  startingGear: HOMGear
   icon: "JobIconChiefEngineer"
   requireAdminNotify: true
   supervisors: job-supervisors-warden
@@ -38,7 +38,7 @@
       - type: CommandStaff
 
 - type: startingGear
-  id: ChiefEngineerGear
+  id: HOMGear
   equipment:
     id: CEPDA
     eyes: ClothingEyesGlassesMeson

@@ -8,7 +8,7 @@
     - !type:DepartmentTimeRequirement
       department: Maintenance
       time: 54000 # 15 hrs
-  startingGear: AtmosphericTechnicianGear
+  startingGear: AtmosphericSpecialistGear
   icon: "JobIconAtmosphericSpecialist"
   supervisors: job-supervisors-hom
   access:
@@ -18,7 +18,7 @@
   - Atmospherics
 
 - type: startingGear
-  id: AtmosphericTechnicianGear
+  id: AtmosphericSpecialistGear
   equipment:
     eyes: ClothingEyesGlassesMeson
     id: AtmosPDA

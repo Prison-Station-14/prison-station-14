@@ -17,7 +17,7 @@
       department: Command
       time: 54000 # 15 hours
   weight: 40
-  startingGear: WardenGear
+  startingGear: SPWardenGear
   icon: "JobIconSPWarden"
   requireAdminNotify: true
   joinNotifyCrew: true
@@ -33,7 +33,7 @@
       - type: CommandStaff
 
 - type: startingGear
-  id: WardenGear
+  id: SPWardenGear
   equipment:
     eyes: ClothingEyesGlassesSecurity
     id: WardenPDA

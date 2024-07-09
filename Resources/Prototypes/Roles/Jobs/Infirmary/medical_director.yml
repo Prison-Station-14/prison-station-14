@@ -16,7 +16,7 @@
     - !type:OverallPlaytimeRequirement
       time: 144000 #40 hrs
   weight: 10
-  startingGear: CMOGear
+  startingGear: MDGear
   icon: "JobIconChiefMedicalOfficer"
   requireAdminNotify: true
   supervisors: job-supervisors-warden
@@ -37,7 +37,7 @@
       - type: CommandStaff
 
 - type: startingGear
-  id: CMOGear
+  id: MDGear
   equipment:
     id: CMOPDA
     ears: ClothingHeadsetCMO

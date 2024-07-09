@@ -3,7 +3,7 @@
   name: job-name-sp-psychologist
   description: job-description-sp-psychologist
   playTimeTracker: JobSPPsychologist
-  startingGear: PsychologistGear
+  startingGear: SPPsychologistGear
   icon: "JobIconPsychologist"
   supervisors: job-supervisors-md
   access:
@@ -13,7 +13,7 @@
   - Chemistry
 
 - type: startingGear
-  id: PsychologistGear
+  id: SPPsychologistGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitPsychologist
     shoes: ClothingShoesLeather

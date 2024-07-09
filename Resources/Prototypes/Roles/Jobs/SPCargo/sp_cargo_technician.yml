@@ -3,7 +3,7 @@
   name: job-name-sp-cargotech
   description: job-description-sp-cargotech
   playTimeTracker: JobSPCargoTechnician
-  startingGear: CargoTechGear
+  startingGear: SPCargoTechGear
   icon: "JobIconCargoTechnician"
   supervisors: job-supervisors-qm
   access:
@@ -13,7 +13,7 @@
   - Salvage
 
 - type: startingGear
-  id: CargoTechGear
+  id: SPCargoTechGear
   equipment:
     id: CargoPDA
     ears: ClothingHeadsetCargo

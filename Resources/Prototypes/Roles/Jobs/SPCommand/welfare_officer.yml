@@ -17,7 +17,7 @@
       department: Command
       time: 36000 # 10 hours
   weight: 30
-  startingGear: HoPGear
+  startingGear: WOGear
   icon: "JobIconHeadOfPersonnel"
   requireAdminNotify: true
   supervisors: job-supervisors-warden
@@ -57,7 +57,7 @@
       - type: CommandStaff
 
 - type: startingGear
-  id: HoPGear
+  id: WOGear
   equipment:
     shoes: ClothingShoesColorBrown
     id: HoPPDA

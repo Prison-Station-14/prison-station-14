@@ -3,7 +3,7 @@
   name: job-name-sp-reporter
   description: job-description-sp-reporter
   playTimeTracker: JobSPReporter
-  startingGear: ReporterGear
+  startingGear: SPReporterGear
   icon: "JobIconReporter"
   supervisors: job-supervisors-wo
   access:
@@ -11,7 +11,7 @@
   - Maintenance
 
 - type: startingGear
-  id: ReporterGear
+  id: SPReporterGear
   equipment:
     shoes: ClothingShoesColorWhite
     id: ReporterPDA

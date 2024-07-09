@@ -7,7 +7,7 @@
     - !type:DepartmentTimeRequirement
       department: Medical
       time: 14400 #4 hrs
-  startingGear: DoctorGear
+  startingGear: InfirmaryDoctor
   icon: "JobIconMedicalDoctor"
   supervisors: job-supervisors-md
   access:
@@ -17,7 +17,7 @@
   - Chemistry
 
 - type: startingGear
-  id: DoctorGear
+  id: InfirmaryDoctor
   equipment:
     ears: ClothingHeadsetMedical
     belt: ClothingBeltMedicalFilled

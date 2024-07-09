@@ -7,7 +7,7 @@
     - !type:DepartmentTimeRequirement
       department: Civilian
       time: 1800
-  startingGear: ChefGear
+  startingGear: SPChefGear
   icon: "JobIconPrisonChef"
   supervisors: job-supervisors-wo
   access:
@@ -19,7 +19,7 @@
   - Bar
 
 - type: startingGear
-  id: ChefGear
+  id: SPChefGear
   equipment:
     shoes: ClothingShoesColorBlack
     id: ChefPDA

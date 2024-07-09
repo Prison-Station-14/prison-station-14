@@ -16,7 +16,7 @@
     - !type:OverallPlaytimeRequirement
       time: 144000 #40 hrs
   weight: 35
-  startingGear: HoSGear
+  startingGear: ChiefCustodialOfficerGear
   icon: "JobIconHeadOfSecurity"
   requireAdminNotify: true
   supervisors: job-supervisors-warden
@@ -40,7 +40,7 @@
       - type: CommandStaff
 
 - type: startingGear
-  id: HoSGear
+  id: ChiefCustodialOfficerGear
   equipment:
     eyes: ClothingEyesGlassesSecurity
     id: HoSPDA
