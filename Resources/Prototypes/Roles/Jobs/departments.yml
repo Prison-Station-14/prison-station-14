@@ -1,78 +1,112 @@
 - type: department
+  id: Cargo
+  description: department-Cargo-description
+  color: "#A46106"
+  roles:
+  - CargoTechnician
+  - Quartermaster
+  - SalvageSpecialist
+  editorHidden: true
+  
+- type: department
   id: Civilian
   description: department-Civilian-description
   color: "#9FED58"
   weight: -10
   roles:
-  - SPChaplain
-  - SPClown
-  - WelfareOfficer
-  - SPReporter
+  - Bartender
+  - Borg
+  - Botanist
+  - Boxer
+  - Chaplain
+  - Chef
+  - Clown
+  - HeadOfPersonnel
+  - Janitor
+  - Lawyer
+  - Librarian
+  - Mime
+  - Musician
+  - Passenger
+  - Reporter
   - Visitor
+  - Zookeeper
+  - ServiceWorker
+  editorHidden: true
 
 - type: department
   id: Command
   description: department-Command-description
   color: "#334E6D"
   roles:
-  - SPWarden
+  - Captain
   - CentralCommandOfficial
-  - HeadOfMaintenance
-  - ChiefCustodialOfficer
-  - MedicalDirector
-  - WelfareOfficer
+  - ChiefEngineer
+  - ChiefMedicalOfficer
+  - HeadOfPersonnel
+  - HeadOfSecurity
+  - ResearchDirector
   - Quartermaster
   primary: false
   weight: 100
+  editorHidden: true
 
 - type: department
-  id: Cargo
-  description: department-Cargo-description
-  color: "#A46106"
-  roles:
-  - SPCargoTechnician
-  - SPQuartermaster
-
-- type: department
-  id: Maintenance
-  weight: 10
-  description: department-Maintenance-description
-  color: "#9FED58"
-  roles:
-  - AtmosphericSpecialist
-  - HeadOfMaintenance
-  - MaintenanceEngineer
-  - SPBorg
-  - MaintenanceWorker
-
-- type: department
-  id: Inmate
-  description: department-Inmate-description
+  id: Engineering
+  description: department-Engineering-description
   color: "#EFB341"
-  weight: 20
   roles:
-  - Prisoner
-  - PrisonChef
-  - Gardener
+  - AtmosphericTechnician
+  - ChiefEngineer
+  - StationEngineer
+  - TechnicalAssistant
+  editorHidden: true
 
 - type: department
   id: Medical
-  weight: 5
   description: department-Medical-description
   color: "#52B4E9"
   roles:
-  - SPChemist
-  - MedicalDirector
-  - InfirmaryDoctor
-  - SPPsychologist
+  - Chemist
+  - ChiefMedicalOfficer
+  - MedicalDoctor
+  - MedicalIntern
+  - Psychologist
+  - Paramedic
+  editorHidden: true
 
 - type: department
   id: Security
   description: department-Security-description
   color: "#DE3A3A"
-  weight: 40
+  weight: 20
   roles:
-  - ChiefCustodialOfficer
-  - RookieOfficer
-  - PrisonOfficer
-  - Inspector
+  - HeadOfSecurity
+  - SecurityCadet
+  - SecurityOfficer
+  - Detective
+  - Warden
+  editorHidden: true
+
+- type: department
+  id: Science
+  description: department-Science-description
+  color: "#D381C9"
+  roles:
+  - ResearchDirector
+  - Scientist
+  - ResearchAssistant
+  editorHidden: true
+
+- type: department
+  id: Specific
+  description: department-Specific-description
+  color: "#9FED58"
+  weight: 10
+  roles:
+  - Boxer
+  - Reporter
+  - Zookeeper
+  - Psychologist
+  primary: false
+  editorHidden: true

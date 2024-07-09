@@ -1,0 +1,308 @@
+# SP14 Command
+- type: roleLoadout
+  id: JobSPWarden
+  groups:
+  - HeadofSecurityHead
+  - HeadofSecurityNeck
+  - HeadofSecurityJumpsuit
+  - SecurityBackpack
+  - SecurityBelt
+  - HeadofSecurityOuterClothing
+  - SecurityShoes
+  - SurvivalSecurity
+  - Trinkets
+  - GroupSpeciesBreathToolSecurity
+
+- type: roleLoadout
+  id: JobWelfareOfficer
+  groups:
+  - GroupTankHarness
+  - HoPHead
+  - HoPNeck
+  - HoPJumpsuit
+  - HoPBackpack
+  - HoPOuterClothing
+  - Glasses
+  - Survival
+  - Trinkets
+  - GroupSpeciesBreathTool
+
+# SP14 Civilian
+- type: roleLoadout
+  id: JobSPChaplain
+  groups:
+  - GroupTankHarness
+  - ChaplainHead
+  - ChaplainMask
+  - ChaplainNeck
+  - ChaplainJumpsuit
+  - CommonBackpack
+  - ChaplainOuterClothing
+  - Glasses
+  - Survival
+  - Trinkets
+  - GroupSpeciesBreathTool
+
+- type: roleLoadout
+  id: JobSPClown
+  groups:
+  - GroupTankHarness
+  - ClownHead
+  - ClownJumpsuit
+  - ClownBackpack
+  - ClownOuterClothing
+  - ClownShoes
+  - Glasses
+  - SurvivalClown
+  - Trinkets
+
+- type: roleLoadout
+  id: JobSPReporter
+  groups:
+  - GroupTankHarness
+  - ReporterJumpsuit
+  - CommonBackpack
+  - Glasses
+  - Survival
+  - Trinkets
+  - GroupSpeciesBreathTool
+
+# SP Cargo
+
+- type: roleLoadout
+  id: JobSPQuartermaster
+  groups:
+  - GroupTankHarness
+  - QuartermasterHead
+  - QuartermasterNeck
+  - QuartermasterJumpsuit
+  - CargoTechnicianBackpack
+  - QuartermasterOuterClothing
+  - QuartermasterShoes
+  - Glasses
+  - Survival
+  - Trinkets
+  - GroupSpeciesBreathTool
+
+- type: roleLoadout
+  id: JobSPCargoTechnician
+  groups:
+  - GroupTankHarness
+  - CargoTechnicianHead
+  - CargoTechnicianJumpsuit
+  - CargoTechnicianBackpack
+  - CargoTechnicianOuterClothing
+  - CargoTechnicianShoes
+  - Glasses
+  - Survival
+  - Trinkets
+  - GroupSpeciesBreathTool
+
+# SP14 Inmate
+- type: roleLoadout
+  id: JobPrisoner
+  groups:
+  - GroupTankHarness
+  - PrisonerJumpsuit
+  - CommonBackpack
+  - PassengerFace
+  - PassengerGloves
+  - PassengerOuterClothing
+  - PassengerShoes
+  - Glasses
+  - Survival
+  - Trinkets
+  - GroupSpeciesBreathTool
+
+- type: roleLoadout
+  id: JobPrisonChef
+  groups:
+  - GroupTankHarness
+  - ChefHead
+  - ChefMask
+  - PrisonerJumpsuit
+  - CommonBackpack
+  - ChefOuterClothing
+  - Glasses
+  - Survival
+  - Trinkets
+  - GroupSpeciesBreathTool
+
+- type: roleLoadout
+  id: JobGardener
+  groups:
+  - GroupTankHarness
+  - BotanistHead
+  - PrisonerJumpsuit
+  - BotanistBackpack
+  - BotanistOuterClothing
+  - Glasses
+  - Survival
+  - Trinkets
+  - GroupSpeciesBreathTool
+
+# SP14 Maintenance
+- type: roleLoadout
+  id: JobHeadOfMaintenance
+  groups:
+  - GroupTankHarness
+  - ChiefEngineerHead
+  - ChiefEngineerJumpsuit
+  - StationEngineerBackpack
+  - ChiefEngineerNeck
+  - ChiefEngineerOuterClothing
+  - ChiefEngineerShoes
+  - SurvivalExtended
+  - Trinkets
+  - GroupSpeciesBreathTool
+
+- type: roleLoadout
+  id: JobAtmosphericSpecialist
+  groups:
+  - GroupTankHarness
+  - AtmosphericTechnicianJumpsuit
+  - AtmosphericTechnicianBackpack
+  - AtmosphericTechnicianOuterClothing
+  - AtmosphericTechnicianShoes
+  - SurvivalExtended
+  - Trinkets
+  - GroupSpeciesBreathTool
+
+- type: roleLoadout
+  id: JobMaintenanceEngineer
+  groups:
+  - GroupTankHarness
+  - StationEngineerHead
+  - StationEngineerJumpsuit
+  - StationEngineerBackpack
+  - StationEngineerOuterClothing
+  - StationEngineerShoes
+  - StationEngineerID
+  - SurvivalExtended
+  - Trinkets
+  - GroupSpeciesBreathTool
+
+- type: roleLoadout
+  id: JobMaintenanceWorker
+  groups:
+  - GroupTankHarness
+  - JanitorHead
+  - JanitorJumpsuit
+  - JanitorGloves
+  - CommonBackpack
+  - JanitorOuterClothing
+  - Glasses
+  - Survival
+  - Trinkets
+  - JanitorPlunger
+  - GroupSpeciesBreathTool
+
+# SP14 Security
+- type: roleLoadout
+  id: JobInspector
+  groups:
+  - GroupTankHarness
+  - DetectiveHead
+  - DetectiveNeck
+  - DetectiveJumpsuit
+  - SecurityBackpack
+  - DetectiveOuterClothing
+  - SecurityShoes
+  - SurvivalSecurity
+  - Trinkets
+  - GroupSpeciesBreathToolSecurity
+
+- type: roleLoadout
+  id: JobChiefCustodialOfficer
+  groups:
+  - WardenHead
+  - WardenJumpsuit
+  - SecurityBackpack
+  - SecurityBelt
+  - WardenOuterClothing
+  - SecurityShoes
+  - SurvivalSecurity
+  - Trinkets
+  - GroupSpeciesBreathToolSecurity
+
+- type: roleLoadout
+  id: JobPrisonOfficer
+  groups:
+  - SecurityHead
+  - SecurityJumpsuit
+  - SecurityBackpack
+  - SecurityOuterClothing
+  - SecurityShoes
+  - SecurityPDA
+  - SecurityBelt
+  - SurvivalSecurity
+  - Trinkets
+  - GroupSpeciesBreathToolSecurity
+
+- type: roleLoadout
+  id: JobRookieOfficer
+  groups:
+  - SecurityCadetJumpsuit
+  - SecurityBackpack
+  - SurvivalSecurity
+  - Trinkets
+  - GroupSpeciesBreathToolSecurity
+
+# SP14 Medical
+- type: roleLoadout
+  id: JobMedicalDirector
+  groups:
+  - GroupTankHarness
+  - ChiefMedicalOfficerHead
+  - MedicalMask
+  - ChiefMedicalOfficerJumpsuit
+  - MedicalGloves
+  - MedicalBackpack
+  - ChiefMedicalOfficerOuterClothing
+  - ChiefMedicalOfficerNeck
+  - ChiefMedicalOfficerShoes
+  - Glasses
+  - SurvivalMedical
+  - Trinkets
+  - GroupSpeciesBreathToolMedical
+
+- type: roleLoadout
+  id: JobInfirmaryDoctor
+  groups:
+  - GroupTankHarness
+  - MedicalDoctorHead
+  - MedicalMask
+  - MedicalDoctorJumpsuit
+  - MedicalGloves
+  - MedicalBackpack
+  - MedicalDoctorOuterClothing
+  - MedicalShoes
+  - MedicalDoctorPDA
+  - Glasses
+  - SurvivalMedical
+  - Trinkets
+  - GroupSpeciesBreathToolMedical
+
+- type: roleLoadout
+  id: JobSPChemist
+  groups:
+  - GroupTankHarness
+  - MedicalMask
+  - ChemistJumpsuit
+  - MedicalGloves
+  - ChemistBackpack
+  - ChemistOuterClothing
+  - MedicalShoes
+  - SurvivalMedical
+  - Trinkets
+  - GroupSpeciesBreathToolMedical
+
+- type: roleLoadout
+  id: JobSPPsychologist
+  groups:
+  - GroupTankHarness
+  - MedicalBackpack
+  - Glasses
+  - Survival
+  - Trinkets
+  - GroupSpeciesBreathTool
