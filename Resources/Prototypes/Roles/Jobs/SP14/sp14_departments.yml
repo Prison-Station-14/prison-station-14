@@ -8,7 +8,6 @@
   - SPClown
   - WelfareOfficer
   - SPReporter
-  - Visitor
 
 - type: department
   id: SPCommand
