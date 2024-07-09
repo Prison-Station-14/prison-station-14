@@ -213,4 +213,4 @@
   id: JobSPWarden
 
 - type: playTimeTracker
-  id: WelfareOfficer
+  id: JobWelfareOfficer
