@@ -1,0 +1,30 @@
+- type: job
+  id: PrisonChef
+  name: job-name-prisonchef
+  description: job-description-prisonchef
+  playTimeTracker: JobPrisonChef
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: Civilian
+      time: 1800
+  startingGear: SPChefGear
+  icon: "JobIconPrisonChef"
+  supervisors: job-supervisors-wo
+  access:
+  - Service
+  - Maintenance
+  - Kitchen
+  extendedAccess:
+  - Hydroponics
+  - Bar
+
+- type: startingGear
+  id: SPChefGear
+  equipment:
+    shoes: ClothingShoesColorBlack
+    id: ChefPDA
+    ears: ClothingHeadsetService
+    belt: ClothingBeltChefFilled
+  #storage:
+    #back:
+    #- Stuff

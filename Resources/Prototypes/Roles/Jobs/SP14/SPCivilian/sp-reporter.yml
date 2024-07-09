@@ -1,0 +1,21 @@
+- type: job
+  id: SPReporter
+  name: job-name-sp-reporter
+  description: job-description-sp-reporter
+  playTimeTracker: JobSPReporter
+  startingGear: SPReporterGear
+  icon: "JobIconReporter"
+  supervisors: job-supervisors-wo
+  access:
+  - Service
+  - Maintenance
+
+- type: startingGear
+  id: SPReporterGear
+  equipment:
+    shoes: ClothingShoesColorWhite
+    id: ReporterPDA
+    ears: ClothingHeadsetService
+  #storage:
+    #back:
+    #- Stuff

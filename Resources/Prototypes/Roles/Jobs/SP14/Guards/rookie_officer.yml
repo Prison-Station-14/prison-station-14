@@ -1,0 +1,41 @@
+- type: job
+  id: RookieOfficer
+  name: job-name-rookie-officer
+  description: job-description-rookie-officer
+  playTimeTracker: JobRookieOfficer
+  requirements:
+    - !type:OverallPlaytimeRequirement
+      time: 18000 #5 hrs
+    - !type:DepartmentTimeRequirement
+      department: Security
+      time: 36000 #10 hrs
+      inverted: true # stop playing intern if you're good at security!
+  startingGear: RookieGear
+  icon: "JobIconSecurityCadet"
+  supervisors: job-supervisors-guards
+  canBeAntag: false
+  access:
+  - Security
+  - Brig
+  - Maintenance
+  - Service
+  - External
+  - Cryogenics
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
+
+- type: startingGear
+  id: RookieGear
+  equipment:
+    shoes: ClothingShoesBootsCombatFilled
+    outerClothing: ClothingOuterArmorBasic
+    id: SecurityCadetPDA
+    ears: ClothingHeadsetSecurity
+    belt: ClothingBeltSecurityFilled
+    pocket1: WeaponPistolMk58
+    pocket2: BookSecurity
+  storage:
+    back:
+    - Flash
+    - MagazinePistol

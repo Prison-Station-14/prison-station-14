@@ -133,6 +133,14 @@
   loadouts:
   - HoPWintercoat
 
+# Inmate
+- type: loadoutGroup
+  id: PrisonerJumpsuit
+  name: loadout-group-prison-jumpsuit
+  loadouts:
+  - PrisonJumpsuit
+  - PrisonJumpskirt
+
 # Civilian
 - type: loadoutGroup
   id: PassengerJumpsuit

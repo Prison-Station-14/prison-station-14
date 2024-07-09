@@ -1,0 +1,12 @@
+- type: job
+  id: SPBorg
+  name: job-name-borg
+  description: job-description-borg
+  playTimeTracker: JobSPBorg
+  requirements:
+    - !type:OverallPlaytimeRequirement
+      time: 216000 #60 hrs
+  canBeAntag: false
+  icon: JobIconBorg
+  supervisors: job-supervisors-hom
+  jobEntity: PlayerBorgGeneric

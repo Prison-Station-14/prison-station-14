@@ -119,6 +119,9 @@ loadout-group-atmospheric-technician-backpack = Atmospheric Technician backpack
 loadout-group-atmospheric-technician-outerclothing = Atmospheric Technician outer clothing
 loadout-group-atmospheric-technician-shoes = Atmospheric Technician shoes
 
+# Inmate
+loadout-group-prison-jumpsuit = Prison jumpsuit
+
 # Science
 loadout-group-research-director-head = Research Director head
 loadout-group-research-director-neck = Research Director neck

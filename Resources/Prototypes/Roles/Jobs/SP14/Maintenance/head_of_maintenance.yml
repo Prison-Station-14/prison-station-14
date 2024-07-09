@@ -1,0 +1,49 @@
+- type: job
+  id: HeadOfMaintenance
+  name: job-name-hom
+  description: job-description-hom
+  playTimeTracker: JobHeadOfMaintenance
+  requirements:
+    - !type:RoleTimeRequirement
+      role: JobAtmosphericSpecialist
+      time: 21600 #6 hrs
+    - !type:RoleTimeRequirement
+      role: JobMaintenanceEngineer
+      time: 21600 #6 hrs
+    - !type:DepartmentTimeRequirement
+      department: Maintenance
+      time: 36000 #10 hrs
+    - !type:OverallPlaytimeRequirement
+      time: 144000 #40 hrs
+  weight: 20
+  startingGear: HOMGear
+  icon: "JobIconChiefEngineer"
+  requireAdminNotify: true
+  supervisors: job-supervisors-warden
+  canBeAntag: false
+  access:
+  - Maintenance
+  - Engineering
+  - Command
+  - External
+  - ChiefEngineer
+  - Atmospherics
+  - Brig
+  - Cryogenics
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
+  - !type:AddComponentSpecial
+    components:
+      - type: CommandStaff
+
+- type: startingGear
+  id: HOMGear
+  equipment:
+    id: CEPDA
+    eyes: ClothingEyesGlassesMeson
+    ears: ClothingHeadsetCE
+    belt: ClothingBeltUtilityEngineering
+  storage:
+    back:
+    - Flash

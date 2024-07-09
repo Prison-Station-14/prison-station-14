@@ -6,7 +6,8 @@
   - CargoTechnician
   - Quartermaster
   - SalvageSpecialist
-
+  editorHidden: true
+  
 - type: department
   id: Civilian
   description: department-Civilian-description
@@ -31,6 +32,7 @@
   - Visitor
   - Zookeeper
   - ServiceWorker
+  editorHidden: true
 
 - type: department
   id: Command
@@ -47,6 +49,7 @@
   - Quartermaster
   primary: false
   weight: 100
+  editorHidden: true
 
 - type: department
   id: Engineering
@@ -57,6 +60,7 @@
   - ChiefEngineer
   - StationEngineer
   - TechnicalAssistant
+  editorHidden: true
 
 - type: department
   id: Medical
@@ -69,6 +73,7 @@
   - MedicalIntern
   - Psychologist
   - Paramedic
+  editorHidden: true
 
 - type: department
   id: Security
@@ -81,6 +86,7 @@
   - SecurityOfficer
   - Detective
   - Warden
+  editorHidden: true
 
 - type: department
   id: Science
@@ -90,6 +96,7 @@
   - ResearchDirector
   - Scientist
   - ResearchAssistant
+  editorHidden: true
 
 - type: department
   id: Specific
@@ -102,3 +109,4 @@
   - Zookeeper
   - Psychologist
   primary: false
+  editorHidden: true

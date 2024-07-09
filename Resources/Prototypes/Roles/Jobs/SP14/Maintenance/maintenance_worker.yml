@@ -1,0 +1,28 @@
+- type: job
+  id: MaintenanceWorker
+  name: job-name-maintenance-worker
+  description: job-description-maintenance-worker
+  weight: 1
+  playTimeTracker: JobMaintenanceWorker
+  startingGear: MaintenanceWorkerGear
+  icon: "JobIconJanitor"
+  supervisors: job-supervisors-hom
+  access:
+  - Service
+  - Janitor
+  - Maintenance
+  special:
+  - !type:GiveItemOnHolidaySpecial
+    holiday: GarbageDay
+    prototype: WeaponRevolverInspector
+
+- type: startingGear
+  id: MaintenanceWorkerGear
+  equipment:
+    shoes: ClothingShoesGaloshes
+    id: JanitorPDA
+    ears: ClothingHeadsetService
+    belt: ClothingBeltJanitorFilled
+  #storage:
+    #back:
+    #- Stuff

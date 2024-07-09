@@ -144,3 +144,73 @@
 
 - type: playTimeTracker
   id: JobZookeeper
+
+#PS14
+- type: playTimeTracker
+  id: JobAtmosphericSpecialist
+
+- type: playTimeTracker
+  id: JobSPCargoTechnician
+
+- type: playTimeTracker
+  id: JobSPBorg
+
+- type: playTimeTracker
+  id: JobChiefCustodialOfficer
+
+- type: playTimeTracker
+  id: JobGardener
+
+- type: playTimeTracker
+  id: JobHeadOfMaintenance
+
+- type: playTimeTracker
+  id: JobInfirmaryDoctor
+
+- type: playTimeTracker
+  id: JobInspector
+
+- type: playTimeTracker
+  id: JobMaintenanceEngineer
+
+- type: playTimeTracker
+  id: JobMaintenanceWorker
+
+- type: playTimeTracker
+  id: JobMedicalDirector
+
+- type: playTimeTracker
+  id: JobPrisonChef
+
+- type: playTimeTracker
+  id: JobPrisonOfficer
+
+- type: playTimeTracker
+  id: JobSPQuartermaster
+
+- type: playTimeTracker
+  id: JobRookieOfficer
+
+- type: playTimeTracker
+  id: JobPrisoner
+
+- type: playTimeTracker
+  id: JobSPChaplain
+
+- type: playTimeTracker
+  id: JobSPChemist
+
+- type: playTimeTracker
+  id: JobSPClown
+
+- type: playTimeTracker
+  id: JobSPPsychologist
+
+- type: playTimeTracker
+  id: JobSPReporter
+
+- type: playTimeTracker
+  id: JobSPWarden
+
+- type: playTimeTracker
+  id: JobWelfareOfficer

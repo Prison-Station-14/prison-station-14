@@ -55,25 +55,22 @@
   - GroupSpeciesBreathTool
 
 - type: roleLoadout
-  id: JobServiceWorker
-  groups:
-  - GroupTankHarness
-  - BartenderJumpsuit
-  - CommonBackpack
-  - Glasses
-  - Survival
-  - Trinkets
-  - GroupSpeciesBreathTool
-
-- type: roleLoadout
   id: JobChef
   groups:
-  - GroupTankHarness
   - ChefHead
   - ChefMask
   - ChefJumpsuit
   - CommonBackpack
   - ChefOuterClothing
+  - Glasses
+  - Trinkets
+
+- type: roleLoadout
+  id: JobServiceWorker
+  groups:
+  - GroupTankHarness
+  - BartenderJumpsuit
+  - CommonBackpack
   - Glasses
   - Survival
   - Trinkets
@@ -323,22 +320,9 @@
   - GroupSpeciesBreathTool
 
 # Security
-- type: roleLoadout
-  id: JobHeadOfSecurity
-  groups:
-  - HeadofSecurityHead
-  - HeadofSecurityNeck
-  - HeadofSecurityJumpsuit
-  - SecurityBackpack
-  - SecurityBelt
-  - HeadofSecurityOuterClothing
-  - SecurityShoes
-  - SurvivalSecurity
-  - Trinkets
-  - GroupSpeciesBreathToolSecurity
 
 - type: roleLoadout
-  id: JobWarden
+  id: JobHeadofSecurity
   groups:
   - WardenHead
   - WardenJumpsuit
