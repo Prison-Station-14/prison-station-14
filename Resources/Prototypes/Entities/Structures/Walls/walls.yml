@@ -488,6 +488,8 @@
     - type: Construction
       graph: Girder
       node: plastitaniumWall
+    - type: StaticPrice
+      price: 75
 
 - type: entity
   parent: WallShuttleDiagonal

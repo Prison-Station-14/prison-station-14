@@ -110,7 +110,7 @@
         completed:
         - !type:SpawnPrototype
           prototype: SheetRGlass1
-          amount: 4
+          amount: 2
         - !type:DeleteEntity {}
         steps:
           - tool: Welding
