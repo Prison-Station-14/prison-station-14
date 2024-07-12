@@ -13,7 +13,7 @@
     doAfterDelay: 3
   - type: Construction
     graph: Window
-    node: PlastitaniumWindow
+    node: Window
   - type: Damageable
     damageContainer: StructuralInorganic
     damageModifierSet: RGlass
