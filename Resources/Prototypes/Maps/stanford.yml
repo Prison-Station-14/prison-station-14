@@ -31,10 +31,10 @@
             SPChemist: [ 1, 1 ]
             InfirmaryDoctor: [ 5, 5 ]
             #security
-            CheifCustodialOfficer: [ 1, 1 ]
+            ChiefCustodialOfficer: [ 1, 1 ]
             Inspector: [ 1, 1 ]
             PrisonOfficer: [ 12, 12 ]
-            RookieCadet: [ 8, 8 ]
+            RookieOfficer: [ 8, 8 ]
             #supply
             SPQuartermaster: [ 1, 1 ]
             SPCargoTechnician: [ 2, 2 ]
