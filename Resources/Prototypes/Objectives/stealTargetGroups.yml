@@ -169,6 +169,13 @@
 
 - type: stealTargetGroup
   id: AmmoTechFabCircuitboard
+  name: warden's taser
+  sprite:
+    sprite: Objects\Weapons\Guns\Battery\taser.rsi
+    state: icon
+
+- type: stealTargetGroup
+  id: AmmoTechFabCircuitboard
   name: ammo techfab circuit board
   sprite:
     sprite: Objects/Misc/module.rsi
