@@ -4,9 +4,8 @@
   mapPath: /Maps/stanford.yml
   minPlayers: 0
   maxPlayers: 80
-  fallback: true
   stations:
-    Saltern:
+    Stanford:
       stationProto: StandardNanotrasenStation
       components:
         - type: StationNameSetup

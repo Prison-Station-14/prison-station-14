@@ -5929,7 +5929,7 @@ entities:
       pos: -49.5,3.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -2853.2268
+      secondsUntilStateChange: -3034.3665
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -6237,7 +6237,7 @@ entities:
       pos: -43.5,-11.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -17178.203
+      secondsUntilStateChange: -17359.344
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -6312,7 +6312,7 @@ entities:
       pos: -7.5,-29.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -66064.18
+      secondsUntilStateChange: -66245.32
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -6457,7 +6457,7 @@ entities:
       pos: 36.5,-50.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -19369.209
+      secondsUntilStateChange: -19550.35
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -6812,7 +6812,7 @@ entities:
       pos: 13.5,-34.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -35685.246
+      secondsUntilStateChange: -35866.387
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -6824,7 +6824,7 @@ entities:
       pos: -28.5,-40.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -13146.869
+      secondsUntilStateChange: -13328.009
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -14579,6 +14579,20 @@ entities:
     - type: Transform
       pos: -33.562817,-1.3922334
       parent: 2
+- proto: ClothingUniformJumpskirtHoSParadeMale
+  entities:
+  - uid: 6899
+    components:
+    - type: Transform
+      pos: -53.44572,4.4229345
+      parent: 2
+- proto: ClothingUniformJumpsuitHoSParadeMale
+  entities:
+  - uid: 6900
+    components:
+    - type: Transform
+      pos: -53.57072,4.3291845
+      parent: 2
 - proto: CombatKnife
   entities:
   - uid: 4931
@@ -15426,7 +15440,7 @@ entities:
       pos: 29.5,-19.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -33064.906
+      secondsUntilStateChange: -33246.047
       state: Opening
 - proto: CurtainsRedOpen
   entities:
@@ -29927,13 +29941,6 @@ entities:
     components:
     - type: Transform
       pos: -54.5,-20.5
-      parent: 2
-- proto: SpawnPointCaptain
-  entities:
-  - uid: 6899
-    components:
-    - type: Transform
-      pos: -49.5,0.5
       parent: 2
 - proto: SpawnPointChiefCustodialOfficer
   entities:
@@ -44820,7 +44827,7 @@ entities:
       lastSignals:
         DoorStatus: True
     - type: Door
-      secondsUntilStateChange: -63260.457
+      secondsUntilStateChange: -63441.598
       state: Opening
   - uid: 804
     components:
@@ -44832,7 +44839,7 @@ entities:
       lastSignals:
         DoorStatus: True
     - type: Door
-      secondsUntilStateChange: -62296.83
+      secondsUntilStateChange: -62477.97
       state: Opening
   - uid: 805
     components:
