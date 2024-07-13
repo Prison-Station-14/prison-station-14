@@ -1,7 +1,7 @@
 - type: gameMap
   id: Stanford
   mapName: 'Stanford'
-  mapPath: /Maps/stanford.yml
+  mapPath: /Maps/SP14/stanford.yml
   minPlayers: 0
   maxPlayers: 80
   stations:
