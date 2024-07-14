@@ -1,0 +1,23 @@
+- type: gameMap
+  id: exceptiongen
+  mapName: 'exceptiongen'
+  mapPath: /Maps/exceptiongen.yml
+  maxRandomOffset: 0
+  randomRotation: false
+  minPlayers: 10
+  maxPlayers: 50
+  stations:
+    exceptiongen:
+      stationProto: StandardNanotrasenStation
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: '{0} exceptiongen {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: 'ED'
+        - type: StationEmergencyShuttle
+          emergencyShuttlePath: /Maps/Shuttles/emergency_omega.yml # To do - add railway station
+        - type: StationJobs
+          availableJobs:
+            #service
+            Captain: [ 1, 1 ]
