@@ -81,7 +81,7 @@
       amount: 1
     Sulfur:
       amount: 1
-    Oxygen: 
+    Oxygen:
       amount: 2
   products:
     SulfuricAcid: 3
@@ -501,3 +501,20 @@
       amount: 1
   products:
     Tazinide: 1
+
+- type: reaction
+  id: Vestine
+  impact: High
+  reactants: #should be complicated to make without proper chem tools, intended for ghetto chem
+    Siderlac:
+      amount: 1 #forced to interact with botany
+    Diphenylmethylamine:
+      amount: 1 #long crafting chain
+    Whiskey:
+      amount: 3 # interaction with bar/alcohol obtaining mech
+    Razorium:
+      amount: 20
+      catalyst: True # fun raz to deal with, depending on vestine usecase this is either an added bonus or something to deal with
+      #Initially was bic 2 punc 3 but that just makes raz. If you can fix that go ahead.
+  products:
+    Vestine: 3
