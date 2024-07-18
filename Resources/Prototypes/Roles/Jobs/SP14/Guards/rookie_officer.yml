@@ -7,7 +7,7 @@
     - !type:OverallPlaytimeRequirement
       time: 18000 #5 hrs
     - !type:DepartmentTimeRequirement
-      department: Security
+      department: SPSecurity
       time: 36000 #10 hrs
       inverted: true # stop playing intern if you're good at security!
   startingGear: RookieGear

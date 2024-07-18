@@ -6,7 +6,7 @@
   weight: -10
   requirements:
   - !type:DepartmentTimeRequirement
-    department: Security
+    department: SPSecurity
     time: 54000 # 15 hours
   startingGear: InspectorGear
   icon: "JobIconDetective"

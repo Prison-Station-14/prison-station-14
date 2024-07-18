@@ -5,13 +5,14 @@
   playTimeTracker: JobChiefCustodialOfficer
   requirements:
     - !type:RoleTimeRequirement
-      role: JobWarden
+      role: JobInspector
       time: 10800 #3 hrs
+      #replaced warden req considering warden now ranked higher
     - !type:RoleTimeRequirement
-      role: JobSecurityOfficer
+      role: JobPrisonOfficer
       time: 36000 #10 hrs
     - !type:DepartmentTimeRequirement
-      department: Security
+      department: SPSecurity
       time: 108000 # 30 hrs
     - !type:OverallPlaytimeRequirement
       time: 144000 #40 hrs

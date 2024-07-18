@@ -4,9 +4,9 @@
   description: job-description-infirmary-doctor
   playTimeTracker: JobInfirmaryDoctor
   requirements:
-    - !type:DepartmentTimeRequirement
-      department: Medical
-      time: 14400 #4 hrs
+  - !type:OverallPlaytimeRequirement
+    time: 18000 #5 hrs
+    # replaced med time with overall time considering no learner med role, if med intern reimplimented this can be reverted
   startingGear: InfirmaryDoctor
   icon: "JobIconMedicalDoctor"
   supervisors: job-supervisors-md
