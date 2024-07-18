@@ -4,12 +4,6 @@
   description: job-description-maintenance-worker
   weight: 1
   playTimeTracker: JobMaintenanceWorker
-  requirements:
-  # added intern cap
-  - !type:DepartmentTimeRequirement
-    department: Maintenance
-    time: 36000 #10 hrs
-    inverted: true # stop playing intern if you're good at maintenance!
   startingGear: MaintenanceWorkerGear
   icon: "JobIconJanitor"
   supervisors: job-supervisors-hom
