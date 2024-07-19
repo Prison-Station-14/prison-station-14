@@ -5,7 +5,7 @@
   playTimeTracker: JobSPChemist
   requirements:
     - !type:DepartmentTimeRequirement
-      department: Medical
+      department: SPMedical
       time: 14400 #4 hrs
   startingGear: SPChemistGear
   icon: "JobIconChemist"
