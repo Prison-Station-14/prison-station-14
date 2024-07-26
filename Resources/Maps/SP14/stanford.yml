@@ -12876,8 +12876,6 @@ entities:
       pos: 18.5,-10.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 4129
       - 14479
@@ -13097,8 +13095,6 @@ entities:
       pos: 25.5,-46.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 14499
   - uid: 14500
@@ -48876,8 +48872,6 @@ entities:
       pos: 21.5,-45.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 14499
       - 4042
@@ -48887,8 +48881,6 @@ entities:
       pos: 28.5,-46.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 14499
   - uid: 14497
@@ -48897,8 +48889,6 @@ entities:
       pos: 32.5,-47.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 14499
   - uid: 14514
@@ -67807,8 +67797,6 @@ entities:
       pos: -42.5,9.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 14693
     - type: AtmosPipeColor
@@ -67820,8 +67808,6 @@ entities:
       pos: -51.5,9.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 14693
     - type: AtmosPipeColor
@@ -68541,8 +68527,6 @@ entities:
       pos: 26.5,-45.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 14499
     - type: AtmosPipeColor
@@ -68869,8 +68853,6 @@ entities:
       pos: -42.5,13.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 14693
     - type: AtmosPipeColor
@@ -68881,8 +68863,6 @@ entities:
       pos: -50.5,13.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 14693
     - type: AtmosPipeColor
@@ -69626,8 +69606,6 @@ entities:
       pos: 24.5,-45.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 14499
     - type: AtmosPipeColor
