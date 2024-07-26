@@ -1,0 +1,48 @@
+- type: gameMap
+  id: Stanford
+  mapName: 'Stanford'
+  mapPath: /Maps/SP14/stanford.yml
+  minPlayers: 0
+  maxPlayers: 80
+  stations:
+    Stanford:
+      stationProto: StandardNanotrasenStation
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: '{0} Stanford {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: StationJobs
+          availableJobs:
+            #command
+            SPWarden: [ 1, 1 ]
+            WelfareOfficer: [ 1, 1 ]
+            #maintenance
+            HeadOfMaintenance: [ 1, 1 ]
+            AtmosphericSpecialist: [ 1, 1 ]
+            MaintenanceEngineer: [ 2, 2 ]
+            MaintenanceWorker: [ 3, 3 ]
+            SPBorg: [ 1, 1 ]
+            #medical
+            MedicalDirector: [ 1, 1 ]
+            SPChemist: [ 1, 1 ]
+            InfirmaryDoctor: [ 5, 5 ]
+            #security
+            ChiefCustodialOfficer: [ 1, 1 ]
+            Inspector: [ 1, 1 ]
+            PrisonOfficer: [ 12, 12 ]
+            RookieOfficer: [ 8, 8 ]
+            #supply
+            SPQuartermaster: [ 1, 1 ]
+            SPCargoTechnician: [ 2, 2 ]
+            #civillian
+            SPClown: [ 1, 1 ]
+            SPPsychologist: [ 1, 1 ]
+            SPReporter: [ 1, 1 ]
+            SPChaplain: [ 1, 1 ]
+            #inmate
+            Prisoner: [ -1, -1 ]
+            Gardener: [ 2, 2 ]
+            PrisonChef: [ 2, 2 ]
+

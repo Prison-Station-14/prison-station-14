@@ -58,6 +58,7 @@ namespace Content.IntegrationTests.Tests
             "Box",
             "Europa",
             "Saltern",
+            "Stanford",
             "Core",
             "Marathon",
             "MeteorArena",
