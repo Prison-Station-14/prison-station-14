@@ -81,6 +81,17 @@
 
 - type: entity
   parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitSP14Liberator
+  name: liberator jumpsuit
+  description: A sleek and comfortable jumpsuit for tackling tyrants. For Freedom!
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpsuit/sp14liberator.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpsuit/sp14liberator.rsi
+
+- type: entity
+  parent: ClothingUniformBase
   id: ClothingUniformJumpsuitCargo
   name: cargo tech jumpsuit
   description: A sturdy jumpsuit, issued to members of the Cargo department.

@@ -128,6 +128,15 @@
 
 - type: entity
   parent: ClothingNeckBase
+  id: ClothingNeckCloakSP14LiberatorCommander
+  name: liberator commander's cloak
+  description: A magnanimous and gilded cloak for tackling tyrants.
+  components:
+  - type: Sprite
+    sprite: Clothing/Neck/Cloaks/sp14liberatorcommander.rsi
+
+- type: entity
+  parent: ClothingNeckBase
   id: ClothingNeckCloakAdmin
   name: weh cloak
   description: Weh!

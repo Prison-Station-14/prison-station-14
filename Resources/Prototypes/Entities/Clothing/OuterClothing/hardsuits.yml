@@ -296,12 +296,79 @@
         Slash: 0.6
         Piercing: 0.5
         Caustic: 0.7
+        Heat: 0.35
+        Radiation: 0.35
   - type: ClothingSpeedModifier
     walkModifier: 0.7
     sprintModifier: 0.7
   - type: HeldSpeedModifier
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitSP14Warden
+
+#SP14 Liberator Hardsuit
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: ClothingOuterHardsuitSP14Liberator
+  name: liberator hardsuit
+  description: A specialized hardsuit to welcome the trapped and fight the tyrants. For Freedom!
+  components:
+  - type: Sprite
+    sprite: Clothing/OuterClothing/Hardsuits/sp14liberator.rsi
+  - type: Clothing
+    sprite: Clothing/OuterClothing/Hardsuits/sp14liberator.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.5
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.5
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.65
+        Slash: 0.65
+        Piercing: 0.65
+        Caustic: 0.7
+        Heat: 0.65
+        Radiation: 0.6
+  - type: ClothingSpeedModifier
+    walkModifier: 0.85
+    sprintModifier: 0.85
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitSP14Liberator
+
+#SP14 Liberator Commander's Hardsuit
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: ClothingOuterHardsuitSP14LiberatorCommander
+  name: liberator commander hardsuit
+  description: A gilded, magnanimous hardsuit to welcome the trapped and fight the tyrants. For Freedom!
+  components:
+  - type: Sprite
+    sprite: Clothing/OuterClothing/Hardsuits/sp14liberatorcommander.rsi
+  - type: Clothing
+    sprite: Clothing/OuterClothing/Hardsuits/sp14liberatorcommander.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.5
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.6
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.6
+        Slash: 0.6
+        Piercing: 0.5
+        Caustic: 0.6
+        Heat: 0.6
+        Radiation: 0.6
+  - type: ClothingSpeedModifier
+    walkModifier: 0.85
+    sprintModifier: 0.85
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitSP14LiberatorCommander
+
 
 #Captain's Hardsuit
 - type: entity
