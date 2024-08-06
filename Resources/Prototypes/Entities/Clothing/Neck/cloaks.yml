@@ -117,6 +117,17 @@
 
 - type: entity
   parent: ClothingNeckBase
+  id: ClothingNeckCloakSP14Warden
+  name: warden's cloak
+  description: A formal and gilded cloak for intimidating prisoners.
+  components:
+  - type: Sprite
+    sprite: Clothing/Neck/Cloaks/sp14warden.rsi
+  - type: StealTarget
+    stealGroup: HeadCloak
+
+- type: entity
+  parent: ClothingNeckBase
   id: ClothingNeckCloakAdmin
   name: weh cloak
   description: Weh!

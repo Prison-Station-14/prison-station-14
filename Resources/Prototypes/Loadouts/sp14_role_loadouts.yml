@@ -2,12 +2,13 @@
 - type: roleLoadout
   id: JobSPWarden
   groups:
-  - HeadofSecurityHead
-  - HeadofSecurityNeck
-  - HeadofSecurityJumpsuit
+  - SP14WardenHead
+  - SP14WardenNeck
+  - SP14WardenJumpsuit
+  - SP14WardenGloves
   - SecurityBackpack
   - SecurityBelt
-  - HeadofSecurityOuterClothing
+  - HeadofSecurityOuterClothing # tbd: warden winter coat
   - SecurityShoes
   - SurvivalSecurity
   - Trinkets

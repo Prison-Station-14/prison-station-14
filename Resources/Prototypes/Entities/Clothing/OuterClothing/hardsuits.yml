@@ -273,6 +273,36 @@
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitWarden
 
+#SP14 Warden's Hardsuit
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: ClothingOuterHardsuitSP14Warden
+  name: warden's hardsuit
+  description: A specialized riot suit geared to combat low pressure environments.
+  components:
+  - type: Sprite
+    sprite: Clothing/OuterClothing/Hardsuits/sp14warden.rsi
+  - type: Clothing
+    sprite: Clothing/OuterClothing/Hardsuits/sp14warden.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.5
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.5
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.5
+        Slash: 0.6
+        Piercing: 0.5
+        Caustic: 0.7
+  - type: ClothingSpeedModifier
+    walkModifier: 0.7
+    sprintModifier: 0.7
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitSP14Warden
+
 #Captain's Hardsuit
 - type: entity
   parent: ClothingOuterHardsuitBase

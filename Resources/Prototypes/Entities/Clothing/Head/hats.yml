@@ -873,6 +873,22 @@
 
 - type: entity
   parent: ClothingHeadBase
+  id: ClothingHeadHatSP14Wardencap
+  name: warden's cap
+  description: A grand, stylish warden cap.
+  components:
+  - type: Sprite
+    sprite: Clothing/Head/Hats/sp14wardencap.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Hats/sp14wardencap.rsi
+  - type: Tag
+    tags:
+    - ClothMade
+    - WhitelistChameleon
+    - HamsterWearable
+
+- type: entity
+  parent: ClothingHeadBase
   id: ClothingHeadHatCentcomcap
   name: CentCom cap
   description: An extravagant, fancy Central Commander cap.
