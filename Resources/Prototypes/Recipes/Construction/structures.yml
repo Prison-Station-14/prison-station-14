@@ -71,24 +71,6 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: plastitanium wall
-  id: WallPlastitanium
-  graph: Girder
-  startNode: start
-  targetNode: plastitaniumWall
-  category: construction-category-structures
-  description: Keeps the air in and the prisoners trapped.
-  icon:
-    sprite: Structures/Walls/plastitanium.rsi
-    state: full
-  objectType: Structure
-  placementMode: SnapgridCenter
-  canRotate: false
-  canBuildInImpassable: false
-  conditions:
-     - !type:TileNotBlocked
-
-- type: construction
   name: reinforced wall
   id: ReinforcedWall
   graph: Girder

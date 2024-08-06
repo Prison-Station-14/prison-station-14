@@ -11,9 +11,6 @@
   - type: Repairable
     fuelCost: 15
     doAfterDelay: 3
-  - type: Construction
-    graph: Window
-    node: plastitaniumWindow
   - type: Damageable
     damageContainer: StructuralInorganic
     damageModifierSet: RGlass
