@@ -1,0 +1,11 @@
+- type: gameMap
+  id: LiberatorOutpost
+  mapName: Liberator Outpost
+  mapPath: /Maps/SP14/Nonstations/liboutpost.yml
+  minPlayers: 0
+  stations:
+    LiberatorOutpost:
+      stationProto: StandardNukieOutpost
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: "Liberator Outpost"

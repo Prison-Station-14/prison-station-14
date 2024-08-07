@@ -1,0 +1,13 @@
+- type: gamePreset
+  id: Liberator
+  alias:
+    - liberator
+  name: Liberator-title
+  description: Liberator-description
+  showInVote: false
+  rules:
+    - Liberator
+    - SubGamemodesRule
+    - BasicStationEventScheduler
+    - GameRuleMeteorScheduler
+    - BasicRoundstartVariation

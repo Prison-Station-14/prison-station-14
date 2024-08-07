@@ -1,0 +1,47 @@
+- type: entity
+  parent: BaseAntagSpawner
+  name: Liberator spawner
+  id: SpawnPointLiberator
+  components:
+  - type: GhostRole
+    name: roles-antag-liberator-name
+    description: roles-antag-liberator-objective
+    rules: ghost-role-information-liberator-rules
+  - type: Sprite
+    sprite: Markers/jobs.rsi
+    layers:
+      - state: green
+      - sprite: Objects/Misc/handcuffs.rsi
+        state: handcuff
+
+- type: entity
+  parent: BaseAntagSpawner
+  name: lib commander spawner
+  id: SpawnPointLiberatorCommander
+  components:
+  - type: GhostRole
+    name: roles-antag-liberator-commander-name
+    description: roles-antag-liberator-commander-objective
+    rules: ghost-role-information-liberator-rules
+  - type: Sprite
+    sprite: Markers/jobs.rsi
+    layers:
+      - state: green
+      - sprite: Objects/Misc/handcuffs.rsi
+        state: handcuff
+
+- type: entity
+  parent: BaseAntagSpawner
+  name: lib medic spawner
+  id: SpawnPointLiberatorMedic
+  components:
+  - type: GhostRole
+    name: roles-antag-liberator-agent-name
+    description: roles-antag-liberator-agent-objective
+    rules: ghost-role-information-liberator-rules
+  - type: Sprite
+    sprite: Markers/jobs.rsi
+    layers:
+      - state: green
+      - sprite: Objects/Misc/handcuffs.rsi
+        state: handcuff
