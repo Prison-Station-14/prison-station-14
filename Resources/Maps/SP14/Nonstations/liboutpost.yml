@@ -22,23 +22,10 @@ tilemap:
 entities:
 - proto: ""
   entities:
-  - uid: 1
-    components:
-    - type: MetaData
-      name: Map Entity
-    - type: Transform
-    - type: Map
-      mapPaused: True
-    - type: PhysicsMap
-    - type: GridTree
-    - type: MovedGrids
-    - type: Broadphase
-    - type: OccluderTree
-    - type: LoadedMap
   - uid: 2
     components:
     - type: MetaData
-      name: grid
+      name: Liberator Outpost
     - type: Transform
       pos: 0.484375,0.4375
       parent: 1
@@ -494,7 +481,7 @@ entities:
           3,0:
             0: 5
           3,-1:
-            0: 6621
+            0: 4573
           0,-3:
             0: 61056
           0,-2:
@@ -538,8 +525,7 @@ entities:
           5,-5:
             0: 65528
           5,-4:
-            0: 65531
-            1: 4
+            0: 65535
           5,-6:
             0: 34816
           6,-7:
@@ -619,46 +605,31 @@ entities:
           10,-3:
             0: 61182
           9,-1:
-            2: 128
+            1: 128
           10,-1:
-            2: 250
-            3: 4
+            1: 250
+            2: 4
           10,-2:
             0: 14
-            2: 44544
-            3: 16384
+            1: 44544
+            2: 16384
           11,-3:
             0: 16383
           11,-2:
             0: 15
-            2: 28416
-            4: 4096
+            1: 28416
+            3: 4096
           11,-1:
-            4: 1
-            2: 118
+            3: 1
+            1: 118
           12,-2:
             0: 1
-            2: 802
+            1: 802
           12,-3:
-            2: 8192
+            1: 8192
         uniqueMixes:
         - volume: 2500
           temperature: 293.15
-          moles:
-          - 21.824879
-          - 82.10312
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-        - volume: 2500
-          temperature: 293.14975
           moles:
           - 21.824879
           - 82.10312
@@ -720,6 +691,8 @@ entities:
         chunkSize: 4
     - type: GasTileOverlay
     - type: RadiationGridResistance
+    - type: BecomesStation
+      id: LiberatorOutpost
 - proto: AirlockExternalGlassSyndicateLocked
   entities:
   - uid: 573
@@ -6442,6 +6415,31 @@ entities:
     - type: Transform
       pos: 25.5,-16.5
       parent: 2
+  - uid: 1513
+    components:
+    - type: Transform
+      pos: 45.5,-6.5
+      parent: 2
+  - uid: 1514
+    components:
+    - type: Transform
+      pos: 44.5,-6.5
+      parent: 2
+  - uid: 1515
+    components:
+    - type: Transform
+      pos: 43.5,-6.5
+      parent: 2
+  - uid: 1516
+    components:
+    - type: Transform
+      pos: 42.5,-6.5
+      parent: 2
+  - uid: 1517
+    components:
+    - type: Transform
+      pos: 41.5,-6.5
+      parent: 2
 - proto: HandheldHealthAnalyzerUnpowered
   entities:
   - uid: 553
@@ -7768,6 +7766,53 @@ entities:
     components:
     - type: Transform
       pos: 39.5,-18.5
+      parent: 2
+- proto: SpawnPointNukies
+  entities:
+  - uid: 1518
+    components:
+    - type: Transform
+      pos: 27.5,-13.5
+      parent: 2
+  - uid: 1519
+    components:
+    - type: Transform
+      pos: 28.5,-13.5
+      parent: 2
+  - uid: 1520
+    components:
+    - type: Transform
+      pos: 29.5,-13.5
+      parent: 2
+  - uid: 1521
+    components:
+    - type: Transform
+      pos: 30.5,-13.5
+      parent: 2
+  - uid: 1522
+    components:
+    - type: Transform
+      pos: 31.5,-14.5
+      parent: 2
+  - uid: 1523
+    components:
+    - type: Transform
+      pos: 30.5,-16.5
+      parent: 2
+  - uid: 1524
+    components:
+    - type: Transform
+      pos: 29.5,-16.5
+      parent: 2
+  - uid: 1525
+    components:
+    - type: Transform
+      pos: 28.5,-16.5
+      parent: 2
+  - uid: 1526
+    components:
+    - type: Transform
+      pos: 27.5,-16.5
       parent: 2
 - proto: StasisBed
   entities:
