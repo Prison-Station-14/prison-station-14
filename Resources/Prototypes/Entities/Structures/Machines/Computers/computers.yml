@@ -1113,6 +1113,6 @@
   - type: Computer
     board: RoboticsConsoleCircuitboard
   - type: AccessReader # only used for dangerous things
-    access: [["ResearchDirector"]]
+    access: [["ChiefEngineer"]] #HoM access is CE under the hood?
   - type: Lock
     unlockOnClick: false
