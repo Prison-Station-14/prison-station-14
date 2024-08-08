@@ -1,0 +1,22 @@
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitSP14Warden
+  name: warden's jumpsuit
+  description: A red and black jumpsuit with gold engravings showing the status of the Warden.
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpsuit/sp14warden.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpsuit/sp14warden.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitSP14Liberator
+  name: liberator jumpsuit
+  description: A sleek and comfortable jumpsuit for tackling tyrants. For Freedom!
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpsuit/sp14liberator.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpsuit/sp14liberator.rsi
