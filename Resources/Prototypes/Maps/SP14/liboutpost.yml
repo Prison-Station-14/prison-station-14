@@ -1,7 +1,7 @@
 - type: gameMap
   id: LiberatorOutpost
   mapName: Liberator Outpost
-  mapPath: /Maps/SP14/Nonstations/liboutpost.yml
+  mapPath: /Maps/SP14/liboutpost.yml
   minPlayers: 0
   stations:
     LiberatorOutpost:
