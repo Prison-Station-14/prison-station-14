@@ -11,3 +11,14 @@
     - BasicStationEventScheduler
     - GameRuleMeteorScheduler
     - BasicRoundstartVariation
+
+- type: gamePreset
+  id: Lockdown
+  alias:
+    - lockdown
+    - serket
+  name: lockdown-title
+  showInVote: true
+  description: lockdown-description
+  rules:
+    - Lockdown

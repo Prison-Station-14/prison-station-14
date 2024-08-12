@@ -35,6 +35,16 @@ public sealed partial class CCVars : CVars
          * Server
          */
 
+        /// SP14
+
+        /// <summary>
+        /// The prototype to use for sp14's lockdown weights.
+        /// </summary>
+        public static readonly CVarDef<string> LockdownWeightPrototype =
+            CVarDef.Create("game.lockdown_weight_prototype", "Lockdown", CVar.SERVERONLY);
+
+        /// SS14
+
         /// <summary>
         ///     Change this to have the changelog and rules "last seen" date stored separately.
         /// </summary>
@@ -163,7 +173,7 @@ public sealed partial class CCVars : CVars
         ///     Controls the default game preset.
         /// </summary>
         public static readonly CVarDef<string>
-            GameLobbyDefaultPreset = CVarDef.Create("game.defaultpreset", "secret", CVar.ARCHIVE);
+            GameLobbyDefaultPreset = CVarDef.Create("game.defaultpreset", "lockdown", CVar.ARCHIVE);
 
         /// <summary>
         ///     Controls if the game can force a different preset if the current preset's criteria are not met.

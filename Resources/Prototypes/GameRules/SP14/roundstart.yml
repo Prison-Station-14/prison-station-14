@@ -1,4 +1,10 @@
 - type: entity
+  id: Lockdown
+  parent: BaseGameRule
+  components:
+  - type: LockdownRule
+
+- type: entity
   abstract: true
   parent: BaseGameRule
   id: BaseLiberatorRule
