@@ -1150,6 +1150,13 @@ entities:
       rot: 1.5707963267948966 rad
       pos: 12.5,-16.5
       parent: 2
+    - type: DeviceLinkSource
+      linkedPorts:
+        313:
+        - DoorStatus: Close
+        - DockStatus: Close
+    - type: DeviceLinkSink
+      invokeCounter: 1
   - uid: 157
     components:
     - type: Transform
@@ -1180,6 +1187,13 @@ entities:
       rot: -1.5707963267948966 rad
       pos: -12.5,-16.5
       parent: 2
+    - type: DeviceLinkSource
+      linkedPorts:
+        1102:
+        - DoorStatus: Close
+        - DockStatus: Close
+    - type: DeviceLinkSink
+      invokeCounter: 1
 - proto: AirlockExternalGlassSyndicateLocked
   entities:
   - uid: 469
@@ -1219,6 +1233,12 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 10.5,-16.5
       parent: 2
+    - type: DeviceLinkSink
+      invokeCounter: 1
+    - type: DeviceLinkSource
+      linkedPorts:
+        123:
+        - DoorStatus: Close
   - uid: 389
     components:
     - type: Transform
@@ -1259,6 +1279,12 @@ entities:
       rot: 3.141592653589793 rad
       pos: -10.5,-16.5
       parent: 2
+    - type: DeviceLinkSink
+      invokeCounter: 1
+    - type: DeviceLinkSource
+      linkedPorts:
+        1128:
+        - DoorStatus: Close
 - proto: AirlockHatchSyndicate
   entities:
   - uid: 1239
@@ -1357,7 +1383,7 @@ entities:
       pos: 4.5,22.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -9453.73
+      secondsUntilStateChange: -9841.991
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -1493,14 +1519,6 @@ entities:
       rot: 1.5707963267948966 rad
       pos: -2.5,28.5
       parent: 2
-- proto: BikeHornImplanter
-  entities:
-  - uid: 1408
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 5.3461914,-3.435214
-      parent: 2
 - proto: BlastDoorOpen
   entities:
   - uid: 5
@@ -1573,12 +1591,6 @@ entities:
       rot: 3.141592653589793 rad
       pos: -5.5,25.5
       parent: 2
-  - uid: 1783
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 5.5,5.5
-      parent: 2
 - proto: BoxBeaker
   entities:
   - uid: 520
@@ -1622,6 +1634,11 @@ entities:
     components:
     - type: Transform
       pos: -9.5,-16.5
+      parent: 2
+  - uid: 820
+    components:
+    - type: Transform
+      pos: -2.5,-28.5
       parent: 2
   - uid: 832
     components:
@@ -2617,6 +2634,61 @@ entities:
     components:
     - type: Transform
       pos: -11.5,-16.5
+      parent: 2
+  - uid: 1826
+    components:
+    - type: Transform
+      pos: 2.5,-28.5
+      parent: 2
+  - uid: 1827
+    components:
+    - type: Transform
+      pos: -3.5,-24.5
+      parent: 2
+  - uid: 1828
+    components:
+    - type: Transform
+      pos: -3.5,-23.5
+      parent: 2
+  - uid: 1829
+    components:
+    - type: Transform
+      pos: -2.5,-23.5
+      parent: 2
+  - uid: 1830
+    components:
+    - type: Transform
+      pos: -1.5,-23.5
+      parent: 2
+  - uid: 1831
+    components:
+    - type: Transform
+      pos: -0.5,-23.5
+      parent: 2
+  - uid: 1833
+    components:
+    - type: Transform
+      pos: 0.5,-23.5
+      parent: 2
+  - uid: 1834
+    components:
+    - type: Transform
+      pos: 1.5,-23.5
+      parent: 2
+  - uid: 1852
+    components:
+    - type: Transform
+      pos: 2.5,-23.5
+      parent: 2
+  - uid: 1853
+    components:
+    - type: Transform
+      pos: 3.5,-23.5
+      parent: 2
+  - uid: 1854
+    components:
+    - type: Transform
+      pos: 3.5,-24.5
       parent: 2
 - proto: CableHV
   entities:
@@ -5613,6 +5685,10 @@ entities:
       rot: 3.141592653589793 rad
       pos: -1.5,-16.5
       parent: 2
+    - type: GasMixer
+      inletTwoConcentration: 0.78
+      inletOneConcentration: 0.22
+      enabled: True
 - proto: GasPassiveVent
   entities:
   - uid: 198
@@ -6526,24 +6602,32 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 0.5,-16.5
       parent: 2
+    - type: GasPressurePump
+      enabled: True
   - uid: 292
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: -1.5,-15.5
       parent: 2
+    - type: GasPressurePump
+      enabled: True
   - uid: 379
     components:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: -2.5,-17.5
       parent: 2
+    - type: GasPressurePump
+      enabled: True
   - uid: 668
     components:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: -0.5,-17.5
       parent: 2
+    - type: GasPressurePump
+      enabled: True
 - proto: GasVentPump
   entities:
   - uid: 244
@@ -7208,6 +7292,56 @@ entities:
     components:
     - type: Transform
       pos: 10.5,-29.5
+      parent: 2
+- proto: Gyroscope
+  entities:
+  - uid: 1116
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 1.5,-21.5
+      parent: 2
+  - uid: 1117
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 1.5,-22.5
+      parent: 2
+  - uid: 1118
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 0.5,-21.5
+      parent: 2
+  - uid: 1408
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 0.5,-22.5
+      parent: 2
+  - uid: 1486
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: -0.5,-21.5
+      parent: 2
+  - uid: 1823
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: -0.5,-22.5
+      parent: 2
+  - uid: 1824
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: -1.5,-21.5
+      parent: 2
+  - uid: 1825
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: -1.5,-22.5
       parent: 2
 - proto: Handcuffs
   entities:
@@ -9374,13 +9508,6 @@ entities:
     - type: Transform
       pos: 9.5,-10.5
       parent: 2
-  - uid: 820
-    components:
-    - type: Transform
-      pos: 10.5,-11.5
-      parent: 2
-    - type: Thruster
-      enabled: False
   - uid: 821
     components:
     - type: Transform
@@ -9480,6 +9607,11 @@ entities:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: -8.5,-29.5
+      parent: 2
+  - uid: 1783
+    components:
+    - type: Transform
+      pos: 10.5,-11.5
       parent: 2
 - proto: ToolboxElectricalFilled
   entities:
