@@ -1,0 +1,5 @@
+- type: weightedRandom
+  id: Lockdown
+  weights:
+    Liberator: 1
+
