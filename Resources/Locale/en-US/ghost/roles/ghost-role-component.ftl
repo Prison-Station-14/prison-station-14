@@ -238,3 +238,6 @@ ghost-role-information-artifact-description = Enact your eldritch whims. Forcibl
 
 ghost-role-information-syndie-assaultborg-name = Syndicate Assault Borg
 ghost-role-information-syndie-assaultborg-description = Nuclear operatives needs reinforcements. You, a cold silicon killing machine, will help them. More dakka!
+
+#SP14
+ghost-role-information-liberator-rules = You are a [color=red][bold]Team Antagonist[/bold][/color] with all other liberators. Prisoners are not guaranteed to help you.

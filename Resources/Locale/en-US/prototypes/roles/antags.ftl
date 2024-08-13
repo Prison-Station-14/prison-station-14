@@ -36,3 +36,14 @@ roles-antag-thief-objective = Add some NT property to your personal collection w
 
 roles-antag-dragon-name = Space Dragon
 roles-antag-dragon-objective = Create a carp army to take over this quadrant.
+
+#sp14
+
+roles-antag-liberator-commander-name = Liberaton commander
+roles-antag-liberator-commander-objective = Lead the liberation. Ensure resources are properly allocated and the operation is not at risk.
+
+roles-antag-liberator-agent-name = Liberaton agent
+roles-antag-liberator-agent-objective = The liberation efforts finest medic, keep your teammates in the fight.
+
+roles-antag-liberator-name = Liberator
+roles-antag-liberator-objective = break into the prison, break others out.

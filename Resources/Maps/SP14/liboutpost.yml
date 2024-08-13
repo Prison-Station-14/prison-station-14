@@ -130,6 +130,36 @@ entities:
         nodes:
         - node:
             color: '#FFFFFFFF'
+            id: Basalt2
+          decals:
+            238: 17,-20
+            244: 26,-4
+            245: 16,-2
+        - node:
+            color: '#FFFFFFFF'
+            id: Basalt5
+          decals:
+            233: 21,-18
+            243: 27,-7
+        - node:
+            color: '#FFFFFFFF'
+            id: Basalt6
+          decals:
+            239: 23,-15
+            240: 24,-26
+            241: 13,-9
+        - node:
+            color: '#FFFFFFFF'
+            id: Basalt7
+          decals:
+            232: 16,-14
+        - node:
+            color: '#FFFFFFFF'
+            id: Basalt9
+          decals:
+            234: 20,-6
+        - node:
+            color: '#FFFFFFFF'
             id: Bot
           decals:
             204: 33,-22
@@ -482,6 +512,46 @@ entities:
             214: 44,-13
             215: 44,-14
             216: 44,-15
+        - node:
+            color: '#FFFFFFFF'
+            id: Grassc1
+          decals:
+            254: 26,-8
+            255: 19,-20
+            256: 24,-12
+        - node:
+            color: '#FFFFFFFF'
+            id: Grassc3
+          decals:
+            250: 17,-8
+        - node:
+            color: '#FFFFFFFF'
+            id: Grassc4
+          decals:
+            252: 23,-3
+            253: 14,-3
+        - node:
+            color: '#FFFFFFFF'
+            id: Rock02
+          decals:
+            261: 11,-14
+        - node:
+            color: '#FFFFFFFF'
+            id: Rock03
+          decals:
+            262: 8,-15
+        - node:
+            color: '#FFFFFFFF'
+            id: Rock06
+          decals:
+            229: 29,-3
+            230: 11,-18
+            231: 25,-24
+        - node:
+            color: '#FFFFFFFF'
+            id: Rock07
+          decals:
+            228: 20,-7
         - node:
             color: '#FFFFFFFF'
             id: WarnCornerSmallNE
