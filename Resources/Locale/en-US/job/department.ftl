@@ -2,7 +2,10 @@ department-Cargo = Cargo
 department-Civilian = Civilian
 department-Command = Command
 department-Medical = Medical
+department-Engineering = Engineering
+department-Science = Science
 department-Security = Security
+department-Specific = Specific
 
 #PS14
 department-SPCargo = Cargo
