@@ -19,7 +19,7 @@ job-name-engineer = Station Engineer
 job-name-atmostech = Atmospheric Technician
 job-name-hop = Head of Personnel
 job-name-serviceworker = Service Worker
-job-name-centcomoff = CentCom Official
+job-name-centcomoff = CentComm Official
 job-name-reporter = Reporter
 job-name-musician = Musician
 job-name-librarian = Librarian
@@ -68,7 +68,18 @@ job-name-md = Medical Director
 job-name-prisonchef = Prison Chef
 job-name-prison-officer = Prison Officer
 job-name-rookie-officer = Rookie Officer
+
+# unused jobs
+# these are required for the agent ID job icon tooltips
+# I am keeping them for roleplaying opportunities
+job-name-geneticist = Geneticist
+job-name-no-id = No ID
 job-name-prisoner = Prisoner
+job-name-roboticist = Roboticist
+job-name-syndicate = Syndicate
+job-name-unknown = Unknown
+job-name-virologist = Virologist
+job-name-zombie = Zombie
 
 # Role timers - Make these alphabetical or I cut you
 JobAtmosphericTechnician = Atmospheric Technician
