@@ -14,26 +14,26 @@
   equipment: WardenCap
 
 - type: startingGear
-  id: WardenCap
+  id: SP14WardenCap
   equipment:
     head: ClothingHeadHatSP14Wardencap
 
 # Neck
 - type: loadout
-  id: WardenCloak
+  id: SP14WardenCloak
   equipment: WardenCloak
 
 - type: startingGear
-  id: WardenCloak
+  id: SP14WardenCloak
   equipment:
     neck: ClothingNeckCloakSP14Warden
 
 # Hands
 - type: loadout
-  id: WardenCombatGloves
+  id: SP14WardenCombatGloves
   equipment: WardenCombatGloves
 
 - type: startingGear
-  id: WardenCombatGloves
+  id: SP14WardenCombatGloves
   equipment:
     hands: ClothingHandsGlovesCombat

@@ -2,6 +2,7 @@
 - type: roleLoadout
   id: JobSPWarden
   groups:
+  - GroupTankHarness
   - SP14WardenHead
   - SP14WardenNeck
   - SP14WardenJumpsuit
