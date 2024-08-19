@@ -33,3 +33,33 @@
     back:
     - Flash
     - MagazinePistol
+
+- type: startingGear
+  id: ShuttlePrisonOfficerGear
+  equipment:
+    eyes: ClothingEyesGlassesSecurity
+    ears: ClothingHeadsetSecurity
+    pocket1: WeaponPistolMk58
+    jumpsuit: ClothingUniformJumpsuitSec
+  storage:
+    back:
+    - Flash
+    - MagazinePistol
+
+- type: startingGear
+  id: DeadShuttlePrisonOfficerGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitSec
+    back: ClothingBackpackDuffelSecurity
+    mask: ClothingMaskGasSecurity
+    eyes: ClothingEyesHudSecurity
+    ears: ClothingHeadsetSecurity
+    gloves: ClothingHandsGlovesColorBlack
+    outerclothing: ClothingOuterArmorBasic
+    shoes: ClothingShoesBootsCombatFilled
+    id: SecurityPDA
+    belt: ClothingBeltSecurityFilled
+  storage:
+    back:
+    - Flash
+    - MagazinePistol
