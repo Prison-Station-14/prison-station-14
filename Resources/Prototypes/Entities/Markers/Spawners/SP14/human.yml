@@ -6,8 +6,6 @@
   - type: Sprite
     layers:
     - state: green
-    - sprite: /Textures/Interface/Misc/SP14/job_icons.rsi
-    - state: SPPrisoner
   - type: RandomSpawner
     prototypes:
     - RandomHumanoidShuttlePrisoner
@@ -20,8 +18,6 @@
   - type: Sprite
     layers:
     - state: green
-    - sprite: /Textures/Interface/Misc/SP14/job_icons.rsi
-    - state: SPPrisoner
   - type: RandomSpawner
     prototypes:
     - RandomHumanoidShuttlePrisonerOfficer

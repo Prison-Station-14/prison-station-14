@@ -1025,17 +1025,17 @@ entities:
     - type: Transform
       pos: 3.5,-2.5
       parent: 2
-- proto: SpawnPointPrisonOfficer
+- proto: SpawnMobShuttlePrisonOfficer
   entities:
   - uid: 188
     components:
     - type: Transform
-      pos: 4.5,2.5
+      pos: 1.5,1.5
       parent: 2
   - uid: 189
     components:
     - type: Transform
-      pos: 1.5,1.5
+      pos: 4.5,2.5
       parent: 2
 - proto: SubstationWallBasic
   entities:
