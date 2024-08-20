@@ -1,0 +1,9 @@
+- type: entity
+  parent: BasePlushie
+  id: PlushieLib
+  name: Liberator Plushie
+  description: A stuffed toy that resembles a syndicate liberator. The tag claims operatives to be purely fictitious.
+  components:
+    - type: Sprite
+      sprite: Objects/Fun/SP14/toys.rsi
+      state: plushie_lib 
