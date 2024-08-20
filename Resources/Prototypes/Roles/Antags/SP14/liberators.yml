@@ -85,31 +85,9 @@
 
 #Liberator Commander Gear
 - type: startingGear
-  id: SyndicateCommanderGearFull
+  id: LiberatorCommanderGearFull
   parent: SyndicateOperativeGearFull
   equipment:
     neck: ClothingNeckCloakSP14LiberatorCommander
     outerClothing: ClothingOuterHardsuitSP14LiberatorCommander
 
-#Nuclear Operative Medic Gear
-- type: startingGear
-  id: SyndicateOperativeMedicFull
-  parent: SyndicateOperativeGearFull
-  equipment:
-    eyes: ClothingEyesHudSyndicateAgent
-    outerClothing: ClothingOuterHardsuitSP14Liberator
-    shoes: ClothingShoesBootsMagSyndie
-    id: SyndiAgentPDA
-    belt: ClothingBeltMilitaryWebbingMedFilled
-  storage:
-    back:
-    - SyndiHypo
-    - BoxSurvivalSyndicate
-    - SawAdvanced
-    - Cautery
-    - CombatKnife
-    - WeaponPistolViper
-    - PinpointerStation
-    - HandheldHealthAnalyzer
-    - CombatMedipen
-    - DeathAcidifierImplanter

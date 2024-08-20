@@ -20,3 +20,14 @@
     sprite: Clothing/Uniforms/Jumpsuit/sp14liberator.rsi
   - type: Clothing
     sprite: Clothing/Uniforms/Jumpsuit/sp14liberator.rsi
+
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: ClothingUniformJumpskirtSP14Warden
+  name: warden's jumpskirt
+  description: A red and black jumpskirt with gold engravings showing the status of the Warden
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpskirt/sp14wardens.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpskirt/sp14wardens.rsi
