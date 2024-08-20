@@ -1,0 +1,23 @@
+- type: entity
+  name: shuttle prisoner spawner
+  id: SpawnMobShuttlePrisoner
+  parent: MarkerBase
+  components:
+  - type: Sprite
+    layers:
+    - state: green
+  - type: RandomSpawner
+    prototypes:
+    - RandomHumanoidShuttlePrisoner
+
+- type: entity
+  name: shuttle prison officer spawner
+  id: SpawnMobShuttlePrisonOfficer
+  parent: MarkerBase
+  components:
+  - type: Sprite
+    layers:
+    - state: green
+  - type: RandomSpawner
+    prototypes:
+    - RandomHumanoidShuttlePrisonerOfficer

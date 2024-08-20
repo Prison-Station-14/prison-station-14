@@ -1,0 +1,57 @@
+- type: randomHumanoidSettings
+  speciesBlacklist:
+  - Vox
+  parent: EventHumanoid
+  id: ShuttlePrisoner
+  components:
+  - type: InputMover
+  - type: MobMover
+  - type: GhostRole
+    makeSentient: true
+    name: ghost-role-information-prisoner-shuttle-name
+    description: ghost-role-information-prisoner-shuttle-description
+    raffle:
+      settings: short
+  - type: Loadout
+    prototypes: [ PrisonerShuttleGear ]
+    roleLoadout: [ RoleSurvivalStandard ]
+
+- type: startingGear
+  id: PrisonerShuttleGear
+  equipment:
+    id: PassengerPDA
+    ears: ClothingHeadsetGrey
+    shoes: ClothingShoesColorOrange
+    jumpsuit: ClothingUniformJumpsuitPrisoner
+
+- type: randomHumanoidSettings
+  speciesBlacklist:
+  - Vox
+  parent: EventHumanoid
+  id: ShuttlePrisonOfficer
+  components:
+  - type: InputMover
+  - type: MobMover
+  - type: GhostRole
+    name: ghost-role-information-officer-shuttle-name
+    description: ghost-role-information-officer-shuttle-description
+    raffle:
+      settings: short
+  - type: Loadout
+    prototypes: [ ShuttlePrisonOfficerGear ]
+    roleLoadout: [ RoleSurvivalStandard ]
+
+
+- type: entity
+  id: RandomHumanoidShuttlePrisonerOfficer
+  name: shuttle prison officer ghost role
+  components:
+  - type: RandomHumanoidSpawner
+    settings: ShuttlePrisonOfficer
+
+- type: entity
+  id: RandomHumanoidShuttlePrisoner
+  name: shuttle prisoner ghost role
+  components:
+  - type: RandomHumanoidSpawner
+    settings: ShuttlePrisoner  
