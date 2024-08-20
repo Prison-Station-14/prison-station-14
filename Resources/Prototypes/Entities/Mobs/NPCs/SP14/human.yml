@@ -1,10 +1,8 @@
 - type: randomHumanoidSettings
   speciesBlacklist:
   - Vox
-  name: prisoner
   parent: EventHumanoid
   id: ShuttlePrisoner
-  description: Doomed to be in for eternity. Unless..?
   components:
   - type: InputMover
   - type: MobMover
@@ -29,10 +27,8 @@
 - type: randomHumanoidSettings
   speciesBlacklist:
   - Vox
-  name: prison officer
   parent: EventHumanoid
   id: ShuttlePrisonOfficer
-  description: Doomed to be in for eternity. Unless..?
   components:
   - type: InputMover
   - type: MobMover
