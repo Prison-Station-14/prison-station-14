@@ -1,0 +1,12 @@
+- type: entity
+  id: LockerCaptain
+  parent: LockerBaseSecure
+  name: warden's locker
+  components:
+  - type: Appearance
+  - type: EntityStorageVisuals
+    stateBaseClosed: cap
+    stateDoorOpen: sp14warden_open
+    stateDoorClosed: sp14warden_door
+  - type: AccessReader
+    access: [["Warden"]]
