@@ -14,6 +14,16 @@ namespace Content.Shared.CCVar
          * Server
          */
 
+        /// SP14
+
+        /// <summary>
+        /// The prototype to use for sp14's lockdown weights.
+        /// </summary>
+        public static readonly CVarDef<string> LockdownWeightPrototype =
+            CVarDef.Create("game.lockdown_weight_prototype", "Lockdown", CVar.SERVERONLY);
+
+        /// SS14
+
         /// <summary>
         ///     Change this to have the changelog and rules "last seen" date stored separately.
         /// </summary>
@@ -142,7 +152,7 @@ namespace Content.Shared.CCVar
         ///     Controls the default game preset.
         /// </summary>
         public static readonly CVarDef<string>
-            GameLobbyDefaultPreset = CVarDef.Create("game.defaultpreset", "secret", CVar.ARCHIVE);
+            GameLobbyDefaultPreset = CVarDef.Create("game.defaultpreset", "lockdown", CVar.ARCHIVE);
 
         /// <summary>
         ///     Controls if the game can force a different preset if the current preset's criteria are not met.
@@ -1550,7 +1560,7 @@ namespace Content.Shared.CCVar
         /// Any value equal to or less than zero will disable this check.
         /// </summary>
         public static readonly CVarDef<float> FTLMassLimit =
-            CVarDef.Create("shuttle.mass_limit", 300f, CVar.SERVERONLY);
+            CVarDef.Create("shuttle.mass_limit", 650f, CVar.SERVERONLY); /// SP14 doubled mass for liberator shuttle :)
 
         /// <summary>
         /// How long to knock down entities for if they aren't buckled when FTL starts and stops.
