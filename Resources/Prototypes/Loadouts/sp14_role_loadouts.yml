@@ -175,7 +175,7 @@
   groups:
   - GroupTankHarness
   - StationEngineerHead
-  - StationEngineerJumpsuit
+  - SP14MaintenanceJumpsuit
   - StationEngineerBackpack
   - StationEngineerOuterClothing
   - StationEngineerShoes
@@ -189,7 +189,7 @@
   groups:
   - GroupTankHarness
   - JanitorHead
-  - JanitorJumpsuit
+  - SP14MaintenanceJumpsuit
   - JanitorGloves
   - CommonBackpack
   - JanitorOuterClothing

@@ -31,3 +31,10 @@
   loadouts:
   - PrisonJumpsuit
   - PrisonJumpskirt
+
+# Maintenance
+- type: loadoutGroup
+  id: SP14MaintenanceJumpsuit
+  name: loadout-group-sp14maintenance-jumpsuit
+  loadouts:
+  - SP14MaintenanceJumpsuit  

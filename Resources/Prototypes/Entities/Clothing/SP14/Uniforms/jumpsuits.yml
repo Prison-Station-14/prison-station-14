@@ -31,3 +31,14 @@
     sprite: Clothing/Uniforms/Jumpskirt/sp14wardens.rsi
   - type: Clothing
     sprite: Clothing/Uniforms/Jumpskirt/sp14wardens.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitSP14MaintenanceTech
+  name: maintenance jumpsuit
+  description: A professional and slightly sweaty jumpsuit belonging to a (hopefully) hardworking Maintenance worker.
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpsuit/sp14maintenancetech.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpsuit/sp14maintenancetech.rsi
