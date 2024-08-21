@@ -8,6 +8,16 @@
   equipment:
     jumpsuit: ClothingUniformJumpsuitSP14Warden
 
+  type: loadout
+  id: SP14WardenJumpskirt
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtSP14Warden
+
+- type: startingGear
+  id: SP14WardenJumpskirt
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtSP14Warden
+
 # Head
 - type: loadout
   id: WardenCap

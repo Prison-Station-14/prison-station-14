@@ -96,30 +96,6 @@
   - CaptainWintercoat
 
 - type: loadoutGroup
-  id: SP14WardenHead
-  name: loadout-group-sp14warden-head
-  loadouts:
-  - WardenCap
-
-- type: loadoutGroup
-  id: SP14WardenNeck
-  name: loadout-group-sp14warden-head
-  loadouts:
-  - WardenCloak
-
-- type: loadoutGroup
-  id: SP14WardenJumpsuit
-  name: loadout-group-sp14warden-jumpsuit
-  loadouts:
-  - SP14WardenJumpsuit
-
-- type: loadoutGroup
-  id: SP14WardenGloves
-  name: loadout-group-sp14warden-gloves
-  loadouts:
-  - WardenCombatGloves
-
-- type: loadoutGroup
   id: HoPHead
   name: loadout-group-hop-head
   minLimit: 0
@@ -156,14 +132,6 @@
   minLimit: 0
   loadouts:
   - HoPWintercoat
-
-# Inmate
-- type: loadoutGroup
-  id: PrisonerJumpsuit
-  name: loadout-group-prison-jumpsuit
-  loadouts:
-  - PrisonJumpsuit
-  - PrisonJumpskirt
 
 # Civilian
 - type: loadoutGroup
