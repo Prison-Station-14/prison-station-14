@@ -1,0 +1,17 @@
+﻿- type: reaction
+  id: Vestine
+  impact: High
+  priority: 10
+  reactants: #should be complicated to make without proper chem tools, intended for ghetto chem
+    Siderlac:
+      amount: 1 #forced to interact with botany
+    Diphenylmethylamine:
+      amount: 1 #long crafting chain
+    Whiskey:
+      amount: 3 # interaction with bar/alcohol obtaining mechanism
+    Bicaridine:
+      amount: 2
+    Puncturase: # chance of fun raz to deal with, depending on vestine usecase this is either an added bonus or something to deal with
+      amount: 3 # basically chem skillcheck
+  products:
+    Vestine: 3
