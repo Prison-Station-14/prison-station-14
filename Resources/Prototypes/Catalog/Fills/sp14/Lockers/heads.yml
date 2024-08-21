@@ -1,7 +1,7 @@
 type: entity
   id: LockerSP14WardenFilled
   suffix: Filled
-  parent: LockerCaptain
+  parent: LockerSPWarden
   components:
   - type: StorageFill
     contents:
@@ -29,7 +29,7 @@ type: entity
 type: entity
   id: LockerSP14ChiefCustodialOfficerFilled
   suffix: Filled
-  parent: LockerWarden
+  parent: LockerSPChiefCustodial
   components:
   - type: StorageFill
     contents:

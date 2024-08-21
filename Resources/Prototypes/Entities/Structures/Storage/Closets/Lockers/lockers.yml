@@ -311,7 +311,7 @@
 - type: entity
   id: LockerWarden
   parent: LockerBaseSecure
-  name: chief custodial officer's locker
+  name: warden's locker
   components:
   - type: Appearance
   - type: EntityStorageVisuals

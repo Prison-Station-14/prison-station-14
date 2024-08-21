@@ -1,5 +1,6 @@
+# Warden
 - type: entity
-  id: LockerCaptain
+  id: LockerSPWarden
   parent: LockerBaseSecure
   name: warden's locker
   components:
@@ -10,3 +11,17 @@
     stateDoorClosed: sp14warden_door
   - type: AccessReader
     access: [["Warden"]]
+
+# CCO
+- type: entity
+  id: LockerSPChiefCustodial
+  parent: LockerBaseSecure
+  name: chief custodial officer's locker
+  components:
+  - type: Appearance
+  - type: EntityStorageVisuals
+    stateBaseClosed: warden
+    stateDoorOpen: warden_open
+    stateDoorClosed: warden_door
+  - type: AccessReader
+    access: [["Armory"]]
