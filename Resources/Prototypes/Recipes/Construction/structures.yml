@@ -543,25 +543,6 @@
   canRotate: false
 
 - type: construction
-  name: plastitanium window
-  id: PlastitaniumWindow
-  graph: Window
-  startNode: start
-  targetNode: plastitaniumWindow
-  category: construction-category-structures
-  canBuildInImpassable: true
-  description: Extremely hardy window to keep an eye on prisoners with little risk of them reaching you.
-  conditions:
-    - !type:EmptyOrWindowValidInTile
-    - !type:NoWindowsInTile
-  icon:
-    sprite: Structures/Windows/plastitanium_window.rsi
-    state: full
-  objectType: Structure
-  placementMode: SnapgridCenter
-  canRotate: false
-
-- type: construction
   name: shuttle window
   id: ShuttleWindow
   graph: Window

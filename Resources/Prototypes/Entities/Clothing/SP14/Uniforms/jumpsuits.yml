@@ -42,3 +42,26 @@
     sprite: Clothing/Uniforms/Jumpsuit/sp14maintenancetech.rsi
   - type: Clothing
     sprite: Clothing/Uniforms/Jumpsuit/sp14maintenancetech.rsi
+
+type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitSP14ChiefCustodialOfficer
+  name: chief custodial officer's uniform
+  description: A formal security suit for officers complete with Nanotrasen belt buckle.
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpsuit/warden.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpsuit/warden.rsi
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#C12D30"
+        sprite: Clothing/Uniforms/Jumpsuit/color.rsi
+      - state: overlay-inhand-left
+      right:
+      - state: inhand-right
+        color: "#C12D30"
+        sprite: Clothing/Uniforms/Jumpsuit/color.rsi
+      - state: overlay-inhand-right
