@@ -308,6 +308,7 @@ ghost-role-information-pirate-captain-description = Argh matey! You are in charg
 ghost-role-information-artifact-name = Sentient Artifact
 ghost-role-information-artifact-description = Enact your eldritch whims. Forcibly activate your nodes for good or for evil.
 
+<<<<<<< HEAD
 ghost-role-information-tomatokiller-name = Tomato killer
 ghost-role-information-tomatokiller-description = This little tomato will serve the botanist for the rest of his life... that is, a couple of minutes
 
@@ -315,3 +316,10 @@ ghost-role-information-gingerbread-name = Gingerbread Man
 ghost-role-information-gingerbread-description = A being of pure holiday spirit.
                                      Spread molassesy goodness and to all good cheer.
 
+=======
+ghost-role-information-syndie-assaultborg-name = Syndicate Assault Borg
+ghost-role-information-syndie-assaultborg-description = Nuclear operatives needs reinforcements. You, a cold silicon killing machine, will help them. More dakka!
+
+#SP14
+ghost-role-information-liberator-rules = You are a [color=red][bold]Team Antagonist[/bold][/color] with all other liberators. Prisoners are not guaranteed to help you.
+>>>>>>> 3d3f41dede (added localisation)

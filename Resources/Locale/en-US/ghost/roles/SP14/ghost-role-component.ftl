@@ -1,0 +1,1 @@
+ghost-role-information-liberator-rules = You are a [color=red][bold]Team Antagonist[/bold][/color] with all other liberators. Prisoners are not guaranteed to help you.
