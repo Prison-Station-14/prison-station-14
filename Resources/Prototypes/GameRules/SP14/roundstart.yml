@@ -43,9 +43,8 @@
       - type: NpcFactionMember
         factions:
         - Syndicate
-      mindComponents:
-      - type: NukeopsRole
-        prototype: LiberatorCommander
+      mindRoles:
+      - MindRoleNukeopsCommander
     - prefRoles: [ LiberatorMedic ]
       fallbackRoles: [ Liberator, LiberatorCommander ]
       spawnerPrototype: SpawnPointLiberatorMedic
@@ -59,9 +58,8 @@
       - type: NpcFactionMember
         factions:
         - Syndicate
-      mindComponents:
-      - type: NukeopsRole
-        prototype: LiberatorMedic
+      mindRoles:
+      - MindRoleNukeopsMedic
     - prefRoles: [ Liberator ]
       fallbackRoles: [ LiberatorCommander, LiberatorMedic ]
       spawnerPrototype: SpawnPointLiberator
@@ -75,6 +73,5 @@
       - type: NpcFactionMember
         factions:
         - Syndicate
-      mindComponents:
-      - type: NukeopsRole
-        prototype: Liberator
+      mindRoles:
+      - MindRoleNukeops
