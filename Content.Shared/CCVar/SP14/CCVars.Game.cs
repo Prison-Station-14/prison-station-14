@@ -10,4 +10,10 @@ public sealed partial class CCVars
         /// </summary>
         public static readonly CVarDef<string> LockdownWeightPrototype =
             CVarDef.Create("game.lockdown_weight_prototype", "Lockdown", CVar.SERVERONLY);
+
+        /// <summary>
+        ///     The default loaded preset.
+        /// </summary>
+                public static readonly CVarDef<string>
+            GameLobbyDefaultPreset = CVarDef.Create("game.defaultpreset", "lockdown", CVar.ARCHIVE);
 }
