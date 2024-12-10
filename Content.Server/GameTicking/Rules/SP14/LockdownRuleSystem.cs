@@ -15,8 +15,6 @@ using Robust.Shared.Utility;
 
 namespace Content.Server.GameTicking.Rules;
 
-// is this wildly inefficient? yes. do i care? not really.
-
 public sealed class LockdownRuleSystem : GameRuleSystem<LockdownRuleComponent>
 {
     [Dependency] private readonly IPrototypeManager _prototypeManager = default!;
