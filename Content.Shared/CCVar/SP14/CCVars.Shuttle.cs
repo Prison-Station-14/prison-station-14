@@ -9,5 +9,5 @@ public sealed partial class CCVars
     ///     Any value equal to or less than zero will disable this check.
     /// </summary>
     public static readonly CVarDef<float> FTLMassLimit =
-        CVarDef.Create("shuttle.mass_limit", 600f, CVar.SERVERONLY);
+        CVarDef.Create("shuttle.mass_limit", 700f, CVar.SERVERONLY);
 }
