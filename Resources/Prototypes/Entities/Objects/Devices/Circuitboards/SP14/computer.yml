@@ -1,0 +1,12 @@
+- type: entity
+  parent: BaseComputerCircuitboard
+  id: LiberatorRequestComputerCircuitboard
+  name: liberator request computer board
+  description: A computer printed circuit board for a liberator request computer.
+  components:
+    - type: Sprite
+      state: cpu_supply
+    - type: ComputerBoard
+      prototype: ComputerCargoOrders
+    - type: StaticPrice
+      price: 750

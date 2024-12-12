@@ -38,7 +38,7 @@ entities:
   - uid: 2
     components:
     - type: MetaData
-      name: grid
+      name: Liberator Outpost
     - type: Transform
       pos: 0.484375,0.4375
       parent: 1

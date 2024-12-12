@@ -1,0 +1,56 @@
+- type: entity
+  id: ComputerLiberatorOrders
+  parent: [BaseComputerAiAccess, StorePresetLiberator]
+  name: liberator request computer
+  description: Used to order supplies and onboard members.
+  components:
+  - type: Sprite
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer
+    - map: ["computerLayerKeyboard"]
+      state: generic_keyboard
+    - map: ["computerLayerScreen"]
+      state: request
+    - map: ["computerLayerKeys"]
+      state: tech_key
+    - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      state: generic_panel_open
+#  - type: CargoOrderConsole //stuff i might need later
+#  - type: BankClient
+#  - type: ActiveRadio //add prisoner conversion announcments?
+#    channels:
+#    - Supply
+#  - type: ActivatableUI
+#    key: enum.CargoConsoleUiKey.Orders //stuff i might need later
+  - type: UserInterface
+    interfaces:
+      enum.StoreUiKey.Key:
+        type: StoreBoundUserInterface
+      enum.WiresUiKey.Key:
+        type: WiresBoundUserInterface
+  - type: ActivatableUI
+    key: enum.StoreUiKey.Key
+  - type: Store
+    balance:
+      Telecrystal: 0
+  - type: Computer
+    board: LiberatorRequestComputerCircuitboard
+  - type: PointLight
+    radius: 1.5
+    energy: 1.6
+    color: "#b89f25"
+  - type: AccessReader
+    access: [["Syndicate"]]
+  - type: DeviceNetwork
+    deviceNetId: Wireless
+    receiveFrequencyId: BasicDevice
+  - type: WirelessNetworkConnection
+    range: 200
+  - type: DeviceLinkSource
+    range: 200
+#    ports: //stuff i might need later
+#      - OrderSender
+#  - type: GuideHelp
+#    guides:
+#    - Cargo

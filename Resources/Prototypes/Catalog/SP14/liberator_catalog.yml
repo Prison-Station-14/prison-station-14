@@ -1,0 +1,37 @@
+- type: listing
+  id: UplinkRevolverPython
+  name: uplink-revolver-python-name
+  description: uplink-revolver-python-desc
+  productEntity: WeaponRevolverPythonAP
+  discountCategory: usualDiscounts
+  discountDownTo:
+    Telecrystal: 4
+  cost:
+    Telecrystal: 8 # Originally was 13 TC but was not used due to high cost
+  categories:
+  - LiberatorBase
+
+- type: listing
+  id: UplinkLiberatorConvert
+  name: uplink-syndicate-liberator-convert-name
+  description: uplink-syndicate-liberator-convert-desc
+#  icon: { sprite:  Objects/Misc/monkeycube.rsi, state: box}
+#  discountCategory: rareDiscounts
+#  discountDownTo:
+#    Telecrystal: 4
+  productEvent: 
+    - !type:OnIrradiatedEvent
+      FrameTime: 20
+      RadsPerSecond: 5000
+  productEntity: WeaponRevolverPythonAP
+  cost:
+    Telecrystal: 0
+  categories:
+  - LiberatorBase
+  conditions:
+#  - !type:BuyerJobCondition # We can't use BuyerDepartmentCondition here since Zookeeper and Chef can also get this
+#    whitelist:
+#    - Zookeeper
+#    - Scientist
+#    - ResearchDirector
+#    - Chef

@@ -1,0 +1,5 @@
+#liberator categoires
+- type: storeCategory
+  id: LiberatorBase
+  name: liberator-category-base
+  priority: 0
