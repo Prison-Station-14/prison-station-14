@@ -1,0 +1,25 @@
+- type: gamePreset
+  id: Liberator
+  alias:
+    - liberator
+  name: Liberator-title
+  description: Liberator-description
+  showInVote: false
+  rules:
+    - Liberator
+    - SubGamemodesRule
+    - BasicStationEventScheduler
+    - MeteorSwarmScheduler
+    - SpaceTrafficControlEventScheduler
+    - BasicRoundstartVariation
+
+- type: gamePreset
+  id: Lockdown
+  alias:
+    - lockdown
+    - serket
+  name: lockdown-title
+  showInVote: true
+  description: lockdown-description
+  rules:
+    - Lockdown

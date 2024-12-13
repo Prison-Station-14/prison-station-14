@@ -1,0 +1,12 @@
+- type: entity
+  id: StorePresetLiberator
+  abstract: true
+  components:
+  - type: Store
+    name: store-preset-name-liberator
+    categories:
+    - LiberatorBase
+    currencyWhitelist:
+    - Telecrystal
+    balance:
+      Telecrystal: 0

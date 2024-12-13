@@ -29,11 +29,15 @@ public sealed partial class CCVars
         public static readonly CVarDef<bool>
             GameDisallowLateJoins = CVarDef.Create("game.disallowlatejoins", false, CVar.ARCHIVE | CVar.SERVERONLY);
 
+///                     !!!REDEFINED BY SP14!!! 
+
         /// <summary>
         ///     Controls the default game preset.
         /// </summary>
-        public static readonly CVarDef<string>
-            GameLobbyDefaultPreset = CVarDef.Create("game.defaultpreset", "secret", CVar.ARCHIVE);
+///        public static readonly CVarDef<string>
+///            GameLobbyDefaultPreset = CVarDef.Create("game.defaultpreset", "secret", CVar.ARCHIVE);
+
+///                     !!!                 !!!
 
         /// <summary>
         ///     Controls if the game can force a different preset if the current preset's criteria are not met.
