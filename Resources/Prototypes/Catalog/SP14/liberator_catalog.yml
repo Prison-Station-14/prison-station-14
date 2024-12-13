@@ -19,10 +19,7 @@
 #  discountCategory: rareDiscounts
 #  discountDownTo:
 #    Telecrystal: 4
-  productEvent: 
-    - !type:OnIrradiatedEvent
-      FrameTime: 20
-      RadsPerSecond: 5000
+  productEvent: !type:LiberatorConvertEvent
   productEntity: WeaponRevolverPythonAP
   cost:
     Telecrystal: 0
