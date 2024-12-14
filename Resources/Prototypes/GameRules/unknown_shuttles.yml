@@ -60,21 +60,3 @@
     weight: 2
   - type: LoadMapRule
     preloadedGrid: Honki
-
-- type: entity
-  parent: BaseUnknownShuttleRule
-  id: UnknownShuttleSP14Transfer
-  components:
-  - type: StationEvent
-    weight: 5
-  - type: LoadMapRule
-    preloadedGrid: ShuttleTransfer
-
-- type: entity
-  parent: BaseUnknownShuttleRule
-  id: UnknownShuttleSP14TransferMutiny
-  components:
-  - type: StationEvent
-    weight: 5
-  - type: LoadMapRule
-    preloadedGrid: ShuttleTransferMutinied

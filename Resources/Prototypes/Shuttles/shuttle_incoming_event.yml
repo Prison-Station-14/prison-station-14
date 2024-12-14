@@ -17,14 +17,3 @@
   id: Honki
   path: /Maps/Shuttles/ShuttleEvent/honki.yml
   copies: 1
-
-- type: preloadedGrid
-  id: ShuttleTransfer
-  path: /Maps/Shuttles/ShuttleEvent/SP14/transfer_shuttle.yml
-  copies: 1
-
-- type: preloadedGrid
-  id: ShuttleTransferMutinied
-  path: /Maps/Shuttles/ShuttleEvent/SP14/mutinied_transfer_shuttle.yml
-  copies: 1
-
