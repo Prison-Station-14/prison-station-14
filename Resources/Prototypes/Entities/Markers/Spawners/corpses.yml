@@ -90,19 +90,6 @@
       - MobRandomSecurityCorpse
 
 - type: entity
-  name: Random Prison Officer Corpse Spawner
-  id: RandomPrisonOfficerCorpseSpawner
-  parent: SalvageHumanCorpseSpawner
-  components:
-  - type: Sprite
-    layers:
-      - state: security_officer
-      - state: green
-  - type: ConditionalSpawner
-    prototypes:
-      - MobRandomPrisonOfficerCorpse
-
-- type: entity
   name: Random Command Corpse Spawner
   id: RandomCommandCorpseSpawner
   parent: SalvageHumanCorpseSpawner
