@@ -44,7 +44,7 @@
   id: ChiefCustodialOfficerGear
   equipment:
     eyes: ClothingEyesGlassesSecurity
-    id: HoSPDA
+    id: CCOPDA
     gloves: ClothingHandsGlovesCombat
     ears: ClothingHeadsetAltSecurity
     pocket1: WeaponPistolMk58

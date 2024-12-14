@@ -1,0 +1,282 @@
+#Command
+- type: entity
+  parent: IDCardStandard
+  id: SPWardenIDCard
+  name: warden ID card
+  suffix: SP
+  components:
+  - type: Sprite
+    layers:
+    - state: default
+    - state: idwarden
+  - type: PresetIdCard
+    job: SPWarden
+
+- type: entity
+  parent: IDCardStandard
+  id: WOIDCard
+  name: welfare officer ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: silver
+    - state: idheadofpersonnel
+  - type: Item
+    heldPrefix: silver
+  - type: PresetIdCard
+    job: WelfareOfficer
+#Guards
+- type: entity
+  parent: PassengerIDCard
+  id: RookieOfficerIDCard
+  name: rookie officer ID card
+  components:
+  - type: PresetIdCard
+    job: RookieOfficer
+  - type: Sprite
+    layers:
+    - state: default
+    - state: idintern-cadet
+
+- type: entity
+  parent: IDCardStandard
+  id: PrisonOfficerIDCard
+  name: Prison Officer ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: default
+    - state: idsecurityofficer
+  - type: PresetIdCard
+    job: PrisonOfficer
+
+- type: entity
+  parent: IDCardStandard
+  id: CCOIDCard
+  name: chief custodial officer ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: silver
+    - state: idheadofsecurity
+  - type: Item
+    heldPrefix: silver
+  - type: PresetIdCard
+    job: ChiefCustodialOfficer
+
+- type: entity
+  parent: IDCardStandard
+  id: InspectorIDCard
+  name: inspector ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: default
+    - state: iddetective
+  - type: PresetIdCard
+    job: Inspector
+#infirmary
+- type: entity
+  parent: IDCardStandard
+  id: InfirmaryDoctorIDCard
+  name: infirmary doctor ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: default
+    - state: idmedicaldoctor
+  - type: PresetIdCard
+    job: InfirmaryDoctor
+
+- type: entity
+  parent: IDCardStandard
+  id: SPChemistIDCard
+  name: chemist ID card
+  suffix: SP
+  components:
+  - type: Sprite
+    layers:
+    - state: default
+    - state: idchemist
+  - type: PresetIdCard
+    job: SPChemist
+
+- type: entity
+  parent: IDCardStandard
+  id: MDIDCard
+  name: medical director ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: silver
+    - state: idchiefmedicalofficer
+  - type: Item
+    heldPrefix: silver
+  - type: PresetIdCard
+    job: MedicalDirector
+
+- type: entity
+  parent: IDCardStandard
+  id: SPPsychologistIDCard
+  name: psychologist ID card
+  suffix: SP
+  components:
+  - type: Sprite
+    layers:
+    - state: default
+    - state: idpsychologist
+  - type: PresetIdCard
+    job: SPPsychologist
+#Inmate
+- type: entity
+  parent: IDCardStandard
+  id: PrisonerIDCard
+  name: prisoner ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: orange
+    - state: idpassenger
+  - type: PresetIdCard
+    job: Prisoner
+
+- type: entity
+  parent: IDCardStandard
+  id: PrisonChefIDCard
+  name: prison chef ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: orange
+    - state: idcook
+  - type: PresetIdCard
+    job: PrisonChef
+
+- type: entity
+  parent: IDCardStandard
+  id: GardenerIDCard
+  name: gardener ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: orange
+    - state: idbotanist
+  - type: PresetIdCard
+    job: Gardener
+#Maintenance
+- type: entity
+  parent: IDCardStandard
+  id: MaintenanceEngineerIDCard
+  name: maintenance engineer ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: default
+    - state: idstationengineer
+  - type: PresetIdCard
+    job: MaintenanceEngineer
+
+- type: entity
+  parent: IDCardStandard
+  id: MaintenanceWorkerIDCard
+  name: maintenance worker ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: default
+    - state: idjanitor
+  - type: PresetIdCard
+    job: MaintenanceWorker
+
+- type: entity
+  parent: IDCardStandard
+  id: HoMIDCard
+  name: head of maintenance ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: silver
+    - state: idchiefengineer
+  - type: Item
+    heldPrefix: silver
+  - type: PresetIdCard
+    job: HeadOfMaintenance
+
+- type: entity
+  parent: IDCardStandard
+  id: AtmosSpecIDCard
+  name: atmospheric specialist ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: default
+    - state: idatmospherictechnician
+  - type: PresetIdCard
+    job: AtmosphericSpecialist
+#Cargo
+- type: entity
+  parent: IDCardStandard
+  id: SPCargoIDCard
+  name: cargo ID card
+  suffix: SP
+  components:
+  - type: Sprite
+    layers:
+    - state: default
+    - state: idcargotechnician
+  - type: PresetIdCard
+    job: SPCargoTechnician
+
+- type: entity
+  parent: IDCardStandard
+  id: SPQuartermasterIDCard
+  name: quartermaster ID card
+  suffix: SP
+  components:
+  - type: Sprite
+    layers:
+    - state: silver
+    - state: idquartermaster
+  - type: Item
+    heldPrefix: silver
+  - type: PresetIdCard
+    job: SPQuartermaster
+#Civilian
+- type: entity
+  parent: IDCardStandard
+  id: SPClownIDCard
+  name: clown ID card
+  suffix: SP
+  components:
+  - type: Sprite
+    layers:
+    - state: default
+    - state: idclown
+  - type: PresetIdCard
+    job: SPClown
+
+- type: entity
+  parent: IDCardStandard
+  id: SPChaplainIDCard
+  name: chaplain ID card
+  suffix: SP
+  components:
+  - type: Sprite
+    layers:
+    - state: default
+    - state: idchaplain
+  - type: PresetIdCard
+    job: SPChaplain
+
+- type: entity
+  parent: IDCardStandard
+  id: SPReporterIDCard
+  name: reporter ID card
+  suffix: SP
+  components:
+  - type: Sprite
+    layers:
+    - state: default
+    - state: idreporter
+  - type: PresetIdCard
+    job: SPReporter

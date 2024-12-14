@@ -39,7 +39,7 @@
 - type: startingGear
   id: MDGear
   equipment:
-    id: CMOPDA
+    id: MDPDA
     ears: ClothingHeadsetCMO
     belt: ClothingBeltMedicalFilled
   storage:

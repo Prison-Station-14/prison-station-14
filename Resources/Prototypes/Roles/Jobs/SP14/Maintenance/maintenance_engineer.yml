@@ -22,6 +22,7 @@
   id: MaintenanceEngineerGear
   equipment:
     eyes: ClothingEyesGlassesMeson
+    id: MaintenanceEngineerPDA
     belt: ClothingBeltUtilityEngineering
     ears: ClothingHeadsetEngineering
   #storage:

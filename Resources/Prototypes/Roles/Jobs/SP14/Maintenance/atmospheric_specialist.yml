@@ -21,7 +21,7 @@
   id: AtmosphericSpecialistGear
   equipment:
     eyes: ClothingEyesGlassesMeson
-    id: AtmosPDA
+    id: AtmosSpecPDA
     belt: ClothingBeltUtilityEngineering
     ears: ClothingHeadsetEngineering
   #storage:

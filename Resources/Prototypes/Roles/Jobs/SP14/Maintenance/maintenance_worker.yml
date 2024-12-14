@@ -20,7 +20,7 @@
   id: MaintenanceWorkerGear
   equipment:
     shoes: ClothingShoesGaloshes
-    id: JanitorPDA
+    id: MaintenanceWorkerPDA
     ears: ClothingHeadsetService
     belt: ClothingBeltJanitorFilled
   #storage:

@@ -40,7 +40,7 @@
 - type: startingGear
   id: HOMGear
   equipment:
-    id: CEPDA
+    id: HoMPDA
     eyes: ClothingEyesGlassesMeson
     ears: ClothingHeadsetCE
     belt: ClothingBeltUtilityEngineering
