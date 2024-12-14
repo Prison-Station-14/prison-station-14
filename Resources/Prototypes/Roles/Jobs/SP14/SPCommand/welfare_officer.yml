@@ -60,7 +60,7 @@
   id: WOGear
   equipment:
     shoes: ClothingShoesColorBrown
-    id: HOPDA
+    id: WOPDA
     gloves: ClothingHandsGlovesHop
     ears: ClothingHeadsetAltCommand
     belt: BoxFolderClipboard
