@@ -30,7 +30,7 @@
   equipment:
     shoes: ClothingShoesBootsCombatFilled
     outerClothing: ClothingOuterArmorBasic
-    id: SecurityCadetPDA
+    id: RookieOfficerPDA
     ears: ClothingHeadsetSecurity
     belt: ClothingBeltSecurityFilled
     pocket1: WeaponPistolMk58

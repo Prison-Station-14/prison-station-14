@@ -1,0 +1,390 @@
+#Command
+- type: entity
+  parent: BaseSecurityPDA
+  id: SPWardenPDA
+  name: warden PDA
+  suffix: SP
+  description: The OS appears to have been jailbroken.
+  components:
+  - type: Pda
+    id: SPWardenIDCard
+    state: pda-warden
+  - type: PdaBorderColor
+    borderColor: "#A32D26"
+    accentVColor: "#949137"
+  - type: Icon
+    state: pda-warden
+
+- type: entity
+  parent: BasePDA
+  id: WOPDA
+  name: welfare officer PDA
+  description: Looks like it's been chewed on.
+  components:
+  - type: Pda
+    id: WOIDCard
+    state: pda-hop
+    penSlot:
+      startingItem: PenHop
+      priority: -1
+      whitelist:
+        tags:
+        - Write
+  - type: PdaBorderColor
+    borderColor: "#789876"
+    accentHColor: "#447987"
+  - type: Icon
+    state: pda-hop
+#Guard
+- type: entity
+  parent: BaseSecurityPDA
+  id: RookieOfficerPDA
+  name: rookie officer PDA
+  description: Why isn't it red?
+  components:
+  - type: Pda
+    id: RookieOfficerIDCard
+    state: pda-interncadet
+  - type: PdaBorderColor
+    borderColor: "#717059"
+    accentVColor: "#A32D26"
+  - type: Icon
+    state: pda-interncadet
+
+- type: entity
+  parent: BaseSecurityPDA
+  id: CCOPDA
+  name: chief custodial officer PDA
+  description: Whosoever bears this PDA is the law.
+  components:
+  - type: Pda
+    id: CCOIDCard
+    state: pda-hos
+  - type: PdaBorderColor
+    borderColor: "#A32D26"
+    accentHColor: "#447987"
+  - type: Icon
+    state: pda-hos
+  - type: CartridgeLoader
+    preinstalled:
+    - CrewManifestCartridge
+    - NotekeeperCartridge
+    - NewsReaderCartridge
+    - WantedListCartridge
+    - LogProbeCartridge
+
+- type: entity
+  parent: BasePDA
+  id: PrisonOfficerPDA
+  name: prison officer PDA
+  description: Red to hide the stains of prisoner blood.
+  components:
+  - type: Pda
+    id: PrisonOfficerIDCard
+    state: pda-security
+  - type: PdaBorderColor
+    borderColor: "#A32D26"
+  - type: Icon
+    state: pda-security
+
+- type: entity
+  parent: BaseSecurityPDA
+  id: InspectorPDA
+  name: Inspector PDA
+  description: Smells like rain... pouring down the rooftops...
+  components:
+  - type: Pda
+    id: InspectorIDCard
+    state: pda-detective
+  - type: PdaBorderColor
+    borderColor: "#774705"
+  - type: Icon
+    state: pda-detective
+  - type: CartridgeLoader
+    preinstalled:
+    - CrewManifestCartridge
+    - NotekeeperCartridge
+    - NewsReaderCartridge
+    - WantedListCartridge
+    - LogProbeCartridge
+#Infirmary
+- type: entity
+  parent: BaseMedicalPDA
+  id: InfirmaryDoctorPDA
+  name: infirmary doctor PDA
+  description: Shiny and sterile.
+  components:
+  - type: Pda
+    id: InfirmaryDoctorIDCard
+    state: pda-medical
+  - type: PdaBorderColor
+    borderColor: "#d7d7d0"
+    accentVColor: "#447987"
+  - type: Icon
+    state: pda-medical
+  - type: GuideHelp
+    guides:
+    - Medical Doctor
+
+- type: entity
+  parent: BaseMedicalPDA
+  id: SPChemistryPDA
+  name: chemistry PDA
+  suffix: SP
+  description: It has a few discolored blotches here and there.
+  components:
+  - type: Pda
+    id: SPChemistIDCard
+    state: pda-chemistry
+  - type: PdaBorderColor
+    borderColor: "#d7d7d0"
+    accentVColor: "#B34200"
+  - type: Icon
+    state: pda-chemistry
+
+- type: entity
+  parent: BaseMedicalPDA
+  id: MDPDA
+  name: medical director PDA
+  description: Extraordinarily shiny and sterile.
+  components:
+  - type: Pda
+    id: MDIDCard
+    state: pda-cmo
+  - type: PdaBorderColor
+    borderColor: "#d7d7d0"
+    accentHColor: "#447987"
+    accentVColor: "#447987"
+  - type: Icon
+    state: pda-cmo
+
+- type: entity
+  parent: BasePDA
+  id: SPPsychologistPDA
+  name: psychologist PDA
+  suffix: SP
+  description: Looks immaculately cleaned.
+  components:
+  - type: Pda
+    id: SPPsychologistIDCard
+    state: pda-medical
+  - type: PdaBorderColor
+    borderColor: "#d7d7d0"
+    accentVColor: "#447987"
+  - type: Icon
+    state: pda-medical
+#Inmate
+- type: entity
+  parent: BasePDA
+  id: PrisonerPDA
+  name: prisoner PDA
+  description: Why isn't it orange? #change if we get actual prisoner PDA sprites
+  components:
+  - type: Pda
+    id: PrisonerIDCard
+    state: pda
+  - type: PdaBorderColor
+    borderColor: "#717059"
+
+- type: entity
+  parent: BasePDA
+  id: PrisonChefPDA
+  name: prison chef PDA
+  description: Covered in grease and slop.
+  components:
+  - type: Pda
+    id: PrisonChefIDCard
+    state: pda-cook
+  - type: PdaBorderColor
+    borderColor: "#d7d7d0"
+  - type: Icon
+    state: pda-cook
+  - type: ReplacementAccent # for random sentience event
+    accent: italian
+
+- type: entity
+  parent: BasePDA
+  id: GardenerPDA
+  name: gardener PDA
+  description: Has an earthy scent.
+  components:
+  - type: Pda
+    id: GardenerIDCard
+    state: pda-hydro
+  - type: PdaBorderColor
+    borderColor: "#44843c"
+    accentVColor: "#00cc35"
+  - type: Icon
+    state: pda-hydro
+#Maintenance
+- type: entity
+  parent: BasePDA
+  id: MaintenanceEngineerPDA
+  name: maintenance engineer PDA
+  description: Rugged and well-worn.
+  components:
+  - type: Pda
+    id: MaintenanceEngineerIDCard
+    state: pda-engineer
+  - type: PdaBorderColor
+    borderColor: "#949137"
+    accentVColor: "#A32D26"
+  - type: Icon
+    state: pda-engineer
+
+- type: entity
+  parent: BasePDA
+  id: MaintenanceWorkerPDA
+  name: maintenance worker PDA
+  description: Smells like bleach.
+  components:
+  - type: Pda
+    id: MaintenanceWorkerIDCard
+    state: pda-janitor
+  - type: PdaBorderColor
+    borderColor: "#5D2D56"
+  - type: Icon
+    state: pda-janitor
+
+- type: entity
+  parent: BasePDA
+  id: HoMPDA
+  name: head of maintenance PDA
+  description: Looks like it's barely been used.
+  components:
+  - type: Pda
+    id: HoMIDCard
+    state: pda-ce
+  - type: PdaBorderColor
+    borderColor: "#949137"
+    accentHColor: "#447987"
+  - type: Icon
+    state: pda-ce
+
+- type: entity
+  parent: BasePDA
+  id: AtmosSpecPDA
+  name: atmospheric specialist PDA
+  description: Still smells like plasma.
+  components:
+  - type: Pda
+    id: AtmosSpecIDCard
+    state: pda-atmos
+  - type: PdaBorderColor
+    borderColor: "#949137"
+    accentVColor: "#447987"
+  - type: Icon
+    state: pda-atmos
+#Cargo
+- type: entity
+  parent: BasePDA
+  id: SPCargoPDA
+  name: cargo PDA
+  suffix: SP
+  description: PDA for the guys that order the pizzas.
+  components:
+  - type: Pda
+    id: SPCargoIDCard
+    state: pda-cargo
+  - type: PdaBorderColor
+    borderColor: "#e39751"
+  - type: Icon
+    state: pda-cargo
+
+- type: entity
+  name: quartermaster PDA
+  suffix: SP
+  parent: BasePDA
+  id: SPQuartermasterPDA
+  description: PDA for the guy that orders the guns.
+  components:
+  - type: Pda
+    id: SPQuartermasterIDCard
+    state: pda-qm
+  - type: PdaBorderColor
+    borderColor: "#e39751"
+    accentVColor: "#a23e3e"
+  - type: Icon
+    state: pda-qm
+#Civilian
+- type: entity
+  parent: BasePDA
+  id: SPClownPDA
+  name: clown PDA
+  suffix: SP
+  description: Who decided we should put a clown in a damn prison?!
+  components:
+  - type: Pda
+    id: SPClownIDCard
+    state: pda-clown
+    penSlot:
+      startingItem: CrayonOrange # no pink crayon?!?
+      # ^ Still unacceptable.
+      # ^ I would have to concur.
+      ejectSound: /Audio/Items/bikehorn.ogg
+      priority: -1
+      whitelist:
+        tags:
+        - Write
+  - type: PdaBorderColor
+    borderColor: "#C18199"
+  - type: Icon
+    state: pda-clown
+  - type: Slippery # secretly made of bananium
+  - type: StepTrigger
+  - type: CollisionWake
+    enabled: false
+  - type: Physics
+    bodyType: Dynamic
+  - type: Fixtures
+    fixtures:
+      slips:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.4,-0.3,0.4,0.3"
+        hard: false
+        layer:
+        - SlipLayer
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.4,-0.3,0.4,0.3"
+        density: 5
+        mask:
+        - ItemMask
+
+- type: entity
+  name: chaplain PDA
+  suffix: SP
+  parent: BasePDA
+  id: SPChaplainPDA
+  description: God's chosen PDA.
+  components:
+  - type: Pda
+    id: SPChaplainIDCard
+    state: pda-chaplain
+  - type: PdaBorderColor
+    borderColor: "#333333"
+  - type: Icon
+    state: pda-chaplain
+
+- type: entity
+  parent: BasePDA
+  id: SPReporterPDA
+  name: reporter PDA
+  suffix: SP
+  description: Smells like freshly printed press.
+  components:
+  - type: Pda
+    id: SPReporterIDCard
+    state: pda-reporter
+    penSlot:
+      startingItem: LuxuryPen
+      priority: -1
+      whitelist:
+        tags:
+        - Write
+  - type: PdaBorderColor
+    borderColor: "#3f3f74"
+  - type: Icon
+    state: pda-reporter

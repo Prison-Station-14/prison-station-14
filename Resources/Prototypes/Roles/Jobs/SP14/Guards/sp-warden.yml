@@ -36,7 +36,7 @@
   id: SPWardenGear
   equipment:
     eyes: ClothingEyesGlassesSecurity
-    id: WardenPDA
+    id: SPWardenPDA
     gloves: ClothingHandsGlovesCombat
     ears: ClothingHeadsetAltSecurity
     pocket1: WeaponPistolMk58

@@ -35,7 +35,7 @@
 - type: startingGear
   id: SPQuartermasterGear
   equipment:
-    id: QuartermasterPDA
+    id: SPQuartermasterPDA
     ears: ClothingHeadsetQM
     belt: BoxFolderClipboard
     pocket1: AppraisalTool

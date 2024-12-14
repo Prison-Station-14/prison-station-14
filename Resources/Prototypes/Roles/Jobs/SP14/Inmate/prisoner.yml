@@ -13,7 +13,7 @@
 - type: startingGear
   id: PrisonerGear
   equipment:
-    id: PassengerPDA
+    id: PrisonerPDA
     ears: ClothingHeadsetGrey
   #storage:
     #back:

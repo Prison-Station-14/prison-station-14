@@ -18,7 +18,7 @@
 - type: startingGear
   id: SPChemistGear
   equipment:
-    id: ChemistryPDA
+    id: SPChemistryPDA
     ears: ClothingHeadsetMedical
     belt: ChemBag
     pocket1: HandLabeler

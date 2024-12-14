@@ -20,6 +20,7 @@
   id: InfirmaryDoctor
   equipment:
     ears: ClothingHeadsetMedical
+    id: InfirmaryDoctorPDA
     belt: ClothingBeltMedicalFilled
   #storage:
     #back:

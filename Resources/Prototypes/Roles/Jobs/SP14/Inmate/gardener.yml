@@ -18,9 +18,9 @@
   id: GardenerGear
   equipment:
     shoes: ClothingShoesColorBrown
-    id: BotanistPDA
+    id: GardenerPDA
     ears: ClothingHeadsetService
     belt: ClothingBeltPlantFilled
-  #storage: 
+  #storage:
     #back:
     #- Stuff

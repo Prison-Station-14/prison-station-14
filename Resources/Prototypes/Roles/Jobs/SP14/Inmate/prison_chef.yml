@@ -22,7 +22,7 @@
   id: SPChefGear
   equipment:
     shoes: ClothingShoesColorBlack
-    id: ChefPDA
+    id: PrisonChefPDA
     ears: ClothingHeadsetService
     belt: ClothingBeltChefFilled
   #storage:
