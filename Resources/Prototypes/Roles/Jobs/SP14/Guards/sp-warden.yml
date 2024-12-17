@@ -5,16 +5,16 @@
   playTimeTracker: JobSPWarden
   requirements:
     - !type:DepartmentTimeRequirement
-      department: Engineering
+      department: Maintenance
       time: 54000 # 15 hours
     - !type:DepartmentTimeRequirement
-      department: Medical
+      department: SPMedical
       time: 54000 # 15 hours
     - !type:DepartmentTimeRequirement
-      department: Security
+      department: SPSecurity
       time: 108000 # 30 hrs
     - !type:DepartmentTimeRequirement
-      department: Command
+      department: SPCommand
       time: 54000 # 15 hours
   weight: 40
   startingGear: SPWardenGear

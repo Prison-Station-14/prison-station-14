@@ -1,5 +1,6 @@
 - type: department
   id: SPCivilian
+  name: department-Civilian
   description: department-Civilian-description
   color: "#9FED58"
   weight: -10
@@ -11,6 +12,7 @@
 
 - type: department
   id: SPCommand
+  name: department-Command
   description: department-Command-description
   color: "#334E6D"
   roles:
@@ -26,6 +28,7 @@
 
 - type: department
   id: SPCargo
+  name: department-Cargo
   description: department-Cargo-description
   color: "#A46106"
   roles:
@@ -35,6 +38,7 @@
 - type: department
   id: Maintenance
   weight: 10
+  name: department-Maintenance
   description: department-Maintenance-description
   color: "#9FED58"
   roles:
@@ -46,6 +50,7 @@
 
 - type: department
   id: Inmate
+  name: department-Inmate
   description: department-Inmate-description
   color: "#EFB341"
   weight: 20
@@ -57,6 +62,7 @@
 - type: department
   id: SPMedical
   weight: 5
+  name: department-Medical
   description: department-Medical-description
   color: "#52B4E9"
   roles:
@@ -67,6 +73,7 @@
 
 - type: department
   id: SPSecurity
+  name: department-Security
   description: department-Security-description
   color: "#DE3A3A"
   weight: 40

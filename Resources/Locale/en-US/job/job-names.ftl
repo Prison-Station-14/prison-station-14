@@ -19,7 +19,9 @@ job-name-engineer = Station Engineer
 job-name-atmostech = Atmospheric Technician
 job-name-hop = Head of Personnel
 job-name-serviceworker = Service Worker
-job-name-centcomoff = CentCom Official
+job-name-centcomoff = CentComm Official
+job-name-cburn = Centcomm Quarantine Officer
+job-name-deathsquad = Centcomm Agent
 job-name-reporter = Reporter
 job-name-musician = Musician
 job-name-librarian = Librarian
@@ -30,8 +32,9 @@ job-name-janitor = Janitor
 job-name-chaplain = Chaplain
 job-name-botanist = Botanist
 job-name-bartender = Bartender
-job-name-passenger = Prisoner
-job-name-salvagespec = Salvage specialist
+job-name-passenger = Passenger
+job-name-salvagespec = Salvage Specialist
+job-name-station-ai = Station AI
 job-name-qm = Quartermaster
 job-name-cargotech = Cargo Technician
 job-name-chef = Chef
@@ -46,29 +49,22 @@ job-name-boxer = Boxer
 job-name-zookeeper = Zookeeper
 job-name-visitor = Visitor
 
-#PS14
-job-name-sp-warden = Warden
-job-name-wo = Welfare Officer
-job-name-sp-cargotech = Cargo Technician
-job-name-sp-chaplain = Chaplain
-job-name-sp-clown = Clown
-job-name-sp-qm = Quartermaster
-job-name-sp-reporter = Reporter
-job-name-atmospec = Atmospheric Specialist
-job-name-sp-chemist = Chemist
-job-name-sp-psychologist = Psychologist
-job-name-cco = Chief Custodial Officer
-job-name-gardener = Prison Gardener
-job-name-hom = Head of Maintenance
-job-name-infirmary-doctor = Infirmary Doctor
-job-name-inspector = Inspector
-job-name-maintenance-worker = Maintenance Worker
-job-name-maintengineer = Maintenance Engineer
-job-name-md = Medical Director
-job-name-prisonchef = Prison Chef
-job-name-prison-officer = Prison Officer
-job-name-rookie-officer = Rookie Officer
+# unused jobs
+# these are required for the agent ID job icon tooltips
+# I am keeping them for roleplaying opportunities
+job-name-geneticist = Geneticist
+job-name-no-id = No ID
 job-name-prisoner = Prisoner
+job-name-roboticist = Roboticist
+job-name-syndicate = Syndicate
+job-name-unknown = Unknown
+job-name-virologist = Virologist
+job-name-zombie = Zombie
+
+# Job titles
+job-title-visitor = Visitor
+job-title-cluwne = Cluwne
+job-title-universal = Universal
 
 # Role timers - Make these alphabetical or I cut you
 JobAtmosphericTechnician = Atmospheric Technician
@@ -114,28 +110,9 @@ JobScientist = Scientist
 JobSecurityCadet = Security Cadet
 JobSecurityOfficer = Security Officer
 JobServiceWorker = Service Worker
+JobStationAi = Station AI
 JobStationEngineer = Station Engineer
 JobTechnicalAssistant = Technical Assistant
 JobVisitor = Visitor
 JobWarden = Warden
 JobZookeeper = Zookeeper
-
-#PS14
-JobSPWarden = Warden
-JobWelfareOfficer = Welfare Officer
-JobSPCargoTechnician = Cargo Technician
-JobSPChaplain = Chaplain
-JobSPClown = Clown
-JobSPQuartermaster = Quartermaster
-JobSPReporter = Reporter
-JobAtmosphericSpecialist = Atmospheric Specialist
-JobChiefCustodialOfficer = Chief Custodial Officer
-JobGardener = Gardener
-JobHeadOfMaintenance = Head Of Maintenance
-JobInspector = Inspector
-JobPrisonChef = Prison Chef
-JobPrisonOfficer = Prison Officer
-JobRookieOfficer = Rookie Officer
-JobPrisoner = Prisoner
-JobMaintenanceEngineer = Maintenance Engineer
-JobMaintenanceWorker = Maintenance Worker
