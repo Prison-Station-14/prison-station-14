@@ -12336,6 +12336,10 @@ entities:
     - type: Transform
       pos: -51.5,-15.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Atmospherics
+      - - Engineering
 - proto: AirlockAtmosphericsGlassLocked
   entities:
   - uid: 105
@@ -12344,16 +12348,28 @@ entities:
       rot: -1.5707963267948966 rad
       pos: -57.5,-20.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Atmospherics
+      - - Engineering
   - uid: 106
     components:
     - type: Transform
       pos: -55.5,-17.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Atmospherics
+      - - Engineering
   - uid: 107
     components:
     - type: Transform
       pos: -57.5,-21.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Atmospherics
+      - - Engineering
 - proto: AirlockAtmosphericsLocked
   entities:
   - uid: 108
@@ -12362,18 +12378,28 @@ entities:
       rot: -1.5707963267948966 rad
       pos: -19.5,5.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Atmospherics
   - uid: 109
     components:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: -58.5,-23.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Atmospherics
+      - - Engineering
   - uid: 110
     components:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: 34.5,-58.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Atmospherics
 - proto: AirlockBarLocked
   entities:
   - uid: 111
@@ -12382,12 +12408,18 @@ entities:
       rot: 3.141592653589793 rad
       pos: 21.5,-45.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Bar
   - uid: 112
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 28.5,-46.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Bar
 - proto: AirlockBrigGlassLocked
   entities:
   - uid: 113
@@ -12396,6 +12428,10 @@ entities:
       rot: 1.5707963267948966 rad
       pos: -21.5,-17.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - HeadOfSecurity
+      - - Security
 - proto: AirlockCaptainGlassLocked
   entities:
   - uid: 114
@@ -12403,12 +12439,19 @@ entities:
     - type: Transform
       pos: -49.5,3.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Captain
   - uid: 115
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: -41.5,0.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Captain
+      - - Command
 - proto: AirlockCargoGlass
   entities:
   - uid: 116
@@ -12417,6 +12460,9 @@ entities:
       rot: 1.5707963267948966 rad
       pos: -30.5,-54.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Cargo
 - proto: AirlockCargoGlassLocked
   entities:
   - uid: 117
@@ -12424,16 +12470,25 @@ entities:
     - type: Transform
       pos: -18.5,-47.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Cargo
   - uid: 118
     components:
     - type: Transform
       pos: -12.5,-52.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Cargo
   - uid: 119
     components:
     - type: Transform
       pos: -32.5,-59.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Cargo
 - proto: AirlockCargoLocked
   entities:
   - uid: 120
@@ -12442,6 +12497,9 @@ entities:
       rot: 1.5707963267948966 rad
       pos: -16.5,-53.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Cargo
 - proto: AirlockChapelGlassLocked
   entities:
   - uid: 121
@@ -12450,6 +12508,9 @@ entities:
       rot: 3.141592653589793 rad
       pos: 23.5,-17.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Chapel
 - proto: AirlockChapelLocked
   entities:
   - uid: 122
@@ -12458,18 +12519,27 @@ entities:
       rot: 3.141592653589793 rad
       pos: 26.5,-17.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Chapel
   - uid: 123
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 23.5,-12.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Chapel
   - uid: 124
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 25.5,-13.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Chapel
 - proto: AirlockChemistryLocked
   entities:
   - uid: 125
@@ -12477,6 +12547,9 @@ entities:
     - type: Transform
       pos: -12.5,19.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Chemistry
 - proto: AirlockChiefEngineerLocked
   entities:
   - uid: 126
@@ -12484,6 +12557,10 @@ entities:
     - type: Transform
       pos: -63.5,-37.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - ChiefEngineer
+      - - Engineering
 - proto: AirlockChiefMedicalOfficerGlassLocked
   entities:
   - uid: 127
@@ -12492,6 +12569,9 @@ entities:
       rot: 3.141592653589793 rad
       pos: -16.5,31.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - ChiefMedicalOfficer
 - proto: AirlockCommandGlassLocked
   entities:
   - uid: 128
@@ -12504,27 +12584,43 @@ entities:
     - type: Transform
       pos: -45.5,-7.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Command
   - uid: 130
     components:
     - type: Transform
       pos: -43.5,-7.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Command
   - uid: 131
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: -39.5,9.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Command
   - uid: 132
     components:
     - type: Transform
       pos: -38.5,13.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Command
   - uid: 133
     components:
     - type: Transform
       pos: -36.5,15.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Command
+      - - External
 - proto: AirlockCommandLocked
   entities:
   - uid: 134
@@ -12532,6 +12628,9 @@ entities:
     - type: Transform
       pos: -39.5,21.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Command
 - proto: AirlockDetectiveGlassLocked
   entities:
   - uid: 135
@@ -12540,6 +12639,10 @@ entities:
       rot: -1.5707963267948966 rad
       pos: -49.5,-27.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Detective
+      - - Security
 - proto: AirlockEngineeringGlassLocked
   entities:
   - uid: 136
@@ -12548,8 +12651,11 @@ entities:
       pos: -60.5,-26.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -59711.586
+      secondsUntilStateChange: -61666.87
       state: Opening
+    - type: AccessReader
+      access:
+      - - Engineering
     - type: DeviceLinkSource
       lastSignals:
         DoorStatus: True
@@ -12558,21 +12664,33 @@ entities:
     - type: Transform
       pos: -60.5,-35.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Engineering
   - uid: 138
     components:
     - type: Transform
       pos: -58.5,-28.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Engineering
   - uid: 139
     components:
     - type: Transform
       pos: -56.5,-33.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Engineering
   - uid: 140
     components:
     - type: Transform
       pos: -58.5,-37.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Engineering
 - proto: AirlockEngineeringLocked
   entities:
   - uid: 141
@@ -12580,80 +12698,130 @@ entities:
     - type: Transform
       pos: -20.5,2.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Engineering
   - uid: 142
     components:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: -14.5,-40.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Engineering
+      - - Maintenance
   - uid: 143
     components:
     - type: Transform
       pos: -19.5,-60.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Engineering
   - uid: 144
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 31.5,-24.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Engineering
+      - - Maintenance
   - uid: 145
     components:
     - type: Transform
       pos: 36.5,-53.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Engineering
   - uid: 146
     components:
     - type: Transform
       pos: -66.5,-31.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Engineering
   - uid: 147
     components:
     - type: Transform
       pos: -66.5,-30.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Engineering
   - uid: 149
     components:
     - type: Transform
       pos: -56.5,-40.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Engineering
   - uid: 150
     components:
     - type: Transform
       pos: -60.5,-45.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Engineering
   - uid: 151
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: -55.5,-50.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Engineering
+      - - Maintenance
   - uid: 152
     components:
     - type: Transform
       pos: -49.5,-63.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Engineering
+      - - Maintenance
   - uid: 153
     components:
     - type: Transform
       pos: -47.5,-55.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Engineering
   - uid: 154
     components:
     - type: Transform
       pos: -26.5,-62.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Engineering
   - uid: 155
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: -52.5,-47.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Engineering
+      - - Maintenance
   - uid: 156
     components:
     - type: Transform
       pos: 39.5,-6.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Engineering
   - uid: 4455
     components:
     - type: Transform
@@ -12666,17 +12834,26 @@ entities:
       rot: 1.5707963267948966 rad
       pos: -14.5,-81.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Engineering
   - uid: 16555
     components:
     - type: Transform
       pos: 40.5,-53.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Engineering
   - uid: 17733
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: -46.5,-42.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Engineering
 - proto: AirlockExternal
   entities:
   - uid: 157
@@ -12684,11 +12861,18 @@ entities:
     - type: Transform
       pos: -55.5,-53.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - External
+      - - Maintenance
   - uid: 158
     components:
     - type: Transform
       pos: -56.5,-55.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - External
   - uid: 159
     components:
     - type: Transform
@@ -12697,6 +12881,7 @@ entities:
       parent: 2
     - type: AccessReader
       access:
+      - - External
       - - Security
 - proto: AirlockExternalEngineeringLocked
   entities:
@@ -12706,12 +12891,20 @@ entities:
       rot: 1.5707963267948966 rad
       pos: -74.5,-36.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Engineering
+      - - External
   - uid: 161
     components:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: -76.5,-37.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Engineering
+      - - External
 - proto: AirlockExternalGlass
   entities:
   - uid: 1397
@@ -12784,6 +12977,10 @@ entities:
       rot: 1.5707963267948966 rad
       pos: -69.5,-10.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Atmospherics
+      - - External
     - type: DeviceLinkSink
       invokeCounter: 2
     - type: DeviceLinkSource
@@ -12798,12 +12995,19 @@ entities:
       rot: 3.141592653589793 rad
       pos: -70.5,-15.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Atmospherics
   - uid: 16032
     components:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: -70.5,-9.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Atmospherics
+      - - External
     - type: DeviceLinkSink
       invokeCounter: 1
     - type: DeviceLinkSource
@@ -12816,6 +13020,10 @@ entities:
       rot: 1.5707963267948966 rad
       pos: -70.5,-11.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Atmospherics
+      - - External
     - type: DeviceLinkSink
       invokeCounter: 1
     - type: DeviceLinkSource
@@ -12843,21 +13051,35 @@ entities:
     - type: Transform
       pos: -52.5,-63.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Engineering
+      - - External
   - uid: 175
     components:
     - type: Transform
       pos: -54.5,-63.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Engineering
+      - - External
   - uid: 176
     components:
     - type: Transform
       pos: 45.5,-6.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - External
   - uid: 177
     components:
     - type: Transform
       pos: 43.5,-6.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - External
 - proto: AirlockExternalGlassShuttleArrivals
   entities:
   - uid: 5592
@@ -12947,6 +13169,9 @@ entities:
     - type: Transform
       pos: -34.5,15.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - External
 - proto: AirlockFreezer
   entities:
   - uid: 197
@@ -12954,6 +13179,9 @@ entities:
     - type: Transform
       pos: -36.5,11.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Command
 - proto: AirlockFreezerKitchenHydroLocked
   entities:
   - uid: 198
@@ -12961,6 +13189,9 @@ entities:
     - type: Transform
       pos: -12.5,-27.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Kitchen
 - proto: AirlockFreezerLocked
   entities:
   - uid: 199
@@ -12968,6 +13199,9 @@ entities:
     - type: Transform
       pos: -10.5,-24.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Kitchen
 - proto: AirlockGlass
   entities:
   - uid: 200
@@ -12985,27 +13219,42 @@ entities:
     - type: Transform
       pos: -26.5,4.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Maintenance
   - uid: 203
     components:
     - type: Transform
       pos: -26.5,5.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Maintenance
   - uid: 204
     components:
     - type: Transform
       pos: -23.5,7.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Maintenance
   - uid: 205
     components:
     - type: Transform
       pos: -24.5,7.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Maintenance
   - uid: 206
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: -43.5,-11.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Service
   - uid: 207
     components:
     - type: Transform
@@ -13060,17 +13309,24 @@ entities:
       parent: 2
     - type: AccessReader
       access:
+      - - Maintenance
       - - Security
   - uid: 11032
     components:
     - type: Transform
       pos: -10.5,-71.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Maintenance
   - uid: 13629
     components:
     - type: Transform
       pos: -6.5,-76.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Maintenance
   - uid: 18404
     components:
     - type: Transform
@@ -13086,6 +13342,7 @@ entities:
       parent: 2
     - type: AccessReader
       access:
+      - - Maintenance
       - - Security
   - uid: 225
     components:
@@ -13095,6 +13352,7 @@ entities:
       parent: 2
     - type: AccessReader
       access:
+      - - Maintenance
       - - Security
   - uid: 226
     components:
@@ -13104,6 +13362,7 @@ entities:
       parent: 2
     - type: AccessReader
       access:
+      - - Maintenance
       - - Security
   - uid: 227
     components:
@@ -13113,6 +13372,7 @@ entities:
       parent: 2
     - type: AccessReader
       access:
+      - - Maintenance
       - - Security
   - uid: 228
     components:
@@ -13127,9 +13387,6 @@ entities:
     - type: Transform
       pos: -10.5,-58.5
       parent: 2
-    - type: AccessReader
-      access:
-      - - Maintenance
 - proto: AirlockHeadOfPersonnelGlassLocked
   entities:
   - uid: 230
@@ -13137,6 +13394,9 @@ entities:
     - type: Transform
       pos: -14.5,-14.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - HeadOfPersonnel
 - proto: AirlockHeadOfPersonnelLocked
   entities:
   - uid: 10734
@@ -13144,11 +13404,17 @@ entities:
     - type: Transform
       pos: -14.5,-75.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Command
   - uid: 10744
     components:
     - type: Transform
       pos: -6.5,-67.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - HeadOfPersonnel
 - proto: AirlockHydroGlassLocked
   entities:
   - uid: 231
@@ -13164,12 +13430,19 @@ entities:
     - type: Transform
       pos: 13.5,-16.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Janitor
   - uid: 233
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: -30.5,-2.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Janitor
+      - - Maintenance
 - proto: AirlockKitchenGlassLocked
   entities:
   - uid: 234
@@ -13177,26 +13450,42 @@ entities:
     - type: Transform
       pos: -14.5,-28.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Kitchen
   - uid: 235
     components:
     - type: Transform
       pos: -2.5,-31.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Hydroponics
   - uid: 236
     components:
     - type: Transform
       pos: -10.5,-28.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Kitchen
   - uid: 237
     components:
     - type: Transform
       pos: -7.5,-29.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Hydroponics
+      - - Kitchen
   - uid: 238
     components:
     - type: Transform
       pos: -6.5,-22.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Kitchen
 - proto: AirlockMaint
   entities:
   - uid: 221
@@ -13205,90 +13494,141 @@ entities:
       rot: 3.141592653589793 rad
       pos: 41.5,-95.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Maintenance
   - uid: 239
     components:
     - type: Transform
       pos: -12.5,0.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Maintenance
   - uid: 240
     components:
     - type: Transform
       pos: -7.5,-8.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Maintenance
   - uid: 241
     components:
     - type: Transform
       pos: -7.5,6.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Maintenance
   - uid: 242
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 13.5,-19.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Maintenance
   - uid: 243
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 19.5,-12.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Maintenance
   - uid: 244
     components:
     - type: Transform
       pos: -2.5,-37.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Maintenance
   - uid: 245
     components:
     - type: Transform
       pos: -26.5,1.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Maintenance
   - uid: 246
     components:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: -15.5,-36.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Maintenance
   - uid: 247
     components:
     - type: Transform
       pos: -12.5,-43.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Maintenance
   - uid: 248
     components:
     - type: Transform
       pos: -15.5,1.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Maintenance
   - uid: 249
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 18.5,-21.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Maintenance
   - uid: 250
     components:
     - type: Transform
       pos: -28.5,11.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Maintenance
   - uid: 251
     components:
     - type: Transform
       pos: 29.5,-28.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Maintenance
   - uid: 252
     components:
     - type: Transform
       pos: 29.5,-12.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Maintenance
   - uid: 253
     components:
     - type: Transform
       pos: -22.5,13.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Maintenance
   - uid: 254
     components:
     - type: Transform
       pos: -40.5,-32.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Maintenance
   - uid: 255
     components:
     - type: Transform
@@ -13300,28 +13640,43 @@ entities:
     - type: Transform
       pos: -17.5,-59.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Maintenance
   - uid: 257
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 20.5,-38.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Maintenance
   - uid: 258
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 20.5,-32.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Maintenance
   - uid: 259
     components:
     - type: Transform
       pos: -40.5,-26.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Maintenance
   - uid: 260
     components:
     - type: Transform
       pos: 33.5,-38.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Maintenance
   - uid: 261
     components:
     - type: Transform
@@ -13332,6 +13687,9 @@ entities:
     - type: Transform
       pos: 37.5,-43.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Maintenance
   - uid: 263
     components:
     - type: Transform
@@ -13342,16 +13700,25 @@ entities:
     - type: Transform
       pos: 34.5,-54.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Maintenance
   - uid: 265
     components:
     - type: Transform
       pos: -46.5,-25.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Maintenance
   - uid: 266
     components:
     - type: Transform
       pos: -42.5,-55.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Maintenance
   - uid: 267
     components:
     - type: Transform
@@ -13364,16 +13731,25 @@ entities:
       rot: 3.141592653589793 rad
       pos: -49.5,-48.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Maintenance
   - uid: 269
     components:
     - type: Transform
       pos: -39.5,-57.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Maintenance
   - uid: 270
     components:
     - type: Transform
       pos: -45.5,-57.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Maintenance
   - uid: 271
     components:
     - type: Transform
@@ -13384,81 +13760,126 @@ entities:
     - type: Transform
       pos: -41.5,-63.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Maintenance
   - uid: 273
     components:
     - type: Transform
       pos: -43.5,-61.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Maintenance
   - uid: 274
     components:
     - type: Transform
       pos: 44.5,-43.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Maintenance
   - uid: 275
     components:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: -24.5,-57.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Maintenance
   - uid: 276
     components:
     - type: Transform
       pos: -2.5,11.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Maintenance
   - uid: 277
     components:
     - type: Transform
       pos: 0.5,10.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Maintenance
   - uid: 278
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: -1.5,17.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Maintenance
   - uid: 279
     components:
     - type: Transform
       pos: -5.5,16.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Maintenance
   - uid: 280
     components:
     - type: Transform
       pos: 1.5,18.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Maintenance
   - uid: 281
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 34.5,-32.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Maintenance
   - uid: 282
     components:
     - type: Transform
       pos: -44.5,-67.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Maintenance
   - uid: 283
     components:
     - type: Transform
       pos: -46.5,-64.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Maintenance
   - uid: 284
     components:
     - type: Transform
       pos: 33.5,-19.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Maintenance
   - uid: 285
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 35.5,-11.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Maintenance
   - uid: 286
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 37.5,-9.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Maintenance
   - uid: 287
     components:
     - type: Transform
@@ -13470,22 +13891,34 @@ entities:
     - type: Transform
       pos: -64.5,-51.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Maintenance
   - uid: 290
     components:
     - type: Transform
       pos: 28.5,-59.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Maintenance
   - uid: 291
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 1.5,24.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Maintenance
   - uid: 292
     components:
     - type: Transform
       pos: 38.5,-8.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Maintenance
   - uid: 293
     components:
     - type: Transform
@@ -13496,11 +13929,17 @@ entities:
     - type: Transform
       pos: 22.5,7.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Maintenance
   - uid: 295
     components:
     - type: Transform
       pos: 32.5,3.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Maintenance
   - uid: 296
     components:
     - type: Transform
@@ -13516,44 +13955,68 @@ entities:
     - type: Transform
       pos: 28.5,-0.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Maintenance
   - uid: 299
     components:
     - type: Transform
       pos: 33.5,0.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Maintenance
   - uid: 300
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 41.5,-14.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Maintenance
   - uid: 301
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 41.5,-12.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Maintenance
   - uid: 302
     components:
     - type: Transform
       pos: 40.5,-16.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Maintenance
   - uid: 303
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 36.5,-36.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Maintenance
   - uid: 305
     components:
     - type: Transform
       pos: 22.5,-63.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Maintenance
   - uid: 306
     components:
     - type: Transform
       pos: -61.5,-52.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Maintenance
   - uid: 307
     components:
     - type: Transform
@@ -13564,68 +14027,107 @@ entities:
     - type: Transform
       pos: -70.5,-43.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Maintenance
   - uid: 1999
     components:
     - type: Transform
       pos: 57.5,-94.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Maintenance
   - uid: 10741
     components:
     - type: Transform
       pos: -11.5,-80.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Maintenance
   - uid: 11029
     components:
     - type: Transform
       pos: 22.5,-87.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Maintenance
   - uid: 12997
     components:
     - type: Transform
       pos: 43.5,-55.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Maintenance
   - uid: 13056
     components:
     - type: Transform
       pos: -1.5,-85.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Maintenance
   - uid: 13062
     components:
     - type: Transform
       pos: 16.5,-86.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Maintenance
   - uid: 15995
     components:
     - type: Transform
       pos: 44.5,-52.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Maintenance
   - uid: 16607
     components:
     - type: Transform
       pos: 51.5,-56.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Maintenance
   - uid: 17287
     components:
     - type: Transform
       pos: 20.5,-61.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Maintenance
   - uid: 18410
     components:
     - type: Transform
       pos: 18.5,-62.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Maintenance
   - uid: 19306
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 27.5,-89.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Maintenance
   - uid: 19307
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 26.5,-93.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Maintenance
 - proto: AirlockMaintBarLocked
   entities:
   - uid: 309
@@ -13633,6 +14135,10 @@ entities:
     - type: Transform
       pos: 32.5,-47.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Bar
+      - - Maintenance
 - proto: AirlockMaintCargoLocked
   entities:
   - uid: 310
@@ -13640,11 +14146,19 @@ entities:
     - type: Transform
       pos: -16.5,-45.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Cargo
+      - - Maintenance
   - uid: 311
     components:
     - type: Transform
       pos: -39.5,-62.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Cargo
+      - - Maintenance
 - proto: AirlockMaintChemLocked
   entities:
   - uid: 312
@@ -13653,6 +14167,10 @@ entities:
       rot: -1.5707963267948966 rad
       pos: -6.5,20.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Chemistry
+      - - Maintenance
 - proto: AirlockMaintChiefMedicalOfficerLocked
   entities:
   - uid: 313
@@ -13660,6 +14178,10 @@ entities:
     - type: Transform
       pos: -11.5,33.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - ChiefMedicalOfficer
+      - - Maintenance
 - proto: AirlockMaintCommandLocked
   entities:
   - uid: 314
@@ -13667,18 +14189,27 @@ entities:
     - type: Transform
       pos: 33.5,-46.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Bar
   - uid: 315
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: -37.5,28.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Command
   - uid: 316
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: -41.5,28.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Command
 - proto: AirlockMaintDetectiveLocked
   entities:
   - uid: 317
@@ -13687,6 +14218,10 @@ entities:
       rot: 3.141592653589793 rad
       pos: -42.5,-32.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Detective
+      - - Maintenance
 - proto: AirlockMaintEngiLocked
   entities:
   - uid: 318
@@ -13695,12 +14230,20 @@ entities:
       rot: 1.5707963267948966 rad
       pos: -74.5,-39.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Engineering
+      - - Maintenance
   - uid: 319
     components:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: -60.5,-50.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Engineering
+      - - Maintenance
 - proto: AirlockMaintGlass
   entities:
   - uid: 320
@@ -13708,28 +14251,43 @@ entities:
     - type: Transform
       pos: -24.5,14.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Maintenance
   - uid: 321
     components:
     - type: Transform
       pos: -1.5,19.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Maintenance
   - uid: 322
     components:
     - type: Transform
       pos: -1.5,25.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Maintenance
   - uid: 323
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 39.5,-13.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Maintenance
   - uid: 19313
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 22.5,-90.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Maintenance
 - proto: AirlockMaintJanitorLocked
   entities:
   - uid: 324
@@ -13738,18 +14296,29 @@ entities:
       rot: 3.141592653589793 rad
       pos: 18.5,-14.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Janitor
+      - - Maintenance
   - uid: 325
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: -34.5,-2.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Janitor
+      - - Maintenance
   - uid: 326
     components:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: -36.5,-3.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Maintenance
 - proto: AirlockMaintMedLocked
   entities:
   - uid: 327
@@ -13757,11 +14326,19 @@ entities:
     - type: Transform
       pos: -26.5,20.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Maintenance
+      - - Medical
   - uid: 328
     components:
     - type: Transform
       pos: -30.5,22.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Maintenance
+      - - Medical
 - proto: AirlockMaintQuartermasterLocked
   entities:
   - uid: 329
@@ -13769,6 +14346,9 @@ entities:
     - type: Transform
       pos: -22.5,-56.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Maintenance
 - proto: AirlockMaintSecLocked
   entities:
   - uid: 330
@@ -13777,22 +14357,37 @@ entities:
       rot: 1.5707963267948966 rad
       pos: -17.5,-30.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Maintenance
+      - - Security
   - uid: 331
     components:
     - type: Transform
       pos: -18.5,-34.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Maintenance
+      - - Security
   - uid: 332
     components:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: -21.5,-40.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Maintenance
+      - - Security
   - uid: 333
     components:
     - type: Transform
       pos: -15.5,-38.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Maintenance
 - proto: AirlockMedicalGlassLocked
   entities:
   - uid: 334
@@ -13801,7 +14396,7 @@ entities:
       pos: -20.5,11.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -30063.29
+      secondsUntilStateChange: -32018.572
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -13812,12 +14407,18 @@ entities:
       rot: 1.5707963267948966 rad
       pos: -17.5,11.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Medical
   - uid: 336
     components:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: -16.5,11.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Medical
   - uid: 337
     components:
     - type: Transform
@@ -13828,17 +14429,26 @@ entities:
     - type: Transform
       pos: -15.5,17.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Medical
   - uid: 339
     components:
     - type: Transform
       pos: -19.5,17.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Medical
   - uid: 340
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: -19.5,22.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Medical
   - uid: 341
     components:
     - type: Transform
@@ -13856,29 +14466,44 @@ entities:
       rot: 3.141592653589793 rad
       pos: -15.5,22.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Medical
   - uid: 344
     components:
     - type: Transform
       pos: -12.5,26.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Medical
   - uid: 345
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: -24.5,30.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Medical
   - uid: 346
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: -22.5,20.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Medical
   - uid: 347
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: -22.5,21.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Medical
 - proto: AirlockMedicalLocked
   entities:
   - uid: 348
@@ -13886,6 +14511,9 @@ entities:
     - type: Transform
       pos: -37.5,-31.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Medical
 - proto: AirlockMedicalMorgueLocked
   entities:
   - uid: 349
@@ -13894,6 +14522,9 @@ entities:
       rot: -1.5707963267948966 rad
       pos: -26.5,32.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Medical
 - proto: AirlockQuartermasterGlassLocked
   entities:
   - uid: 350
@@ -13902,6 +14533,9 @@ entities:
       rot: 1.5707963267948966 rad
       pos: -21.5,-52.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Quartermaster
 - proto: AirlockScienceLocked
   entities:
   - uid: 7353
@@ -13916,6 +14550,9 @@ entities:
     - type: Transform
       pos: -18.5,-38.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Security
 - proto: AirlockSecurityGlass
   entities:
   - uid: 353
@@ -13924,17 +14561,26 @@ entities:
       rot: -1.5707963267948966 rad
       pos: -5.5,-17.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Security
   - uid: 354
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: -26.5,-19.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Security
   - uid: 355
     components:
     - type: Transform
       pos: -19.5,-17.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Security
   - uid: 356
     components:
     - type: Transform
@@ -13945,63 +14591,96 @@ entities:
     - type: Transform
       pos: -18.5,-12.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Security
   - uid: 358
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: -26.5,-20.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Security
   - uid: 359
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: -16.5,-2.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Security
   - uid: 360
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: -16.5,-11.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Security
   - uid: 361
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: -16.5,-8.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Security
   - uid: 362
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: -16.5,-5.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Security
   - uid: 363
     components:
     - type: Transform
       pos: -19.5,-39.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Security
   - uid: 364
     components:
     - type: Transform
       pos: -30.5,-37.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Security
   - uid: 365
     components:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: -24.5,-34.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Security
   - uid: 366
     components:
     - type: Transform
       pos: -30.5,-38.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Security
   - uid: 367
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: -28.5,-40.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Security
 - proto: AirlockSecurityGlassLocked
   entities:
   - uid: 368
@@ -14009,31 +14688,49 @@ entities:
     - type: Transform
       pos: 13.5,-34.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Security
   - uid: 369
     components:
     - type: Transform
       pos: 17.5,-38.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Security
   - uid: 372
     components:
     - type: Transform
       pos: 15.5,15.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Security
   - uid: 5332
     components:
     - type: Transform
       pos: 46.5,-62.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Security
   - uid: 5348
     components:
     - type: Transform
       pos: 5.5,-73.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Security
   - uid: 10722
     components:
     - type: Transform
       pos: 5.5,-79.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Security
 - proto: AirlockSecurityLocked
   entities:
   - uid: 10770
@@ -14041,6 +14738,9 @@ entities:
     - type: Transform
       pos: 2.5,-76.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Security
 - proto: AirlockServiceLocked
   entities:
   - uid: 5342
@@ -14049,6 +14749,9 @@ entities:
       rot: -1.5707963267948966 rad
       pos: -16.5,-66.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Service
 - proto: AirlockTheatreLocked
   entities:
   - uid: 374
@@ -14056,17 +14759,26 @@ entities:
     - type: Transform
       pos: -39.5,-22.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Service
   - uid: 375
     components:
     - type: Transform
       pos: -46.5,-18.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Service
   - uid: 376
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: -43.5,-22.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Service
 - proto: AirSensor
   entities:
   - uid: 377
@@ -48215,7 +48927,7 @@ entities:
       pos: 29.5,-19.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -129778.555
+      secondsUntilStateChange: -131733.84
       state: Opening
 - proto: CurtainsRed
   entities:
@@ -48312,7 +49024,7 @@ entities:
       pos: 33.5,-7.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -21150.771
+      secondsUntilStateChange: -23106.055
       state: Opening
   - uid: 6102
     components:
@@ -83857,6 +84569,12 @@ entities:
     - type: Transform
       pos: 40.5,-87.5
       parent: 2
+  - uid: 12346
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -49.5,-60.5
+      parent: 2
   - uid: 12547
     components:
     - type: Transform
@@ -83965,6 +84683,18 @@ entities:
     components:
     - type: Transform
       pos: 52.5,-87.5
+      parent: 2
+  - uid: 16502
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -49.5,-59.5
+      parent: 2
+  - uid: 16503
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -49.5,-58.5
       parent: 2
   - uid: 16628
     components:
@@ -85271,11 +86001,20 @@ entities:
     - type: Transform
       pos: -23.5,-12.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Armory
+      - - HeadOfSecurity
   - uid: 11070
     components:
     - type: Transform
       pos: -23.5,-6.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Armory
+      - - Captain
+      - - HeadOfSecurity
 - proto: HighSecCaptainLocked
   entities:
   - uid: 11071
@@ -85283,6 +86022,10 @@ entities:
     - type: Transform
       pos: -49.5,-2.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Captain
+      - - Command
 - proto: HighSecCommandLocked
   entities:
   - uid: 11072
@@ -85290,21 +86033,33 @@ entities:
     - type: Transform
       pos: -34.5,4.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Command
   - uid: 11073
     components:
     - type: Transform
       pos: -49.5,-7.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Command
   - uid: 11074
     components:
     - type: Transform
       pos: -37.5,2.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Command
   - uid: 11075
     components:
     - type: Transform
       pos: -37.5,1.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Command
   - uid: 11076
     components:
     - type: Transform
@@ -85315,21 +86070,35 @@ entities:
     - type: Transform
       pos: -39.5,24.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Command
   - uid: 11078
     components:
     - type: Transform
       pos: -39.5,33.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Command
   - uid: 11079
     components:
     - type: Transform
       pos: -26.5,-66.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Command
+      - - Engineering
   - uid: 11080
     components:
     - type: Transform
       pos: -22.5,-68.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Command
+      - - Engineering
 - proto: HighSecDoor
   entities:
   - uid: 11081
@@ -88340,18 +89109,27 @@ entities:
       rot: 3.141592653589793 rad
       pos: -25.5,-17.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - HeadOfSecurity
   - uid: 11533
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: -24.5,-17.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - HeadOfSecurity
   - uid: 11534
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: -23.5,-17.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - HeadOfSecurity
   - uid: 11535
     components:
     - type: Transform
@@ -93598,12 +94376,6 @@ entities:
     - type: Transform
       pos: -1.5,30.5
       parent: 2
-  - uid: 12346
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: -48.5,-60.5
-      parent: 2
   - uid: 12347
     components:
     - type: Transform
@@ -93751,6 +94523,11 @@ entities:
       rot: 3.141592653589793 rad
       pos: -7.5,-83.5
       parent: 2
+  - uid: 16504
+    components:
+    - type: Transform
+      pos: -53.5,-48.5
+      parent: 2
   - uid: 17661
     components:
     - type: Transform
@@ -93857,6 +94634,36 @@ entities:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: -2.5,-83.5
+      parent: 2
+  - uid: 19424
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -50.5,-52.5
+      parent: 2
+  - uid: 19425
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: -56.5,-53.5
+      parent: 2
+  - uid: 19426
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: -45.5,-54.5
+      parent: 2
+  - uid: 19427
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -46.5,-67.5
+      parent: 2
+  - uid: 19431
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -48.5,-61.5
       parent: 2
 - proto: PoweredSmallLightEmpty
   entities:
@@ -98674,6 +99481,24 @@ entities:
     components:
     - type: Transform
       pos: 1.5,-64.5
+      parent: 2
+  - uid: 19428
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -49.5,-60.5
+      parent: 2
+  - uid: 19429
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -49.5,-59.5
+      parent: 2
+  - uid: 19430
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -49.5,-58.5
       parent: 2
 - proto: Retractor
   entities:
@@ -120059,21 +120884,6 @@ entities:
     - type: Transform
       pos: -49.5,-57.5
       parent: 2
-  - uid: 16502
-    components:
-    - type: Transform
-      pos: -49.5,-58.5
-      parent: 2
-  - uid: 16503
-    components:
-    - type: Transform
-      pos: -49.5,-59.5
-      parent: 2
-  - uid: 16504
-    components:
-    - type: Transform
-      pos: -49.5,-60.5
-      parent: 2
   - uid: 16505
     components:
     - type: Transform
@@ -124787,6 +125597,9 @@ entities:
     - type: Transform
       pos: 22.5,-37.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Service
 - proto: WindoorHydroponicsLocked
   entities:
   - uid: 17479
@@ -124794,11 +125607,17 @@ entities:
     - type: Transform
       pos: -8.5,-29.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Hydroponics
   - uid: 17480
     components:
     - type: Transform
       pos: -9.5,-29.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Hydroponics
 - proto: WindoorPlasma
   entities:
   - uid: 17481
@@ -124807,6 +125626,9 @@ entities:
       rot: 1.5707963267948966 rad
       pos: -33.5,-25.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Bar
   - uid: 17482
     components:
     - type: Transform
@@ -124862,6 +125684,9 @@ entities:
       rot: -1.5707963267948966 rad
       pos: -12.5,-47.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Cargo
   - uid: 17487
     components:
     - type: Transform
@@ -124873,11 +125698,23 @@ entities:
     - type: Transform
       pos: -35.5,-59.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Cargo
   - uid: 17489
     components:
     - type: Transform
       pos: -34.5,-59.5
       parent: 2
+    - type: DeviceLinkSource
+      lastSignals:
+        DoorStatus: True
+    - type: AccessReader
+      access:
+      - - Cargo
+    - type: Door
+      secondsUntilStateChange: -1264.1522
+      state: Opening
 - proto: WindoorSecureChemistryLocked
   entities:
   - uid: 17490
@@ -124886,24 +125723,36 @@ entities:
       rot: 1.5707963267948966 rad
       pos: -12.5,20.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Chemistry
   - uid: 17491
     components:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: -12.5,21.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Chemistry
   - uid: 17492
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: -10.5,17.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Chemistry
   - uid: 17493
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: -8.5,17.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Chemistry
 - proto: WindoorSecureCommandLocked
   entities:
   - uid: 17494
@@ -124969,18 +125818,27 @@ entities:
       rot: -1.5707963267948966 rad
       pos: -4.5,-65.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - HeadOfPersonnel
   - uid: 8400
     components:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: -8.5,-63.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - HeadOfPersonnel
   - uid: 17503
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: -13.5,-16.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - HeadOfPersonnel
 - proto: WindoorSecureKitchenLocked
   entities:
   - uid: 17504
@@ -124989,36 +125847,54 @@ entities:
       rot: -1.5707963267948966 rad
       pos: -4.5,-28.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Kitchen
   - uid: 17505
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: -4.5,-27.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Kitchen
   - uid: 17506
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: -4.5,-26.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Kitchen
   - uid: 17507
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: -4.5,-25.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Kitchen
   - uid: 17508
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: -4.5,-24.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Kitchen
   - uid: 17509
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: -4.5,-23.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Kitchen
 - proto: WindoorSecureMedicalLocked
   entities:
   - uid: 17510
@@ -125027,18 +125903,27 @@ entities:
       rot: 3.141592653589793 rad
       pos: -13.5,11.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Medical
   - uid: 17511
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: -12.5,12.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Medical
   - uid: 17512
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: -12.5,13.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Medical
   - uid: 17513
     components:
     - type: Transform
@@ -125063,6 +125948,9 @@ entities:
       rot: 3.141592653589793 rad
       pos: -13.5,13.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Medical
 - proto: WindoorSecureSecurityLawyerLocked
   entities:
   - uid: 17518
@@ -125071,6 +125959,10 @@ entities:
       rot: -1.5707963267948966 rad
       pos: -45.5,-32.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Detective
+      - - Security
 - proto: WindoorSecureSecurityLocked
   entities:
   - uid: 17519
@@ -125079,24 +125971,36 @@ entities:
       rot: -1.5707963267948966 rad
       pos: -17.5,-26.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Security
   - uid: 17520
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: -17.5,-25.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Security
   - uid: 17521
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: -17.5,-24.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Security
   - uid: 17522
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: -17.5,-23.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Security
   - uid: 17523
     components:
     - type: Transform
@@ -125109,12 +126013,18 @@ entities:
       rot: -1.5707963267948966 rad
       pos: -17.5,-27.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Security
   - uid: 17525
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: -17.5,-28.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Security
 - proto: WindoorSecureServiceLocked
   entities:
   - uid: 17526
