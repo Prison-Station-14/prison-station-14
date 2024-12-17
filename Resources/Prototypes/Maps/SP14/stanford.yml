@@ -13,6 +13,8 @@
           nameGenerator:
             !type:NanotrasenNameGenerator
             prefixCreator: '14'
+        - type: StationEmergencyShuttle
+          emergencyShuttlePath: /Maps/Shuttles/SP14/emergency_stanford.yml
         - type: StationJobs
           availableJobs:
             #command

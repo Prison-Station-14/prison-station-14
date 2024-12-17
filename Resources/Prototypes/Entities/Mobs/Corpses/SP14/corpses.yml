@@ -1,0 +1,8 @@
+- type: entity
+  parent: SalvageHumanCorpse
+  id: MobRandomPrisonOfficerCorpse
+  suffix: Dead, Security
+  components:
+  - type: Loadout
+    prototypes:
+    - DeadShuttlePrisonOfficerGear
