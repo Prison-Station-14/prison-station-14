@@ -274,7 +274,6 @@
   - type: HeldSpeedModifier
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitWarden
-
 #Captain's Hardsuit
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseCommandContraband]

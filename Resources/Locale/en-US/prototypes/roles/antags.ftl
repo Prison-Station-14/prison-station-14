@@ -1,4 +1,4 @@
-﻿roles-antag-syndicate-agent-name = Syndicate agent
+roles-antag-syndicate-agent-name = Syndicate agent
 roles-antag-syndicate-agent-objective = Complete your objectives without being caught.
 
 roles-antag-syndicate-agent-sleeper-name = Syndicate sleeper agent
@@ -36,3 +36,12 @@ roles-antag-thief-objective = Add some NT property to your personal collection w
 
 roles-antag-dragon-name = Space Dragon
 roles-antag-dragon-objective = Create a carp army to take over this quadrant.
+
+roles-antag-liberator-commander-name = Liberator commander
+roles-antag-liberator-commander-objective = Lead your team to free as many prisoners as you can.
+
+roles-antag-liberator-medic-name = Liberator medic
+roles-antag-liberator-medic-objective = Like default Liberator, the team's treatment will have priority.
+
+roles-antag-liberator-name = Nuclear operative
+roles-antag-liberator-objective = Free as many prisoners as you can and convert them to your side.

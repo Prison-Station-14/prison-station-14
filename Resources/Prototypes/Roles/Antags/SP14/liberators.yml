@@ -1,0 +1,93 @@
+- type: antag
+  id: Liberator
+  name: roles-antag-liberator-name
+  antagonist: true
+  setPreference: true
+  objective: roles-antag-liberator-objective
+  requirements:
+  - !type:OverallPlaytimeRequirement
+    time: 18000 # 5h
+  guides: [ NuclearOperatives ] #td: make liberator guide
+
+- type: antag
+  id: LiberatorMedic
+  name: roles-antag-liberator-medic-name
+  antagonist: true
+  setPreference: true
+  objective: roles-antag-liberator-medic-objective
+  requirements:
+  - !type:OverallPlaytimeRequirement
+    time: 18000 # 5h
+  - !type:RoleTimeRequirement
+    role: JobChemist
+    time: 10800 # 3h
+  guides: [ NuclearOperatives ]
+
+- type: antag
+  id: LiberatorCommander
+  name: roles-antag-liberator-commander-name
+  antagonist: true
+  setPreference: true
+  objective: roles-antag-liberator-commander-objective
+  requirements:
+  - !type:OverallPlaytimeRequirement
+    time: 18000 # 5h
+  - !type:DepartmentTimeRequirement
+    department: Security
+    time: 18000 # 5h
+  guides: [ NuclearOperatives ]
+
+#Liberator Gear
+- type: startingGear
+  id: LiberatorGearFull
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitSP14Liberator
+    back: ClothingBackpackDuffelSyndicate
+    mask: ClothingMaskGasSyndicate
+    eyes: ClothingEyesHudSyndicate
+    ears: ClothingHeadsetAltSyndicate
+    gloves: ClothingHandsGlovesCombat
+    outerClothing: ClothingOuterHardsuitSP14Liberator
+    shoes: ClothingShoesBootsCombatFilled
+    id: SyndiPDA
+    pocket1: DoubleEmergencyOxygenTankFilled
+    pocket2: BaseUplinkRadio40TC
+    belt: ClothingBeltMilitaryWebbing
+  storage:
+    back:
+    - BoxSurvivalSyndicate
+    - WeaponPistolViper
+    - PinpointerStation
+    - DeathAcidifierImplanter
+
+  #Liberator Convert Gear
+- type: startingGear
+  id: LiberatorGearConverted
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitSP14Liberator
+    back: ClothingBackpackDuffelSyndicate
+    mask: ClothingMaskGasSyndicate
+    eyes: ClothingEyesHudSyndicate
+    ears: ClothingHeadsetAltSyndicate
+    gloves: ClothingHandsGlovesCombat
+    # outerClothing: ClothingOuterClothingSP14LiberatorEVA
+    shoes: ClothingShoesBootsCombatFilled
+    id: SyndiPDA
+    pocket1: DoubleEmergencyOxygenTankFilled
+    pocket2: BaseUplinkRadio40TC
+    belt: ClothingBeltMilitaryWebbing
+  storage:
+    back:
+    - BoxSurvivalSyndicate
+    - WeaponPistolViper
+    - PinpointerStation
+    - DeathAcidifierImplanter
+
+#Liberator Commander Gear
+- type: startingGear
+  id: LiberatorCommanderGearFull
+  parent: SyndicateOperativeGearFull
+  equipment:
+    neck: ClothingNeckCloakSP14LiberatorCommander
+    outerClothing: ClothingOuterHardsuitSP14LiberatorCommander
+

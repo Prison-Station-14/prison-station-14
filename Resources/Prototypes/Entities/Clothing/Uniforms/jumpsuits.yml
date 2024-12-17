@@ -648,7 +648,8 @@
 - type: entity
   parent: [ClothingUniformBase, BaseRestrictedContraband]
   id: ClothingUniformJumpsuitWarden
-  name: warden's uniform
+  name:
+  's uniform
   description: A formal security suit for officers complete with Nanotrasen belt buckle.
   components:
   - type: Sprite

@@ -1,0 +1,7 @@
+- type: loadout
+  id: SP14MaintenanceJumpsuit
+  equipment: SP14MaintenanceJumpsuit
+
+- type: starterGear
+  id: SP14MaintenanceJumpsuit
+  equipment: ClothingUniformJumpsuitSP14MaintenanceTech

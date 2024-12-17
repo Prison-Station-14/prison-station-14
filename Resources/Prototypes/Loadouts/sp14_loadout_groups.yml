@@ -1,0 +1,40 @@
+# Warden
+- type: loadoutGroup
+  id: SP14WardenHead
+  name: loadout-group-sp14warden-head
+  loadouts:
+  - WardenCap
+
+- type: loadoutGroup
+  id: SP14WardenNeck
+  name: loadout-group-sp14warden-head
+  loadouts:
+  - WardenCloak
+
+- type: loadoutGroup
+  id: SP14WardenJumpsuit
+  name: loadout-group-sp14warden-jumpsuit
+  loadouts:
+  - SP14WardenJumpsuit
+  - SP14WardenJumpskirt
+
+- type: loadoutGroup
+  id: SP14WardenGloves
+  name: loadout-group-sp14warden-gloves
+  loadouts:
+  - WardenCombatGloves
+
+# Inmate
+- type: loadoutGroup
+  id: PrisonerJumpsuit
+  name: loadout-group-prison-jumpsuit
+  loadouts:
+  - PrisonJumpsuit
+  - PrisonJumpskirt
+
+# Maintenance
+- type: loadoutGroup
+  id: SP14MaintenanceJumpsuit
+  name: loadout-group-sp14maintenance-jumpsuit
+  loadouts:
+  - SP14MaintenanceJumpsuit  

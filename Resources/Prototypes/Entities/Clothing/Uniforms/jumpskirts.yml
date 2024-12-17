@@ -410,8 +410,8 @@
 - type: entity
   parent: [ClothingUniformSkirtBase, BaseRestrictedContraband]
   id: ClothingUniformJumpskirtWarden
-  name: warden's uniform
-  description: A formal security suit for officers complete with Nanotrasen belt buckle.
+  name: chief custodial officer's uniform
+  description: A formal security skirt for officers complete with Nanotrasen belt buckle.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirt/warden.rsi

@@ -1,0 +1,49 @@
+# Jumpsuit
+- type: loadout
+  id: SP14WardenJumpsuit
+  equipment: SP14WardenJumpsuit
+
+- type: startingGear
+  id: SP14WardenJumpsuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitSP14Warden
+
+  type: loadout
+  id: SP14WardenJumpskirt
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtSP14Warden
+
+- type: startingGear
+  id: SP14WardenJumpskirt
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtSP14Warden
+
+# Head
+- type: loadout
+  id: WardenCap
+  equipment: WardenCap
+
+- type: startingGear
+  id: SP14WardenCap
+  equipment:
+    head: ClothingHeadHatSP14Wardencap
+
+# Neck
+- type: loadout
+  id: SP14WardenCloak
+  equipment: WardenCloak
+
+- type: startingGear
+  id: SP14WardenCloak
+  equipment:
+    neck: ClothingNeckCloakSP14Warden
+
+# Hands
+- type: loadout
+  id: SP14WardenCombatGloves
+  equipment: WardenCombatGloves
+
+- type: startingGear
+  id: SP14WardenCombatGloves
+  equipment:
+    hands: ClothingHandsGlovesCombat

@@ -1,0 +1,52 @@
+type: entity
+  id: LockerSP14WardenFilled
+  suffix: Filled
+  parent: LockerSPWarden
+  components:
+  - type: StorageFill
+    contents:
+      - id: ClothingOuterArmorSP14WardenCarapace
+      - id: NukeDisk
+      - id: PinpointerNuclear
+      - id: CaptainIDCard
+      - id: ClothingMaskGasCaptain
+      - id: WeaponTaser
+      - id: CommsComputerCircuitboard
+      - id: ClothingHeadsetAltCommand
+      - id: SpaceCash1000
+      - id: PlushieNuke
+        prob: 0.1
+      - id: CigarGoldCase
+      - id: ClothingBeltSheathFilled
+      - id: DoorRemoteCommand
+      - id: RubberStampCaptain
+      - id: WeaponAntiqueLaser
+      - id: JetpackFilled
+      - id: MedalCase
+
+
+# TD: FILL WITH NEW ENERGY WEAPON
+type: entity
+  id: LockerSP14ChiefCustodialOfficerFilled
+  suffix: Filled
+  parent: LockerSPChiefCustodial
+  components:
+  - type: StorageFill
+    contents:
+      - id: DoorRemoteSecurity
+      - id: FlashlightSeclite
+      - id: WeaponDisabler
+      - id: ClothingBeltSecurityFilled
+      - id: Flash
+      - id: ClothingEyesGlassesSecurity
+      - id: ClothingHeadsetAltSecurity
+      - id: ClothingHandsGlovesCombat
+      - id: ClothingShoesBootsJack
+      - id: ClothingOuterCoatWarden
+      - id: ClothingOuterWinterWarden
+      - id: DoorRemoteArmory
+      - id: HoloprojectorSecurity
+      - id: ClothingNeckShockCollar
+        amount: 3
+      - id: RemoteSignaller
+        amount: 3

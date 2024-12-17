@@ -1,0 +1,287 @@
+# SP14 Cargo
+- type: entity
+  id: SpawnPointSPQuartermaster
+  parent: SpawnPointJobBase
+  name: sp quartermaster
+  components:
+  - type: SpawnPoint
+    job_id: SPQuartermaster
+  - type: Sprite
+    layers:
+      - state: green
+      - state: qm
+
+- type: entity
+  id: SpawnPointSPCargoTechnician
+  parent: SpawnPointJobBase
+  name: sp cargotechnician
+  components:
+  - type: SpawnPoint
+    job_id: SPCargoTechnician
+  - type: Sprite
+    layers:
+      - state: green
+      - state: cargo_tech
+
+# SP14 Civilian
+- type: entity
+  id: SpawnPointSPChaplain
+  parent: SpawnPointJobBase
+  name: sp chaplain
+  components:
+  - type: SpawnPoint
+    job_id: SPChaplain
+  - type: Sprite
+    layers:
+      - state: green
+      - state: chaplain
+
+- type: entity
+  id: SpawnPointSPClown
+  parent: SpawnPointJobBase
+  name: sp clown
+  components:
+  - type: SpawnPoint
+    job_id: SPClown
+  - type: Sprite
+    layers:
+      - state: green
+      - state: clown
+
+- type: entity
+  id: SpawnPointSPReporter
+  parent: SpawnPointJobBase
+  name: sp reporter
+  components:
+  - type: SpawnPoint
+    job_id: SPReporter
+  - type: Sprite
+    layers:
+      - state: green
+      - state: reporter
+
+# SP14 Command
+- type: entity
+  id: SpawnPointSPWarden
+  parent: SpawnPointJobBase
+  name: sp warden
+  components:
+  - type: SpawnPoint
+    job_id: SPWarden
+  - type: Sprite
+    layers:
+      - state: green
+      - state: sp14warden
+
+- type: entity
+  id: SpawnPointWelfareOfficer
+  parent: SpawnPointJobBase
+  name: welfare officer
+  components:
+  - type: SpawnPoint
+    job_id: WelfareOfficer
+  - type: Sprite
+    layers:
+      - state: green
+      - state: hop
+
+# SP14 Inmate
+- type: entity
+  id: SpawnPointGardener
+  parent: SpawnPointJobBase
+  name: gardener
+  components:
+  - type: SpawnPoint
+    job_id: Gardener
+  - type: Sprite
+    layers:
+      - state: green
+      - state: botanist
+
+- type: entity
+  id: SpawnPointPrisonChef
+  parent: SpawnPointJobBase
+  name: prison chef
+  components:
+  - type: SpawnPoint
+    job_id: PrisonChef
+  - type: Sprite
+    layers:
+      - state: green
+      - state: chef
+
+- type: entity
+  id: SpawnPointPrisoner
+  parent: SpawnPointJobBase
+  name: prisoner
+  components:
+  - type: SpawnPoint
+    job_id: Prisoner
+  - type: Sprite
+    layers:
+      - state: green
+      - state: prisoner
+
+# SP14 Maintenance
+- type: entity
+  id: SpawnPointHeadOfMaintenance
+  parent: SpawnPointJobBase
+  name: headofmaintenance
+  components:
+  - type: SpawnPoint
+    job_id: HeadOfMaintenance
+  - type: Sprite
+    layers:
+      - state: green
+      - state: ce
+
+- type: entity
+  id: SpawnPointMaintenanceEngineer
+  parent: SpawnPointJobBase
+  name: maintenance engineer
+  components:
+  - type: SpawnPoint
+    job_id: MaintenanceEngineer
+  - type: Sprite
+    layers:
+      - state: green
+      - state: engineer
+
+- type: entity
+  id: SpawnPointAtmospec
+  parent: SpawnPointJobBase
+  name: atmospheric specialist
+  components:
+  - type: SpawnPoint
+    job_id: AtmosphericSpecialist
+  - type: Sprite
+    layers:
+      - state: green
+      - state: atmospherics
+
+- type: entity
+  id: SpawnPointMaintenanceWorker
+  parent: SpawnPointJobBase
+  name: maintenance worker
+  components:
+  - type: SpawnPoint
+    job_id: MaintenanceWorker
+  - type: Sprite
+    layers:
+      - state: green
+      - state: janitor
+  
+- type: entity
+  id: SpawnPointSPBorg
+  parent: SpawnPointJobBase
+  name: sp cyborg
+  components:
+  - type: SpawnPoint
+    job_id: SPBorg
+  - type: Sprite
+    layers:
+    - state: green
+    - sprite: Mobs/Silicon/chassis.rsi
+      state: robot
+    - sprite: Mobs/Silicon/chassis.rsi
+      state: robot_e
+
+# SP14 Medical
+
+- type: entity
+  id: SpawnPointMedicalDirector
+  parent: SpawnPointJobBase
+  name: medical director
+  components:
+  - type: SpawnPoint
+    job_id: MedicalDirector
+  - type: Sprite
+    layers:
+      - state: green
+      - state: cmo
+
+- type: entity
+  id: SpawnPointInfirmaryDoctor
+  parent: SpawnPointJobBase
+  name: infirmary doctor
+  components:
+  - type: SpawnPoint
+    job_id: InfirmaryDoctor
+  - type: Sprite
+    layers:
+      - state: green
+      - state: doctor
+
+- type: entity
+  id: SpawnPointSPChemist
+  parent: SpawnPointJobBase
+  name: sp chemist
+  components:
+  - type: SpawnPoint
+    job_id: SPChemist
+  - type: Sprite
+    layers:
+      - state: green
+      - state: chemist
+
+- type: entity
+  id: SpawnPointSPPsychologist
+  parent: SpawnPointJobBase
+  name: sp psychologist
+  components:
+  - type: SpawnPoint
+    job_id: SPPsychologist
+  - type: Sprite
+    layers:
+      - state: green
+      - state: psychologist
+
+# SP14 Security
+
+- type: entity
+  id: SpawnPointChiefCustodialOfficer
+  parent: SpawnPointJobBase
+  name: chiefcustodialofficer
+  components:
+  - type: SpawnPoint
+    job_id: ChiefCustodialOfficer
+  - type: Sprite
+    layers:
+      - state: green
+      - state: hos
+
+- type: entity
+  id: SpawnPointPrisonOfficer
+  parent: SpawnPointJobBase
+  name: prison officer
+  components:
+  - type: SpawnPoint
+    job_id: PrisonOfficer
+  - type: Sprite
+    layers:
+      - state: green
+      - state: security_officer
+
+- type: entity
+  id: SpawnPointRookieOfficer
+  parent: SpawnPointJobBase
+  name: rookie officer
+  components:
+  - type: SpawnPoint
+    job_id: RookieOfficer
+  - type: Sprite
+    layers:
+      - state: green
+      - state: security_cadet
+
+- type: entity
+  id: SpawnPointInspector
+  parent: SpawnPointJobBase
+  name: inspector
+  components:
+  - type: SpawnPoint
+    job_id: Inspector
+  - type: Sprite
+    layers:
+      - state: green
+      - state: detective
